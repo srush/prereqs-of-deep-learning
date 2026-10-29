@@ -1,0 +1,1571 @@
+-- Text-free illustration; fixed geometry for reproducibility.
+forall Diagram `illustration` {
+  shape a0X = Line {
+    start: (-425, -100)
+    end: (-175, -100)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.1
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape a0Y = Line {
+    start: (-425, -100)
+    end: (-425, 145)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.1
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape f00 = Line {
+    start: (-405.0, -160.5)
+    end: (-402.0, -158.05714285714285)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f01 = Line {
+    start: (-402.0, -158.05714285714285)
+    end: (-399.0, -155.61428571428573)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f02 = Line {
+    start: (-399.0, -155.61428571428573)
+    end: (-396.0, -153.17142857142858)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f03 = Line {
+    start: (-396.0, -153.17142857142858)
+    end: (-393.0, -150.7285714285714)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f04 = Line {
+    start: (-393.0, -150.7285714285714)
+    end: (-390.0, -148.28571428571428)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f05 = Line {
+    start: (-390.0, -148.28571428571428)
+    end: (-387.0, -145.84285714285716)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f06 = Line {
+    start: (-387.0, -145.84285714285716)
+    end: (-384.0, -143.39999999999998)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f07 = Line {
+    start: (-384.0, -143.39999999999998)
+    end: (-381.0, -140.95714285714286)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f08 = Line {
+    start: (-381.0, -140.95714285714286)
+    end: (-378.0, -138.51428571428573)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f09 = Line {
+    start: (-378.0, -138.51428571428573)
+    end: (-375.0, -136.07142857142856)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f010 = Line {
+    start: (-375.0, -136.07142857142856)
+    end: (-372.0, -133.62857142857143)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f011 = Line {
+    start: (-372.0, -133.62857142857143)
+    end: (-369.0, -131.18571428571428)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f012 = Line {
+    start: (-369.0, -131.18571428571428)
+    end: (-366.0, -128.74285714285713)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f013 = Line {
+    start: (-366.0, -128.74285714285713)
+    end: (-363.0, -126.30000000000001)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f014 = Line {
+    start: (-363.0, -126.30000000000001)
+    end: (-360.0, -123.85714285714286)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f015 = Line {
+    start: (-360.0, -123.85714285714286)
+    end: (-357.0, -121.41428571428571)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f016 = Line {
+    start: (-357.0, -121.41428571428571)
+    end: (-354.0, -118.97142857142856)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f017 = Line {
+    start: (-354.0, -118.97142857142856)
+    end: (-351.0, -116.52857142857142)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f018 = Line {
+    start: (-351.0, -116.52857142857142)
+    end: (-348.0, -114.08571428571429)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f019 = Line {
+    start: (-348.0, -114.08571428571429)
+    end: (-345.0, -111.64285714285714)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f020 = Line {
+    start: (-345.0, -111.64285714285714)
+    end: (-342.0, -109.19999999999999)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f021 = Line {
+    start: (-342.0, -109.19999999999999)
+    end: (-339.0, -106.75714285714287)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f022 = Line {
+    start: (-339.0, -106.75714285714287)
+    end: (-336.0, -104.31428571428572)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f023 = Line {
+    start: (-336.0, -104.31428571428572)
+    end: (-333.0, -101.87142857142858)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f024 = Line {
+    start: (-333.0, -101.87142857142858)
+    end: (-330.0, -99.42857142857143)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f025 = Line {
+    start: (-330.0, -99.42857142857143)
+    end: (-327.0, -96.98571428571428)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f026 = Line {
+    start: (-327.0, -96.98571428571428)
+    end: (-324.0, -94.54285714285714)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f027 = Line {
+    start: (-324.0, -94.54285714285714)
+    end: (-321.0, -92.1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f028 = Line {
+    start: (-321.0, -92.1)
+    end: (-318.0, -89.65714285714286)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f029 = Line {
+    start: (-318.0, -89.65714285714286)
+    end: (-315.0, -87.21428571428571)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f030 = Line {
+    start: (-315.0, -87.21428571428571)
+    end: (-312.0, -84.77142857142857)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f031 = Line {
+    start: (-312.0, -84.77142857142857)
+    end: (-309.0, -82.32857142857142)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f032 = Line {
+    start: (-309.0, -82.32857142857142)
+    end: (-306.0, -79.88571428571429)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f033 = Line {
+    start: (-306.0, -79.88571428571429)
+    end: (-303.0, -77.44285714285715)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f034 = Line {
+    start: (-303.0, -77.44285714285715)
+    end: (-300.0, -75.0)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f035 = Line {
+    start: (-300.0, -75.0)
+    end: (-297.0, -72.55714285714285)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f036 = Line {
+    start: (-297.0, -72.55714285714285)
+    end: (-294.0, -70.11428571428571)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f037 = Line {
+    start: (-294.0, -70.11428571428571)
+    end: (-291.0, -67.67142857142858)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f038 = Line {
+    start: (-291.0, -67.67142857142858)
+    end: (-288.0, -65.22857142857143)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f039 = Line {
+    start: (-288.0, -65.22857142857143)
+    end: (-285.0, -62.78571428571429)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f040 = Line {
+    start: (-285.0, -62.78571428571429)
+    end: (-282.0, -60.34285714285714)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f041 = Line {
+    start: (-282.0, -60.34285714285714)
+    end: (-279.0, -57.9)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f042 = Line {
+    start: (-279.0, -57.9)
+    end: (-276.0, -55.45714285714286)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f043 = Line {
+    start: (-276.0, -55.45714285714286)
+    end: (-273.0, -53.01428571428572)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f044 = Line {
+    start: (-273.0, -53.01428571428572)
+    end: (-270.0, -50.57142857142857)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f045 = Line {
+    start: (-270.0, -50.57142857142857)
+    end: (-267.0, -48.12857142857142)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f046 = Line {
+    start: (-267.0, -48.12857142857142)
+    end: (-264.0, -45.68571428571428)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f047 = Line {
+    start: (-264.0, -45.68571428571428)
+    end: (-261.0, -43.24285714285716)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f048 = Line {
+    start: (-261.0, -43.24285714285716)
+    end: (-258.0, -40.8)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f049 = Line {
+    start: (-258.0, -40.8)
+    end: (-255.0, -38.35714285714286)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f050 = Line {
+    start: (-255.0, -38.35714285714286)
+    end: (-252.0, -35.914285714285725)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f051 = Line {
+    start: (-252.0, -35.914285714285725)
+    end: (-249.0, -33.47142857142857)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f052 = Line {
+    start: (-249.0, -33.47142857142857)
+    end: (-246.0, -31.028571428571432)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f053 = Line {
+    start: (-246.0, -31.028571428571432)
+    end: (-243.0, -28.585714285714275)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f054 = Line {
+    start: (-243.0, -28.585714285714275)
+    end: (-240.0, -26.14285714285714)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f055 = Line {
+    start: (-240.0, -26.14285714285714)
+    end: (-237.0, -23.70000000000001)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f056 = Line {
+    start: (-237.0, -23.70000000000001)
+    end: (-234.0, -21.257142857142846)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f057 = Line {
+    start: (-234.0, -21.257142857142846)
+    end: (-231.0, -18.814285714285717)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f058 = Line {
+    start: (-231.0, -18.814285714285717)
+    end: (-228.0, -16.371428571428574)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f059 = Line {
+    start: (-228.0, -16.371428571428574)
+    end: (-225.0, -13.928571428571423)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f060 = Line {
+    start: (-225.0, -13.928571428571423)
+    end: (-222.0, -11.48571428571428)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f061 = Line {
+    start: (-222.0, -11.48571428571428)
+    end: (-219.0, -9.042857142857159)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f062 = Line {
+    start: (-219.0, -9.042857142857159)
+    end: (-216.0, -6.599999999999994)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f063 = Line {
+    start: (-216.0, -6.599999999999994)
+    end: (-213.0, -4.157142857142858)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f064 = Line {
+    start: (-213.0, -4.157142857142858)
+    end: (-210.0, -1.7142857142857224)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f065 = Line {
+    start: (-210.0, -1.7142857142857224)
+    end: (-207.0, 0.728571428571442)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f066 = Line {
+    start: (-207.0, 0.728571428571442)
+    end: (-204.0, 3.1714285714285637)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f067 = Line {
+    start: (-204.0, 3.1714285714285637)
+    end: (-201.0, 5.6142857142857)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f068 = Line {
+    start: (-201.0, 5.6142857142857)
+    end: (-198.0, 8.057142857142864)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f069 = Line {
+    start: (-198.0, 8.057142857142864)
+    end: (-195.0, 10.499999999999986)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape t0 = Line {
+    start: (-319.0, -90.47142857142858)
+    end: (-239.0, -25.328571428571436)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.2
+  }
+  shape p0 = Circle {
+    center: (-279.0, -57.900000000000006)
+    r: 4
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.6
+  }
+  shape a1X = Line {
+    start: (-125, -100)
+    end: (125, -100)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.1
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape a1Y = Line {
+    start: (-125, -100)
+    end: (-125, 145)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.1
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape f10 = Line {
+    start: (-105.0, 42.5625)
+    end: (-102.0, 35.94061224489796)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f11 = Line {
+    start: (-102.0, 35.94061224489796)
+    end: (-99.0, 29.51066326530612)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f12 = Line {
+    start: (-99.0, 29.51066326530612)
+    end: (-96.0, 23.27265306122449)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f13 = Line {
+    start: (-96.0, 23.27265306122449)
+    end: (-93.0, 17.226581632653065)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f14 = Line {
+    start: (-93.0, 17.226581632653065)
+    end: (-90.0, 11.372448979591866)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f15 = Line {
+    start: (-90.0, 11.372448979591866)
+    end: (-87.0, 5.7102551020408185)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f16 = Line {
+    start: (-87.0, 5.7102551020408185)
+    end: (-84.0, 0.2400000000000091)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f17 = Line {
+    start: (-84.0, 0.2400000000000091)
+    end: (-80.99999999999999, -5.038316326530605)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f18 = Line {
+    start: (-80.99999999999999, -5.038316326530605)
+    end: (-78.0, -10.124693877551024)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f19 = Line {
+    start: (-78.0, -10.124693877551024)
+    end: (-75.0, -15.019132653061227)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f110 = Line {
+    start: (-75.0, -15.019132653061227)
+    end: (-72.0, -19.72163265306122)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f111 = Line {
+    start: (-72.0, -19.72163265306122)
+    end: (-69.0, -24.232193877551005)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f112 = Line {
+    start: (-69.0, -24.232193877551005)
+    end: (-66.0, -28.550816326530608)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f113 = Line {
+    start: (-66.0, -28.550816326530608)
+    end: (-63.0, -32.677499999999995)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f114 = Line {
+    start: (-63.0, -32.677499999999995)
+    end: (-60.0, -36.61224489795919)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f115 = Line {
+    start: (-60.0, -36.61224489795919)
+    end: (-57.0, -40.35505102040816)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f116 = Line {
+    start: (-57.0, -40.35505102040816)
+    end: (-54.0, -43.90591836734694)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f117 = Line {
+    start: (-54.0, -43.90591836734694)
+    end: (-51.0, -47.264846938775506)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f118 = Line {
+    start: (-51.0, -47.264846938775506)
+    end: (-48.0, -50.431836734693874)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f119 = Line {
+    start: (-48.0, -50.431836734693874)
+    end: (-45.0, -53.406887755102034)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f120 = Line {
+    start: (-45.0, -53.406887755102034)
+    end: (-42.0, -56.19)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f121 = Line {
+    start: (-42.0, -56.19)
+    end: (-39.0, -58.78117346938775)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f122 = Line {
+    start: (-39.0, -58.78117346938775)
+    end: (-36.0, -61.180408163265305)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f123 = Line {
+    start: (-36.0, -61.180408163265305)
+    end: (-33.00000000000001, -63.38770408163265)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f124 = Line {
+    start: (-33.00000000000001, -63.38770408163265)
+    end: (-30.000000000000004, -65.40306122448979)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f125 = Line {
+    start: (-30.000000000000004, -65.40306122448979)
+    end: (-26.999999999999996, -67.22647959183674)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f126 = Line {
+    start: (-26.999999999999996, -67.22647959183674)
+    end: (-23.999999999999993, -68.85795918367347)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f127 = Line {
+    start: (-23.999999999999993, -68.85795918367347)
+    end: (-21.000000000000004, -70.2975)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f128 = Line {
+    start: (-21.000000000000004, -70.2975)
+    end: (-18.0, -71.54510204081633)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f129 = Line {
+    start: (-18.0, -71.54510204081633)
+    end: (-14.999999999999993, -72.60076530612245)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f130 = Line {
+    start: (-14.999999999999993, -72.60076530612245)
+    end: (-12.000000000000004, -73.46448979591837)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f131 = Line {
+    start: (-12.000000000000004, -73.46448979591837)
+    end: (-9.0, -74.13627551020409)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f132 = Line {
+    start: (-9.0, -74.13627551020409)
+    end: (-5.999999999999995, -74.6161224489796)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f133 = Line {
+    start: (-5.999999999999995, -74.6161224489796)
+    end: (-3.000000000000005, -74.9040306122449)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f134 = Line {
+    start: (-3.000000000000005, -74.9040306122449)
+    end: (0.0, -75.0)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f135 = Line {
+    start: (0.0, -75.0)
+    end: (3.000000000000005, -74.9040306122449)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f136 = Line {
+    start: (3.000000000000005, -74.9040306122449)
+    end: (5.999999999999995, -74.6161224489796)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f137 = Line {
+    start: (5.999999999999995, -74.6161224489796)
+    end: (9.0, -74.13627551020409)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f138 = Line {
+    start: (9.0, -74.13627551020409)
+    end: (12.000000000000004, -73.46448979591837)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f139 = Line {
+    start: (12.000000000000004, -73.46448979591837)
+    end: (14.999999999999993, -72.60076530612245)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f140 = Line {
+    start: (14.999999999999993, -72.60076530612245)
+    end: (18.0, -71.54510204081633)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f141 = Line {
+    start: (18.0, -71.54510204081633)
+    end: (21.000000000000004, -70.2975)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f142 = Line {
+    start: (21.000000000000004, -70.2975)
+    end: (23.999999999999993, -68.85795918367347)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f143 = Line {
+    start: (23.999999999999993, -68.85795918367347)
+    end: (26.999999999999996, -67.22647959183674)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f144 = Line {
+    start: (26.999999999999996, -67.22647959183674)
+    end: (30.000000000000004, -65.40306122448979)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f145 = Line {
+    start: (30.000000000000004, -65.40306122448979)
+    end: (33.00000000000001, -63.38770408163265)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f146 = Line {
+    start: (33.00000000000001, -63.38770408163265)
+    end: (36.0, -61.180408163265305)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f147 = Line {
+    start: (36.0, -61.180408163265305)
+    end: (38.999999999999986, -58.78117346938777)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f148 = Line {
+    start: (38.999999999999986, -58.78117346938777)
+    end: (42.00000000000001, -56.19)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f149 = Line {
+    start: (42.00000000000001, -56.19)
+    end: (44.99999999999999, -53.40688775510205)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f150 = Line {
+    start: (44.99999999999999, -53.40688775510205)
+    end: (47.999999999999986, -50.43183673469389)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f151 = Line {
+    start: (47.999999999999986, -50.43183673469389)
+    end: (51.00000000000001, -47.2648469387755)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f152 = Line {
+    start: (51.00000000000001, -47.2648469387755)
+    end: (53.99999999999999, -43.90591836734694)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f153 = Line {
+    start: (53.99999999999999, -43.90591836734694)
+    end: (57.000000000000014, -40.35505102040814)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f154 = Line {
+    start: (57.000000000000014, -40.35505102040814)
+    end: (60.00000000000001, -36.61224489795918)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f155 = Line {
+    start: (60.00000000000001, -36.61224489795918)
+    end: (62.99999999999999, -32.6775)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f156 = Line {
+    start: (62.99999999999999, -32.6775)
+    end: (66.00000000000001, -28.550816326530587)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f157 = Line {
+    start: (66.00000000000001, -28.550816326530587)
+    end: (69.0, -24.232193877551005)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f158 = Line {
+    start: (69.0, -24.232193877551005)
+    end: (72.0, -19.72163265306122)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f159 = Line {
+    start: (72.0, -19.72163265306122)
+    end: (75.00000000000001, -15.019132653061206)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f160 = Line {
+    start: (75.00000000000001, -15.019132653061206)
+    end: (78.0, -10.124693877551024)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f161 = Line {
+    start: (78.0, -10.124693877551024)
+    end: (80.99999999999999, -5.038316326530605)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f162 = Line {
+    start: (80.99999999999999, -5.038316326530605)
+    end: (84.00000000000001, 0.2400000000000233)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f163 = Line {
+    start: (84.00000000000001, 0.2400000000000233)
+    end: (87.0, 5.7102551020408185)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f164 = Line {
+    start: (87.0, 5.7102551020408185)
+    end: (89.99999999999999, 11.372448979591823)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f165 = Line {
+    start: (89.99999999999999, 11.372448979591823)
+    end: (93.00000000000001, 17.226581632653094)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f166 = Line {
+    start: (93.00000000000001, 17.226581632653094)
+    end: (96.0, 23.27265306122449)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f167 = Line {
+    start: (96.0, 23.27265306122449)
+    end: (98.99999999999999, 29.510663265306107)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f168 = Line {
+    start: (98.99999999999999, 29.510663265306107)
+    end: (102.00000000000001, 35.940612244898006)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f169 = Line {
+    start: (102.00000000000001, 35.940612244898006)
+    end: (105.0, 42.5625)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape t1 = Line {
+    start: (5.5, -91.73866071428571)
+    end: (85.5, -14.110089285714274)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.2
+  }
+  shape p1 = Circle {
+    center: (45.5, -52.924375)
+    r: 4
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.6
+  }
+  shape a2X = Line {
+    start: (175, -100)
+    end: (425, -100)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.1
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape a2Y = Line {
+    start: (175, -100)
+    end: (175, 145)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.1
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape f20 = Line {
+    start: (233.5, 97.72727272727272)
+    end: (235.55, 88.99506781750924)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f21 = Line {
+    start: (235.55, 88.99506781750924)
+    end: (237.60000000000002, 81.10328638497651)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f22 = Line {
+    start: (237.60000000000002, 81.10328638497651)
+    end: (239.65, 73.93617021276594)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f23 = Line {
+    start: (239.65, 73.93617021276594)
+    end: (241.7, 67.3982869379015)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f24 = Line {
+    start: (241.7, 67.3982869379015)
+    end: (243.75, 61.41025641025638)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f25 = Line {
+    start: (243.75, 61.41025641025638)
+    end: (245.8, 55.905511811023615)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f26 = Line {
+    start: (245.8, 55.905511811023615)
+    end: (247.85, 50.82781456953643)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f27 = Line {
+    start: (247.85, 50.82781456953643)
+    end: (249.9, 46.12932604735883)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f28 = Line {
+    start: (249.9, 46.12932604735883)
+    end: (251.95, 41.76909569798069)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f29 = Line {
+    start: (251.95, 41.76909569798069)
+    end: (254.0, 37.711864406779654)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f210 = Line {
+    start: (254.0, 37.711864406779654)
+    end: (256.05, 33.92710892710892)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f211 = Line {
+    start: (256.05, 33.92710892710892)
+    end: (258.1, 30.38827258320127)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f212 = Line {
+    start: (258.1, 30.38827258320127)
+    end: (260.15, 27.072141212586345)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f213 = Line {
+    start: (260.15, 27.072141212586345)
+    end: (262.2, 23.958333333333343)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f214 = Line {
+    start: (262.2, 23.958333333333343)
+    end: (264.25, 21.028880866425993)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f215 = Line {
+    start: (264.25, 21.028880866425993)
+    end: (266.3, 18.26788218793827)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f216 = Line {
+    start: (266.3, 18.26788218793827)
+    end: (268.35, 15.661213360599874)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f217 = Line {
+    start: (268.35, 15.661213360599874)
+    end: (270.4, 13.196286472148529)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f218 = Line {
+    start: (270.4, 13.196286472148529)
+    end: (272.45, 10.861846352485486)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f219 = Line {
+    start: (272.45, 10.861846352485486)
+    end: (274.5, 8.647798742138363)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f220 = Line {
+    start: (274.5, 8.647798742138363)
+    end: (276.55, 6.545064377682408)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f221 = Line {
+    start: (276.55, 6.545064377682408)
+    end: (278.6, 4.5454545454545325)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f222 = Line {
+    start: (278.6, 4.5454545454545325)
+    end: (280.65000000000003, 2.641564506713351)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f223 = Line {
+    start: (280.65000000000003, 2.641564506713351)
+    end: (282.7, 0.8266818700113987)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f224 = Line {
+    start: (282.7, 0.8266818700113987)
+    end: (284.75, -0.9052924791086241)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f225 = Line {
+    start: (284.75, -0.9052924791086241)
+    end: (286.8, -2.5599128540305003)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f226 = Line {
+    start: (286.8, -2.5599128540305003)
+    end: (288.85, -4.142248268513583)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f227 = Line {
+    start: (288.85, -4.142248268513583)
+    end: (290.9, -5.656934306569326)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f228 = Line {
+    start: (290.9, -5.656934306569326)
+    end: (292.95, -7.108218478815715)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f229 = Line {
+    start: (292.95, -7.108218478815715)
+    end: (295.0, -8.5)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f230 = Line {
+    start: (295.0, -8.5)
+    end: (297.05, -9.835864772170495)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f231 = Line {
+    start: (297.05, -9.835864772170495)
+    end: (299.1, -11.119116234390006)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f232 = Line {
+    start: (299.1, -11.119116234390006)
+    end: (301.15, -12.352802637776726)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f233 = Line {
+    start: (301.15, -12.352802637776726)
+    end: (303.2, -13.539741219963027)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f234 = Line {
+    start: (303.2, -13.539741219963027)
+    end: (305.25, -14.682539682539684)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f235 = Line {
+    start: (305.25, -14.682539682539684)
+    end: (307.3, -15.78361531611754)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f236 = Line {
+    start: (307.3, -15.78361531611754)
+    end: (309.34999999999997, -16.845212068211623)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f237 = Line {
+    start: (309.34999999999997, -16.845212068211623)
+    end: (311.4, -17.869415807560138)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f238 = Line {
+    start: (311.4, -17.869415807560138)
+    end: (313.45, -18.858168003376953)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f239 = Line {
+    start: (313.45, -18.858168003376953)
+    end: (315.5, -19.81327800829876)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f240 = Line {
+    start: (315.5, -19.81327800829876)
+    end: (317.55, -20.736434108527128)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f241 = Line {
+    start: (317.55, -20.736434108527128)
+    end: (319.6, -21.62921348314606)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f242 = Line {
+    start: (319.6, -21.62921348314606)
+    end: (321.65, -22.49309119621003)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f243 = Line {
+    start: (321.65, -22.49309119621003)
+    end: (323.7, -23.329448329448333)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f244 = Line {
+    start: (323.7, -23.329448329448333)
+    end: (325.75, -24.139579349904395)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f245 = Line {
+    start: (325.75, -24.139579349904395)
+    end: (327.8, -24.924698795180724)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f246 = Line {
+    start: (327.8, -24.924698795180724)
+    end: (329.85, -25.685947348906197)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f247 = Line {
+    start: (329.85, -25.685947348906197)
+    end: (331.9, -26.42439737034332)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f248 = Line {
+    start: (331.9, -26.42439737034332)
+    end: (333.95, -27.141057934508815)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f249 = Line {
+    start: (333.95, -27.141057934508815)
+    end: (336.0, -27.836879432624116)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f250 = Line {
+    start: (336.0, -27.836879432624116)
+    end: (338.05, -28.51275777700105)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f251 = Line {
+    start: (338.05, -28.51275777700105)
+    end: (340.1, -29.169538249483118)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f252 = Line {
+    start: (340.1, -29.169538249483118)
+    end: (342.15, -29.80801902820251)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f253 = Line {
+    start: (342.15, -29.80801902820251)
+    end: (344.2, -30.428954423592486)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f254 = Line {
+    start: (344.2, -30.428954423592486)
+    end: (346.25, -31.03305785123967)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f255 = Line {
+    start: (346.25, -31.03305785123967)
+    end: (348.29999999999995, -31.62100456621004)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f256 = Line {
+    start: (348.29999999999995, -31.62100456621004)
+    end: (350.35, -32.19343418088188)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f257 = Line {
+    start: (350.35, -32.19343418088188)
+    end: (352.4, -32.75095298602286)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f258 = Line {
+    start: (352.4, -32.75095298602286)
+    end: (354.45, -33.294136092819066)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f259 = Line {
+    start: (354.45, -33.294136092819066)
+    end: (356.5, -33.8235294117647)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f260 = Line {
+    start: (356.5, -33.8235294117647)
+    end: (358.55, -34.33965148272699)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f261 = Line {
+    start: (358.55, -34.33965148272699)
+    end: (360.6, -34.84299516908213)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f262 = Line {
+    start: (360.6, -34.84299516908213)
+    end: (362.65, -35.33402922755741)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f263 = Line {
+    start: (362.65, -35.33402922755741)
+    end: (364.7, -35.81319976428993)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f264 = Line {
+    start: (364.7, -35.81319976428993)
+    end: (366.75, -36.28093158660844)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f265 = Line {
+    start: (366.75, -36.28093158660844)
+    end: (368.79999999999995, -36.737629459148444)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f266 = Line {
+    start: (368.79999999999995, -36.737629459148444)
+    end: (370.85, -37.18367927210691)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f267 = Line {
+    start: (370.85, -37.18367927210691)
+    end: (372.9, -37.61944912872399)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f268 = Line {
+    start: (372.9, -37.61944912872399)
+    end: (374.95, -38.0452903584329)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape f269 = Line {
+    start: (374.95, -38.0452903584329)
+    end: (377.0, -38.46153846153845)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.2
+  }
+  shape t2 = Line {
+    start: (242.5, 35.74285714285715)
+    end: (322.5, -33.74285714285715)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.2
+  }
+  shape p2 = Circle {
+    center: (282.5, 1.0)
+    r: 4
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.6
+  }
+  layer a0X below a0Y
+  layer a0Y below f00
+  layer f00 below f01
+  layer f01 below f02
+  layer f02 below f03
+  layer f03 below f04
+  layer f04 below f05
+  layer f05 below f06
+  layer f06 below f07
+  layer f07 below f08
+  layer f08 below f09
+  layer f09 below f010
+  layer f010 below f011
+  layer f011 below f012
+  layer f012 below f013
+  layer f013 below f014
+  layer f014 below f015
+  layer f015 below f016
+  layer f016 below f017
+  layer f017 below f018
+  layer f018 below f019
+  layer f019 below f020
+  layer f020 below f021
+  layer f021 below f022
+  layer f022 below f023
+  layer f023 below f024
+  layer f024 below f025
+  layer f025 below f026
+  layer f026 below f027
+  layer f027 below f028
+  layer f028 below f029
+  layer f029 below f030
+  layer f030 below f031
+  layer f031 below f032
+  layer f032 below f033
+  layer f033 below f034
+  layer f034 below f035
+  layer f035 below f036
+  layer f036 below f037
+  layer f037 below f038
+  layer f038 below f039
+  layer f039 below f040
+  layer f040 below f041
+  layer f041 below f042
+  layer f042 below f043
+  layer f043 below f044
+  layer f044 below f045
+  layer f045 below f046
+  layer f046 below f047
+  layer f047 below f048
+  layer f048 below f049
+  layer f049 below f050
+  layer f050 below f051
+  layer f051 below f052
+  layer f052 below f053
+  layer f053 below f054
+  layer f054 below f055
+  layer f055 below f056
+  layer f056 below f057
+  layer f057 below f058
+  layer f058 below f059
+  layer f059 below f060
+  layer f060 below f061
+  layer f061 below f062
+  layer f062 below f063
+  layer f063 below f064
+  layer f064 below f065
+  layer f065 below f066
+  layer f066 below f067
+  layer f067 below f068
+  layer f068 below f069
+  layer f069 below t0
+  layer t0 below p0
+  layer p0 below a1X
+  layer a1X below a1Y
+  layer a1Y below f10
+  layer f10 below f11
+  layer f11 below f12
+  layer f12 below f13
+  layer f13 below f14
+  layer f14 below f15
+  layer f15 below f16
+  layer f16 below f17
+  layer f17 below f18
+  layer f18 below f19
+  layer f19 below f110
+  layer f110 below f111
+  layer f111 below f112
+  layer f112 below f113
+  layer f113 below f114
+  layer f114 below f115
+  layer f115 below f116
+  layer f116 below f117
+  layer f117 below f118
+  layer f118 below f119
+  layer f119 below f120
+  layer f120 below f121
+  layer f121 below f122
+  layer f122 below f123
+  layer f123 below f124
+  layer f124 below f125
+  layer f125 below f126
+  layer f126 below f127
+  layer f127 below f128
+  layer f128 below f129
+  layer f129 below f130
+  layer f130 below f131
+  layer f131 below f132
+  layer f132 below f133
+  layer f133 below f134
+  layer f134 below f135
+  layer f135 below f136
+  layer f136 below f137
+  layer f137 below f138
+  layer f138 below f139
+  layer f139 below f140
+  layer f140 below f141
+  layer f141 below f142
+  layer f142 below f143
+  layer f143 below f144
+  layer f144 below f145
+  layer f145 below f146
+  layer f146 below f147
+  layer f147 below f148
+  layer f148 below f149
+  layer f149 below f150
+  layer f150 below f151
+  layer f151 below f152
+  layer f152 below f153
+  layer f153 below f154
+  layer f154 below f155
+  layer f155 below f156
+  layer f156 below f157
+  layer f157 below f158
+  layer f158 below f159
+  layer f159 below f160
+  layer f160 below f161
+  layer f161 below f162
+  layer f162 below f163
+  layer f163 below f164
+  layer f164 below f165
+  layer f165 below f166
+  layer f166 below f167
+  layer f167 below f168
+  layer f168 below f169
+  layer f169 below t1
+  layer t1 below p1
+  layer p1 below a2X
+  layer a2X below a2Y
+  layer a2Y below f20
+  layer f20 below f21
+  layer f21 below f22
+  layer f22 below f23
+  layer f23 below f24
+  layer f24 below f25
+  layer f25 below f26
+  layer f26 below f27
+  layer f27 below f28
+  layer f28 below f29
+  layer f29 below f210
+  layer f210 below f211
+  layer f211 below f212
+  layer f212 below f213
+  layer f213 below f214
+  layer f214 below f215
+  layer f215 below f216
+  layer f216 below f217
+  layer f217 below f218
+  layer f218 below f219
+  layer f219 below f220
+  layer f220 below f221
+  layer f221 below f222
+  layer f222 below f223
+  layer f223 below f224
+  layer f224 below f225
+  layer f225 below f226
+  layer f226 below f227
+  layer f227 below f228
+  layer f228 below f229
+  layer f229 below f230
+  layer f230 below f231
+  layer f231 below f232
+  layer f232 below f233
+  layer f233 below f234
+  layer f234 below f235
+  layer f235 below f236
+  layer f236 below f237
+  layer f237 below f238
+  layer f238 below f239
+  layer f239 below f240
+  layer f240 below f241
+  layer f241 below f242
+  layer f242 below f243
+  layer f243 below f244
+  layer f244 below f245
+  layer f245 below f246
+  layer f246 below f247
+  layer f247 below f248
+  layer f248 below f249
+  layer f249 below f250
+  layer f250 below f251
+  layer f251 below f252
+  layer f252 below f253
+  layer f253 below f254
+  layer f254 below f255
+  layer f255 below f256
+  layer f256 below f257
+  layer f257 below f258
+  layer f258 below f259
+  layer f259 below f260
+  layer f260 below f261
+  layer f261 below f262
+  layer f262 below f263
+  layer f263 below f264
+  layer f264 below f265
+  layer f265 below f266
+  layer f266 below f267
+  layer f267 below f268
+  layer f268 below f269
+  layer f269 below t2
+  layer t2 below p2
+}

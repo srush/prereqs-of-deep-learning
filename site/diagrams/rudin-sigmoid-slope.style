@@ -1,0 +1,1000 @@
+-- Text-free illustration; fixed geometry for reproducibility.
+forall Diagram `illustration` {
+  shape axisX = Line {
+    start: (-400, -120)
+    end: (400, -120)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.1
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape axisY = Line {
+    start: (-400, -120)
+    end: (-400, 170)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.1
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape sigmoid0 = Line {
+    start: (-375.0, -118.25985875968594)
+    end: (-364.2857142857143, -117.99469500664287)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid1 = Line {
+    start: (-364.2857142857143, -117.99469500664287)
+    end: (-353.57142857142856, -117.68948693303713)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid2 = Line {
+    start: (-353.57142857142856, -117.68948693303713)
+    end: (-342.85714285714283, -117.33830533776724)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid3 = Line {
+    start: (-342.85714285714283, -117.33830533776724)
+    end: (-332.14285714285717, -116.93438163530776)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid4 = Line {
+    start: (-332.14285714285717, -116.93438163530776)
+    end: (-321.42857142857144, -116.47000159462647)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid5 = Line {
+    start: (-321.42857142857144, -116.47000159462647)
+    end: (-310.7142857142857, -115.93638978767417)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid6 = Line {
+    start: (-310.7142857142857, -115.93638978767417)
+    end: (-300.0, -115.3235854098562)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid7 = Line {
+    start: (-300.0, -115.3235854098562)
+    end: (-289.2857142857143, -114.62031080977715)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid8 = Line {
+    start: (-289.2857142857143, -114.62031080977715)
+    end: (-278.57142857142856, -113.8138349764772)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid9 = Line {
+    start: (-278.57142857142856, -113.8138349764772)
+    end: (-267.85714285714283, -112.88983543299244)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid10 = Line {
+    start: (-267.85714285714283, -112.88983543299244)
+    end: (-257.14285714285717, -111.83226353179177)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid11 = Line {
+    start: (-257.14285714285717, -111.83226353179177)
+    end: (-246.42857142857142, -110.62322009421675)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid12 = Line {
+    start: (-246.42857142857142, -110.62322009421675)
+    end: (-235.71428571428572, -109.2428507243804)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid13 = Line {
+    start: (-235.71428571428572, -109.2428507243804)
+    end: (-225.0, -107.66927297383263)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid14 = Line {
+    start: (-225.0, -107.66927297383263)
+    end: (-214.28571428571428, -105.87855080551344)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid15 = Line {
+    start: (-214.28571428571428, -105.87855080551344)
+    end: (-203.57142857142858, -103.84473539752828)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid16 = Line {
+    start: (-203.57142857142858, -103.84473539752828)
+    end: (-192.85714285714286, -101.53999502079225)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid17 = Line {
+    start: (-192.85714285714286, -101.53999502079225)
+    end: (-182.14285714285714, -98.93486014701996)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid18 = Line {
+    start: (-182.14285714285714, -98.93486014701996)
+    end: (-171.42857142857142, -95.99861252440252)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid19 = Line {
+    start: (-171.42857142857142, -95.99861252440252)
+    end: (-160.71428571428572, -92.69984789473115)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid20 = Line {
+    start: (-160.71428571428572, -92.69984789473115)
+    end: (-150.0, -89.00724027424944)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid21 = Line {
+    start: (-150.0, -89.00724027424944)
+    end: (-139.28571428571428, -84.89053004007138)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid22 = Line {
+    start: (-139.28571428571428, -84.89053004007138)
+    end: (-128.57142857142858, -80.32174714091593)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid23 = Line {
+    start: (-128.57142857142858, -80.32174714091593)
+    end: (-117.85714285714288, -75.27666343670205)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid24 = Line {
+    start: (-117.85714285714288, -75.27666343670205)
+    end: (-107.14285714285712, -69.73644385139973)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid25 = Line {
+    start: (-107.14285714285712, -69.73644385139973)
+    end: (-96.42857142857142, -63.68943510027425)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid26 = Line {
+    start: (-96.42857142857142, -63.68943510027425)
+    end: (-85.71428571428571, -57.13299517407338)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid27 = Line {
+    start: (-85.71428571428571, -57.13299517407338)
+    end: (-75.0, -50.075230443801274)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid28 = Line {
+    start: (-75.0, -50.075230443801274)
+    end: (-64.28571428571426, -42.53647616852166)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid29 = Line {
+    start: (-64.28571428571426, -42.53647616852166)
+    end: (-53.571428571428584, -34.55033790550981)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid30 = Line {
+    start: (-53.571428571428584, -34.55033790550981)
+    end: (-42.85714285714284, -26.1641137423413)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid31 = Line {
+    start: (-42.85714285714284, -26.1641137423413)
+    end: (-32.14285714285716, -17.43844667735229)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid32 = Line {
+    start: (-32.14285714285716, -17.43844667735229)
+    end: (-21.42857142857142, -8.446115189701217)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid33 = Line {
+    start: (-21.42857142857142, -8.446115189701217)
+    end: (-10.714285714285744, 0.7300455831673673)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid34 = Line {
+    start: (-10.714285714285744, 0.7300455831673673)
+    end: (0.0, 10.0)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid35 = Line {
+    start: (0.0, 10.0)
+    end: (10.714285714285744, 19.26995441683266)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid36 = Line {
+    start: (10.714285714285744, 19.26995441683266)
+    end: (21.42857142857142, 28.44611518970123)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid37 = Line {
+    start: (21.42857142857142, 28.44611518970123)
+    end: (32.14285714285716, 37.43844667735229)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid38 = Line {
+    start: (32.14285714285716, 37.43844667735229)
+    end: (42.85714285714284, 46.16411374234127)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid39 = Line {
+    start: (42.85714285714284, 46.16411374234127)
+    end: (53.571428571428584, 54.55033790550982)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid40 = Line {
+    start: (53.571428571428584, 54.55033790550982)
+    end: (64.28571428571426, 62.53647616852166)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid41 = Line {
+    start: (64.28571428571426, 62.53647616852166)
+    end: (75.0, 70.07523044380127)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid42 = Line {
+    start: (75.0, 70.07523044380127)
+    end: (85.71428571428574, 77.13299517407341)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid43 = Line {
+    start: (85.71428571428574, 77.13299517407341)
+    end: (96.42857142857142, 83.68943510027424)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid44 = Line {
+    start: (96.42857142857142, 83.68943510027424)
+    end: (107.14285714285717, 89.73644385139977)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid45 = Line {
+    start: (107.14285714285717, 89.73644385139977)
+    end: (117.85714285714283, 95.27666343670202)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid46 = Line {
+    start: (117.85714285714283, 95.27666343670202)
+    end: (128.57142857142858, 100.32174714091596)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid47 = Line {
+    start: (128.57142857142858, 100.32174714091596)
+    end: (139.28571428571425, 104.89053004007135)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid48 = Line {
+    start: (139.28571428571425, 104.89053004007135)
+    end: (150.0, 109.0072402742494)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid49 = Line {
+    start: (150.0, 109.0072402742494)
+    end: (160.71428571428575, 112.69984789473116)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid50 = Line {
+    start: (160.71428571428575, 112.69984789473116)
+    end: (171.42857142857142, 115.99861252440249)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid51 = Line {
+    start: (171.42857142857142, 115.99861252440249)
+    end: (182.14285714285717, 118.93486014701995)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid52 = Line {
+    start: (182.14285714285717, 118.93486014701995)
+    end: (192.85714285714283, 121.53999502079222)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid53 = Line {
+    start: (192.85714285714283, 121.53999502079222)
+    end: (203.57142857142858, 123.8447353975283)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid54 = Line {
+    start: (203.57142857142858, 123.8447353975283)
+    end: (214.28571428571425, 125.87855080551344)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid55 = Line {
+    start: (214.28571428571425, 125.87855080551344)
+    end: (225.0, 127.66927297383268)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid56 = Line {
+    start: (225.0, 127.66927297383268)
+    end: (235.71428571428567, 129.2428507243804)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid57 = Line {
+    start: (235.71428571428567, 129.2428507243804)
+    end: (246.42857142857147, 130.62322009421675)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid58 = Line {
+    start: (246.42857142857147, 130.62322009421675)
+    end: (257.14285714285717, 131.83226353179174)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid59 = Line {
+    start: (257.14285714285717, 131.83226353179174)
+    end: (267.85714285714283, 132.88983543299247)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid60 = Line {
+    start: (267.85714285714283, 132.88983543299247)
+    end: (278.5714285714285, 133.8138349764772)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid61 = Line {
+    start: (278.5714285714285, 133.8138349764772)
+    end: (289.28571428571433, 134.62031080977712)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid62 = Line {
+    start: (289.28571428571433, 134.62031080977712)
+    end: (300.0, 135.3235854098562)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid63 = Line {
+    start: (300.0, 135.3235854098562)
+    end: (310.71428571428567, 135.93638978767416)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid64 = Line {
+    start: (310.71428571428567, 135.93638978767416)
+    end: (321.4285714285715, 136.47000159462647)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid65 = Line {
+    start: (321.4285714285715, 136.47000159462647)
+    end: (332.14285714285717, 136.93438163530777)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid66 = Line {
+    start: (332.14285714285717, 136.93438163530777)
+    end: (342.85714285714283, 137.33830533776728)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid67 = Line {
+    start: (342.85714285714283, 137.33830533776728)
+    end: (353.5714285714285, 137.68948693303713)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid68 = Line {
+    start: (353.5714285714285, 137.68948693303713)
+    end: (364.28571428571433, 137.99469500664287)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape sigmoid69 = Line {
+    start: (364.28571428571433, 137.99469500664287)
+    end: (375.0, 138.25985875968598)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape slope0 = Line {
+    start: (-375.0, -118.27150526559456)
+    end: (-364.2857142857143, -118.01016134555204)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope1 = Line {
+    start: (-364.2857142857143, -118.01016134555204)
+    end: (-353.57142857142856, -117.71001951239332)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope2 = Line {
+    start: (-353.57142857142856, -117.71001951239332)
+    end: (-342.85714285714283, -117.36555387036324)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope3 = Line {
+    start: (-342.85714285714283, -117.36555387036324)
+    end: (-332.14285714285717, -116.9705278505306)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope4 = Line {
+    start: (-332.14285714285717, -116.9705278505306)
+    end: (-321.42857142857144, -116.51792808978777)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope5 = Line {
+    start: (-321.42857142857144, -116.51792808978777)
+    end: (-310.7142857142857, -115.99990104905001)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope6 = Line {
+    start: (-310.7142857142857, -115.99990104905001)
+    end: (-300.0, -115.40769638454431)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope7 = Line {
+    start: (-300.0, -115.40769638454431)
+    end: (-289.2857142857143, -114.73162256279024)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope8 = Line {
+    start: (-289.2857142857143, -114.73162256279024)
+    end: (-278.57142857142856, -113.96102204454742)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope9 = Line {
+    start: (-278.57142857142856, -113.96102204454742)
+    end: (-267.85714285714283, -113.08427558749217)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope10 = Line {
+    start: (-267.85714285714283, -113.08427558749217)
+    end: (-257.14285714285717, -112.08884783569215)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope11 = Line {
+    start: (-257.14285714285717, -112.08884783569215)
+    end: (-246.42857142857142, -110.96138933037636)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope12 = Line {
+    start: (-246.42857142857142, -110.96138933037636)
+    end: (-235.71428571428572, -109.68791326491103)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope13 = Line {
+    start: (-235.71428571428572, -109.68791326491103)
+    end: (-225.0, -108.25406846996285)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope14 = Line {
+    start: (-225.0, -108.25406846996285)
+    end: (-214.28571428571428, -106.64553283379215)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope15 = Line {
+    start: (-214.28571428571428, -106.64553283379215)
+    end: (-203.57142857142858, -104.84855299128165)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope16 = Line {
+    start: (-203.57142857142858, -104.84855299128165)
+    end: (-192.85714285714286, -102.85065572783984)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope17 = Line {
+    start: (-192.85714285714286, -102.85065572783984)
+    end: (-182.14285714285714, -100.64155290481077)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope18 = Line {
+    start: (-182.14285714285714, -100.64155290481077)
+    end: (-171.42857142857142, -98.21425329653239)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope19 = Line {
+    start: (-171.42857142857142, -98.21425329653239)
+    end: (-160.71428571428572, -95.56637983692659)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope20 = Line {
+    start: (-160.71428571428572, -95.56637983692659)
+    end: (-150.0, -92.70166779508831)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope21 = Line {
+    start: (-150.0, -92.70166779508831)
+    end: (-139.28571428571428, -89.63158727417573)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope22 = Line {
+    start: (-139.28571428571428, -89.63158727417573)
+    end: (-128.57142857142858, -86.37699233302908)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope23 = Line {
+    start: (-128.57142857142858, -86.37699233302908)
+    end: (-117.85714285714288, -82.96965125729446)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope24 = Line {
+    start: (-117.85714285714288, -82.96965125729446)
+    end: (-107.14285714285712, -79.45346337718239)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope25 = Line {
+    start: (-107.14285714285712, -79.45346337718239)
+    end: (-96.42857142857142, -75.88512632845203)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope26 = Line {
+    start: (-96.42857142857142, -75.88512632845203)
+    end: (-85.71428571428571, -72.33399631170062)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope27 = Line {
+    start: (-85.71428571428571, -72.33399631170062)
+    end: (-75.0, -68.88089735721472)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope28 = Line {
+    start: (-75.0, -68.88089735721472)
+    end: (-64.28571428571426, -65.61569741617555)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope29 = Line {
+    start: (-64.28571428571426, -65.61569741617555)
+    end: (-53.571428571428584, -62.63358695190425)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope30 = Line {
+    start: (-53.571428571428584, -62.63358695190425)
+    end: (-42.85714285714284, -60.03016585680383)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope31 = Line {
+    start: (-42.85714285714284, -60.03016585680383)
+    end: (-32.14285714285716, -57.895647523330396)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope32 = Line {
+    start: (-32.14285714285716, -57.895647523330396)
+    end: (-21.42857142857142, -56.308689098429724)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope33 = Line {
+    start: (-21.42857142857142, -56.308689098429724)
+    end: (-10.714285714285744, -55.33050790342368)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope34 = Line {
+    start: (-10.714285714285744, -55.33050790342368)
+    end: (0.0, -55.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope35 = Line {
+    start: (0.0, -55.0)
+    end: (10.714285714285744, -55.33050790342368)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope36 = Line {
+    start: (10.714285714285744, -55.33050790342368)
+    end: (21.42857142857142, -56.30868909842972)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope37 = Line {
+    start: (21.42857142857142, -56.30868909842972)
+    end: (32.14285714285716, -57.895647523330396)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope38 = Line {
+    start: (32.14285714285716, -57.895647523330396)
+    end: (42.85714285714284, -60.03016585680383)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope39 = Line {
+    start: (42.85714285714284, -60.03016585680383)
+    end: (53.571428571428584, -62.63358695190425)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope40 = Line {
+    start: (53.571428571428584, -62.63358695190425)
+    end: (64.28571428571426, -65.61569741617555)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope41 = Line {
+    start: (64.28571428571426, -65.61569741617555)
+    end: (75.0, -68.88089735721472)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope42 = Line {
+    start: (75.0, -68.88089735721472)
+    end: (85.71428571428574, -72.33399631170063)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope43 = Line {
+    start: (85.71428571428574, -72.33399631170063)
+    end: (96.42857142857142, -75.88512632845203)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope44 = Line {
+    start: (96.42857142857142, -75.88512632845203)
+    end: (107.14285714285717, -79.4534633771824)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope45 = Line {
+    start: (107.14285714285717, -79.4534633771824)
+    end: (117.85714285714283, -82.96965125729443)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope46 = Line {
+    start: (117.85714285714283, -82.96965125729443)
+    end: (128.57142857142858, -86.37699233302908)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope47 = Line {
+    start: (128.57142857142858, -86.37699233302908)
+    end: (139.28571428571425, -89.6315872741757)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope48 = Line {
+    start: (139.28571428571425, -89.6315872741757)
+    end: (150.0, -92.70166779508828)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope49 = Line {
+    start: (150.0, -92.70166779508828)
+    end: (160.71428571428575, -95.5663798369266)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope50 = Line {
+    start: (160.71428571428575, -95.5663798369266)
+    end: (171.42857142857142, -98.21425329653238)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope51 = Line {
+    start: (171.42857142857142, -98.21425329653238)
+    end: (182.14285714285717, -100.64155290481075)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope52 = Line {
+    start: (182.14285714285717, -100.64155290481075)
+    end: (192.85714285714283, -102.85065572783982)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope53 = Line {
+    start: (192.85714285714283, -102.85065572783982)
+    end: (203.57142857142858, -104.84855299128165)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope54 = Line {
+    start: (203.57142857142858, -104.84855299128165)
+    end: (214.28571428571425, -106.64553283379215)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope55 = Line {
+    start: (214.28571428571425, -106.64553283379215)
+    end: (225.0, -108.25406846996287)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope56 = Line {
+    start: (225.0, -108.25406846996287)
+    end: (235.71428571428567, -109.68791326491103)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope57 = Line {
+    start: (235.71428571428567, -109.68791326491103)
+    end: (246.42857142857147, -110.96138933037638)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope58 = Line {
+    start: (246.42857142857147, -110.96138933037638)
+    end: (257.14285714285717, -112.08884783569214)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope59 = Line {
+    start: (257.14285714285717, -112.08884783569214)
+    end: (267.85714285714283, -113.08427558749219)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope60 = Line {
+    start: (267.85714285714283, -113.08427558749219)
+    end: (278.5714285714285, -113.96102204454743)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope61 = Line {
+    start: (278.5714285714285, -113.96102204454743)
+    end: (289.28571428571433, -114.73162256279019)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope62 = Line {
+    start: (289.28571428571433, -114.73162256279019)
+    end: (300.0, -115.40769638454431)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope63 = Line {
+    start: (300.0, -115.40769638454431)
+    end: (310.71428571428567, -115.99990104905)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope64 = Line {
+    start: (310.71428571428567, -115.99990104905)
+    end: (321.4285714285715, -116.51792808978776)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope65 = Line {
+    start: (321.4285714285715, -116.51792808978776)
+    end: (332.14285714285717, -116.9705278505306)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope66 = Line {
+    start: (332.14285714285717, -116.9705278505306)
+    end: (342.85714285714283, -117.36555387036327)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope67 = Line {
+    start: (342.85714285714283, -117.36555387036327)
+    end: (353.5714285714285, -117.71001951239333)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope68 = Line {
+    start: (353.5714285714285, -117.71001951239333)
+    end: (364.28571428571433, -118.01016134555202)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape slope69 = Line {
+    start: (364.28571428571433, -118.01016134555202)
+    end: (375.0, -118.2715052655946)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  layer axisX below axisY
+  layer axisY below sigmoid0
+  layer sigmoid0 below sigmoid1
+  layer sigmoid1 below sigmoid2
+  layer sigmoid2 below sigmoid3
+  layer sigmoid3 below sigmoid4
+  layer sigmoid4 below sigmoid5
+  layer sigmoid5 below sigmoid6
+  layer sigmoid6 below sigmoid7
+  layer sigmoid7 below sigmoid8
+  layer sigmoid8 below sigmoid9
+  layer sigmoid9 below sigmoid10
+  layer sigmoid10 below sigmoid11
+  layer sigmoid11 below sigmoid12
+  layer sigmoid12 below sigmoid13
+  layer sigmoid13 below sigmoid14
+  layer sigmoid14 below sigmoid15
+  layer sigmoid15 below sigmoid16
+  layer sigmoid16 below sigmoid17
+  layer sigmoid17 below sigmoid18
+  layer sigmoid18 below sigmoid19
+  layer sigmoid19 below sigmoid20
+  layer sigmoid20 below sigmoid21
+  layer sigmoid21 below sigmoid22
+  layer sigmoid22 below sigmoid23
+  layer sigmoid23 below sigmoid24
+  layer sigmoid24 below sigmoid25
+  layer sigmoid25 below sigmoid26
+  layer sigmoid26 below sigmoid27
+  layer sigmoid27 below sigmoid28
+  layer sigmoid28 below sigmoid29
+  layer sigmoid29 below sigmoid30
+  layer sigmoid30 below sigmoid31
+  layer sigmoid31 below sigmoid32
+  layer sigmoid32 below sigmoid33
+  layer sigmoid33 below sigmoid34
+  layer sigmoid34 below sigmoid35
+  layer sigmoid35 below sigmoid36
+  layer sigmoid36 below sigmoid37
+  layer sigmoid37 below sigmoid38
+  layer sigmoid38 below sigmoid39
+  layer sigmoid39 below sigmoid40
+  layer sigmoid40 below sigmoid41
+  layer sigmoid41 below sigmoid42
+  layer sigmoid42 below sigmoid43
+  layer sigmoid43 below sigmoid44
+  layer sigmoid44 below sigmoid45
+  layer sigmoid45 below sigmoid46
+  layer sigmoid46 below sigmoid47
+  layer sigmoid47 below sigmoid48
+  layer sigmoid48 below sigmoid49
+  layer sigmoid49 below sigmoid50
+  layer sigmoid50 below sigmoid51
+  layer sigmoid51 below sigmoid52
+  layer sigmoid52 below sigmoid53
+  layer sigmoid53 below sigmoid54
+  layer sigmoid54 below sigmoid55
+  layer sigmoid55 below sigmoid56
+  layer sigmoid56 below sigmoid57
+  layer sigmoid57 below sigmoid58
+  layer sigmoid58 below sigmoid59
+  layer sigmoid59 below sigmoid60
+  layer sigmoid60 below sigmoid61
+  layer sigmoid61 below sigmoid62
+  layer sigmoid62 below sigmoid63
+  layer sigmoid63 below sigmoid64
+  layer sigmoid64 below sigmoid65
+  layer sigmoid65 below sigmoid66
+  layer sigmoid66 below sigmoid67
+  layer sigmoid67 below sigmoid68
+  layer sigmoid68 below sigmoid69
+  layer sigmoid69 below slope0
+  layer slope0 below slope1
+  layer slope1 below slope2
+  layer slope2 below slope3
+  layer slope3 below slope4
+  layer slope4 below slope5
+  layer slope5 below slope6
+  layer slope6 below slope7
+  layer slope7 below slope8
+  layer slope8 below slope9
+  layer slope9 below slope10
+  layer slope10 below slope11
+  layer slope11 below slope12
+  layer slope12 below slope13
+  layer slope13 below slope14
+  layer slope14 below slope15
+  layer slope15 below slope16
+  layer slope16 below slope17
+  layer slope17 below slope18
+  layer slope18 below slope19
+  layer slope19 below slope20
+  layer slope20 below slope21
+  layer slope21 below slope22
+  layer slope22 below slope23
+  layer slope23 below slope24
+  layer slope24 below slope25
+  layer slope25 below slope26
+  layer slope26 below slope27
+  layer slope27 below slope28
+  layer slope28 below slope29
+  layer slope29 below slope30
+  layer slope30 below slope31
+  layer slope31 below slope32
+  layer slope32 below slope33
+  layer slope33 below slope34
+  layer slope34 below slope35
+  layer slope35 below slope36
+  layer slope36 below slope37
+  layer slope37 below slope38
+  layer slope38 below slope39
+  layer slope39 below slope40
+  layer slope40 below slope41
+  layer slope41 below slope42
+  layer slope42 below slope43
+  layer slope43 below slope44
+  layer slope44 below slope45
+  layer slope45 below slope46
+  layer slope46 below slope47
+  layer slope47 below slope48
+  layer slope48 below slope49
+  layer slope49 below slope50
+  layer slope50 below slope51
+  layer slope51 below slope52
+  layer slope52 below slope53
+  layer slope53 below slope54
+  layer slope54 below slope55
+  layer slope55 below slope56
+  layer slope56 below slope57
+  layer slope57 below slope58
+  layer slope58 below slope59
+  layer slope59 below slope60
+  layer slope60 below slope61
+  layer slope61 below slope62
+  layer slope62 below slope63
+  layer slope63 below slope64
+  layer slope64 below slope65
+  layer slope65 below slope66
+  layer slope66 below slope67
+  layer slope67 below slope68
+  layer slope68 below slope69
+}

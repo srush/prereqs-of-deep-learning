@@ -1,0 +1,56 @@
+-- Text-free illustration; fixed geometry for reproducibility.
+forall Diagram `illustration` {
+  shape base = Rectangle {
+    center: (-40, -20)
+    width: 370
+    height: 200
+    fillColor: rgba(0.88,0.94,0.97,0.65)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.3
+  }
+  shape vertical = Rectangle {
+    center: (165, -20)
+    width: 40
+    height: 200
+    fillColor: rgba(0.98,0.92,0.79,0.75)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.3
+  }
+  shape horizontal = Rectangle {
+    center: (-40, 100)
+    width: 370
+    height: 40
+    fillColor: rgba(0.98,0.92,0.79,0.75)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.3
+  }
+  shape corner = Rectangle {
+    center: (165, 100)
+    width: 40
+    height: 40
+    fillColor: rgba(0.75,0.44,0.14,0.38)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.3
+  }
+  shape dx = Line {
+    start: (145, -155)
+    end: (185, -155)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape dy = Line {
+    start: (-260, 80)
+    end: (-260, 120)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  layer base below vertical
+  layer vertical below horizontal
+  layer horizontal below corner
+  layer corner below dx
+  layer dx below dy
+}

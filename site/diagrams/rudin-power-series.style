@@ -1,0 +1,2470 @@
+-- Text-free illustration; fixed geometry for reproducibility.
+forall Diagram `illustration` {
+  shape axisX = Line {
+    start: (-360, -145)
+    end: (390, -145)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.1
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape axisY = Line {
+    start: (-360, -145)
+    end: (-360, 185)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.1
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape partial10 = Line {
+    start: (-340.0, -105.0)
+    end: (-330.57142857142856, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial11 = Line {
+    start: (-330.57142857142856, -105.0)
+    end: (-321.1428571428571, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial12 = Line {
+    start: (-321.1428571428571, -105.0)
+    end: (-311.7142857142857, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial13 = Line {
+    start: (-311.7142857142857, -105.0)
+    end: (-302.2857142857143, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial14 = Line {
+    start: (-302.2857142857143, -105.0)
+    end: (-292.8571428571429, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial15 = Line {
+    start: (-292.8571428571429, -105.0)
+    end: (-283.42857142857144, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial16 = Line {
+    start: (-283.42857142857144, -105.0)
+    end: (-274.0, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial17 = Line {
+    start: (-274.0, -105.0)
+    end: (-264.57142857142856, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial18 = Line {
+    start: (-264.57142857142856, -105.0)
+    end: (-255.14285714285714, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial19 = Line {
+    start: (-255.14285714285714, -105.0)
+    end: (-245.71428571428572, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial110 = Line {
+    start: (-245.71428571428572, -105.0)
+    end: (-236.28571428571428, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial111 = Line {
+    start: (-236.28571428571428, -105.0)
+    end: (-226.85714285714286, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial112 = Line {
+    start: (-226.85714285714286, -105.0)
+    end: (-217.42857142857144, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial113 = Line {
+    start: (-217.42857142857144, -105.0)
+    end: (-208.0, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial114 = Line {
+    start: (-208.0, -105.0)
+    end: (-198.57142857142856, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial115 = Line {
+    start: (-198.57142857142856, -105.0)
+    end: (-189.14285714285714, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial116 = Line {
+    start: (-189.14285714285714, -105.0)
+    end: (-179.71428571428572, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial117 = Line {
+    start: (-179.71428571428572, -105.0)
+    end: (-170.28571428571428, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial118 = Line {
+    start: (-170.28571428571428, -105.0)
+    end: (-160.85714285714286, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial119 = Line {
+    start: (-160.85714285714286, -105.0)
+    end: (-151.42857142857144, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial120 = Line {
+    start: (-151.42857142857144, -105.0)
+    end: (-142.0, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial121 = Line {
+    start: (-142.0, -105.0)
+    end: (-132.57142857142858, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial122 = Line {
+    start: (-132.57142857142858, -105.0)
+    end: (-123.14285714285714, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial123 = Line {
+    start: (-123.14285714285714, -105.0)
+    end: (-113.71428571428574, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial124 = Line {
+    start: (-113.71428571428574, -105.0)
+    end: (-104.28571428571429, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial125 = Line {
+    start: (-104.28571428571429, -105.0)
+    end: (-94.85714285714285, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial126 = Line {
+    start: (-94.85714285714285, -105.0)
+    end: (-85.4285714285714, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial127 = Line {
+    start: (-85.4285714285714, -105.0)
+    end: (-76.0, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial128 = Line {
+    start: (-76.0, -105.0)
+    end: (-66.57142857142857, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial129 = Line {
+    start: (-66.57142857142857, -105.0)
+    end: (-57.142857142857125, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial130 = Line {
+    start: (-57.142857142857125, -105.0)
+    end: (-47.71428571428572, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial131 = Line {
+    start: (-47.71428571428572, -105.0)
+    end: (-38.28571428571428, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial132 = Line {
+    start: (-38.28571428571428, -105.0)
+    end: (-28.857142857142833, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial133 = Line {
+    start: (-28.857142857142833, -105.0)
+    end: (-19.428571428571445, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial134 = Line {
+    start: (-19.428571428571445, -105.0)
+    end: (-10.0, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial135 = Line {
+    start: (-10.0, -105.0)
+    end: (-0.5714285714285552, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial136 = Line {
+    start: (-0.5714285714285552, -105.0)
+    end: (8.857142857142833, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial137 = Line {
+    start: (8.857142857142833, -105.0)
+    end: (18.285714285714278, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial138 = Line {
+    start: (18.285714285714278, -105.0)
+    end: (27.714285714285722, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial139 = Line {
+    start: (27.714285714285722, -105.0)
+    end: (37.14285714285711, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial140 = Line {
+    start: (37.14285714285711, -105.0)
+    end: (46.571428571428555, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial141 = Line {
+    start: (46.571428571428555, -105.0)
+    end: (56.0, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial142 = Line {
+    start: (56.0, -105.0)
+    end: (65.42857142857142, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial143 = Line {
+    start: (65.42857142857142, -105.0)
+    end: (74.85714285714286, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial144 = Line {
+    start: (74.85714285714286, -105.0)
+    end: (84.2857142857143, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial145 = Line {
+    start: (84.2857142857143, -105.0)
+    end: (93.71428571428572, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial146 = Line {
+    start: (93.71428571428572, -105.0)
+    end: (103.14285714285714, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial147 = Line {
+    start: (103.14285714285714, -105.0)
+    end: (112.57142857142853, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial148 = Line {
+    start: (112.57142857142853, -105.0)
+    end: (122.00000000000003, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial149 = Line {
+    start: (122.00000000000003, -105.0)
+    end: (131.42857142857142, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial150 = Line {
+    start: (131.42857142857142, -105.0)
+    end: (140.85714285714283, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial151 = Line {
+    start: (140.85714285714283, -105.0)
+    end: (150.28571428571428, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial152 = Line {
+    start: (150.28571428571428, -105.0)
+    end: (159.71428571428572, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial153 = Line {
+    start: (159.71428571428572, -105.0)
+    end: (169.14285714285717, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial154 = Line {
+    start: (169.14285714285717, -105.0)
+    end: (178.5714285714286, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial155 = Line {
+    start: (178.5714285714286, -105.0)
+    end: (188.0, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial156 = Line {
+    start: (188.0, -105.0)
+    end: (197.42857142857144, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial157 = Line {
+    start: (197.42857142857144, -105.0)
+    end: (206.8571428571429, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial158 = Line {
+    start: (206.8571428571429, -105.0)
+    end: (216.28571428571428, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial159 = Line {
+    start: (216.28571428571428, -105.0)
+    end: (225.71428571428578, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial160 = Line {
+    start: (225.71428571428578, -105.0)
+    end: (235.14285714285717, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial161 = Line {
+    start: (235.14285714285717, -105.0)
+    end: (244.57142857142856, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial162 = Line {
+    start: (244.57142857142856, -105.0)
+    end: (254.00000000000006, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial163 = Line {
+    start: (254.00000000000006, -105.0)
+    end: (263.42857142857144, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial164 = Line {
+    start: (263.42857142857144, -105.0)
+    end: (272.85714285714283, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial165 = Line {
+    start: (272.85714285714283, -105.0)
+    end: (282.28571428571433, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial166 = Line {
+    start: (282.28571428571433, -105.0)
+    end: (291.7142857142857, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial167 = Line {
+    start: (291.7142857142857, -105.0)
+    end: (301.1428571428571, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial168 = Line {
+    start: (301.1428571428571, -105.0)
+    end: (310.5714285714286, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial169 = Line {
+    start: (310.5714285714286, -105.0)
+    end: (320.0, -105.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.28)
+    strokeWidth: 1.7
+  }
+  shape partial20 = Line {
+    start: (-340.0, -145.0)
+    end: (-330.57142857142856, -143.28571428571428)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial21 = Line {
+    start: (-330.57142857142856, -143.28571428571428)
+    end: (-321.1428571428571, -141.57142857142858)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial22 = Line {
+    start: (-321.1428571428571, -141.57142857142858)
+    end: (-311.7142857142857, -139.85714285714286)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial23 = Line {
+    start: (-311.7142857142857, -139.85714285714286)
+    end: (-302.2857142857143, -138.14285714285714)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial24 = Line {
+    start: (-302.2857142857143, -138.14285714285714)
+    end: (-292.8571428571429, -136.42857142857142)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial25 = Line {
+    start: (-292.8571428571429, -136.42857142857142)
+    end: (-283.42857142857144, -134.71428571428572)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial26 = Line {
+    start: (-283.42857142857144, -134.71428571428572)
+    end: (-274.0, -133.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial27 = Line {
+    start: (-274.0, -133.0)
+    end: (-264.57142857142856, -131.28571428571428)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial28 = Line {
+    start: (-264.57142857142856, -131.28571428571428)
+    end: (-255.14285714285714, -129.57142857142858)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial29 = Line {
+    start: (-255.14285714285714, -129.57142857142858)
+    end: (-245.71428571428572, -127.85714285714286)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial210 = Line {
+    start: (-245.71428571428572, -127.85714285714286)
+    end: (-236.28571428571428, -126.14285714285714)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial211 = Line {
+    start: (-236.28571428571428, -126.14285714285714)
+    end: (-226.85714285714286, -124.42857142857143)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial212 = Line {
+    start: (-226.85714285714286, -124.42857142857143)
+    end: (-217.42857142857144, -122.71428571428572)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial213 = Line {
+    start: (-217.42857142857144, -122.71428571428572)
+    end: (-208.0, -121.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial214 = Line {
+    start: (-208.0, -121.0)
+    end: (-198.57142857142856, -119.28571428571428)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial215 = Line {
+    start: (-198.57142857142856, -119.28571428571428)
+    end: (-189.14285714285714, -117.57142857142857)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial216 = Line {
+    start: (-189.14285714285714, -117.57142857142857)
+    end: (-179.71428571428572, -115.85714285714286)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial217 = Line {
+    start: (-179.71428571428572, -115.85714285714286)
+    end: (-170.28571428571428, -114.14285714285714)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial218 = Line {
+    start: (-170.28571428571428, -114.14285714285714)
+    end: (-160.85714285714286, -112.42857142857143)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial219 = Line {
+    start: (-160.85714285714286, -112.42857142857143)
+    end: (-151.42857142857144, -110.71428571428572)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial220 = Line {
+    start: (-151.42857142857144, -110.71428571428572)
+    end: (-142.0, -109.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial221 = Line {
+    start: (-142.0, -109.0)
+    end: (-132.57142857142858, -107.28571428571428)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial222 = Line {
+    start: (-132.57142857142858, -107.28571428571428)
+    end: (-123.14285714285714, -105.57142857142857)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial223 = Line {
+    start: (-123.14285714285714, -105.57142857142857)
+    end: (-113.71428571428574, -103.85714285714286)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial224 = Line {
+    start: (-113.71428571428574, -103.85714285714286)
+    end: (-104.28571428571429, -102.14285714285714)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial225 = Line {
+    start: (-104.28571428571429, -102.14285714285714)
+    end: (-94.85714285714285, -100.42857142857143)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial226 = Line {
+    start: (-94.85714285714285, -100.42857142857143)
+    end: (-85.4285714285714, -98.71428571428571)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial227 = Line {
+    start: (-85.4285714285714, -98.71428571428571)
+    end: (-76.0, -97.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial228 = Line {
+    start: (-76.0, -97.0)
+    end: (-66.57142857142857, -95.28571428571428)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial229 = Line {
+    start: (-66.57142857142857, -95.28571428571428)
+    end: (-57.142857142857125, -93.57142857142857)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial230 = Line {
+    start: (-57.142857142857125, -93.57142857142857)
+    end: (-47.71428571428572, -91.85714285714286)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial231 = Line {
+    start: (-47.71428571428572, -91.85714285714286)
+    end: (-38.28571428571428, -90.14285714285714)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial232 = Line {
+    start: (-38.28571428571428, -90.14285714285714)
+    end: (-28.857142857142833, -88.42857142857142)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial233 = Line {
+    start: (-28.857142857142833, -88.42857142857142)
+    end: (-19.428571428571445, -86.71428571428572)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial234 = Line {
+    start: (-19.428571428571445, -86.71428571428572)
+    end: (-10.0, -85.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial235 = Line {
+    start: (-10.0, -85.0)
+    end: (-0.5714285714285552, -83.28571428571428)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial236 = Line {
+    start: (-0.5714285714285552, -83.28571428571428)
+    end: (8.857142857142833, -81.57142857142858)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial237 = Line {
+    start: (8.857142857142833, -81.57142857142858)
+    end: (18.285714285714278, -79.85714285714286)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial238 = Line {
+    start: (18.285714285714278, -79.85714285714286)
+    end: (27.714285714285722, -78.14285714285714)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial239 = Line {
+    start: (27.714285714285722, -78.14285714285714)
+    end: (37.14285714285711, -76.42857142857143)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial240 = Line {
+    start: (37.14285714285711, -76.42857142857143)
+    end: (46.571428571428555, -74.71428571428572)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial241 = Line {
+    start: (46.571428571428555, -74.71428571428572)
+    end: (56.0, -73.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial242 = Line {
+    start: (56.0, -73.0)
+    end: (65.42857142857142, -71.28571428571429)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial243 = Line {
+    start: (65.42857142857142, -71.28571428571429)
+    end: (74.85714285714286, -69.57142857142857)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial244 = Line {
+    start: (74.85714285714286, -69.57142857142857)
+    end: (84.2857142857143, -67.85714285714286)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial245 = Line {
+    start: (84.2857142857143, -67.85714285714286)
+    end: (93.71428571428572, -66.14285714285714)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial246 = Line {
+    start: (93.71428571428572, -66.14285714285714)
+    end: (103.14285714285714, -64.42857142857143)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial247 = Line {
+    start: (103.14285714285714, -64.42857142857143)
+    end: (112.57142857142853, -62.71428571428572)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial248 = Line {
+    start: (112.57142857142853, -62.71428571428572)
+    end: (122.00000000000003, -61.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial249 = Line {
+    start: (122.00000000000003, -61.0)
+    end: (131.42857142857142, -59.28571428571429)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial250 = Line {
+    start: (131.42857142857142, -59.28571428571429)
+    end: (140.85714285714283, -57.571428571428584)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial251 = Line {
+    start: (140.85714285714283, -57.571428571428584)
+    end: (150.28571428571428, -55.85714285714286)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial252 = Line {
+    start: (150.28571428571428, -55.85714285714286)
+    end: (159.71428571428572, -54.14285714285714)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial253 = Line {
+    start: (159.71428571428572, -54.14285714285714)
+    end: (169.14285714285717, -52.428571428571416)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial254 = Line {
+    start: (169.14285714285717, -52.428571428571416)
+    end: (178.5714285714286, -50.71428571428571)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial255 = Line {
+    start: (178.5714285714286, -50.71428571428571)
+    end: (188.0, -49.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial256 = Line {
+    start: (188.0, -49.0)
+    end: (197.42857142857144, -47.28571428571428)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial257 = Line {
+    start: (197.42857142857144, -47.28571428571428)
+    end: (206.8571428571429, -45.57142857142857)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial258 = Line {
+    start: (206.8571428571429, -45.57142857142857)
+    end: (216.28571428571428, -43.85714285714286)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial259 = Line {
+    start: (216.28571428571428, -43.85714285714286)
+    end: (225.71428571428578, -42.14285714285714)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial260 = Line {
+    start: (225.71428571428578, -42.14285714285714)
+    end: (235.14285714285717, -40.42857142857143)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial261 = Line {
+    start: (235.14285714285717, -40.42857142857143)
+    end: (244.57142857142856, -38.71428571428572)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial262 = Line {
+    start: (244.57142857142856, -38.71428571428572)
+    end: (254.00000000000006, -37.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial263 = Line {
+    start: (254.00000000000006, -37.0)
+    end: (263.42857142857144, -35.28571428571428)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial264 = Line {
+    start: (263.42857142857144, -35.28571428571428)
+    end: (272.85714285714283, -33.571428571428584)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial265 = Line {
+    start: (272.85714285714283, -33.571428571428584)
+    end: (282.28571428571433, -31.857142857142847)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial266 = Line {
+    start: (282.28571428571433, -31.857142857142847)
+    end: (291.7142857142857, -30.14285714285714)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial267 = Line {
+    start: (291.7142857142857, -30.14285714285714)
+    end: (301.1428571428571, -28.42857142857143)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial268 = Line {
+    start: (301.1428571428571, -28.42857142857143)
+    end: (310.5714285714286, -26.714285714285708)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial269 = Line {
+    start: (310.5714285714286, -26.714285714285708)
+    end: (320.0, -25.0)
+    strokeColor: rgba(0.75,0.44,0.14,0.45)
+    strokeWidth: 1.7
+  }
+  shape partial40 = Line {
+    start: (-340.0, -131.66666666666666)
+    end: (-330.57142857142856, -130.8089990281827)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial41 = Line {
+    start: (-330.57142857142856, -130.8089990281827)
+    end: (-321.1428571428571, -129.9481827016521)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial42 = Line {
+    start: (-321.1428571428571, -129.9481827016521)
+    end: (-311.7142857142857, -129.0810689990282)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial43 = Line {
+    start: (-311.7142857142857, -129.0810689990282)
+    end: (-302.2857142857143, -128.20450923226434)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial44 = Line {
+    start: (-302.2857142857143, -128.20450923226434)
+    end: (-292.8571428571429, -127.3153547133139)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial45 = Line {
+    start: (-292.8571428571429, -127.3153547133139)
+    end: (-283.42857142857144, -126.41045675413022)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial46 = Line {
+    start: (-283.42857142857144, -126.41045675413022)
+    end: (-274.0, -125.48666666666666)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial47 = Line {
+    start: (-274.0, -125.48666666666666)
+    end: (-264.57142857142856, -124.54083576287658)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial48 = Line {
+    start: (-264.57142857142856, -124.54083576287658)
+    end: (-255.14285714285714, -123.56981535471331)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial49 = Line {
+    start: (-255.14285714285714, -123.56981535471331)
+    end: (-245.71428571428572, -122.57045675413022)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial410 = Line {
+    start: (-245.71428571428572, -122.57045675413022)
+    end: (-236.28571428571428, -121.53961127308065)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial411 = Line {
+    start: (-236.28571428571428, -121.53961127308065)
+    end: (-226.85714285714286, -120.47413022351797)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial412 = Line {
+    start: (-226.85714285714286, -120.47413022351797)
+    end: (-217.42857142857144, -119.37086491739552)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial413 = Line {
+    start: (-217.42857142857144, -119.37086491739552)
+    end: (-208.0, -118.22666666666666)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial414 = Line {
+    start: (-208.0, -118.22666666666666)
+    end: (-198.57142857142856, -117.03838678328474)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial415 = Line {
+    start: (-198.57142857142856, -117.03838678328474)
+    end: (-189.14285714285714, -115.80287657920312)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial416 = Line {
+    start: (-189.14285714285714, -115.80287657920312)
+    end: (-179.71428571428572, -114.51698736637512)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial417 = Line {
+    start: (-179.71428571428572, -114.51698736637512)
+    end: (-170.28571428571428, -113.17757045675413)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial418 = Line {
+    start: (-170.28571428571428, -113.17757045675413)
+    end: (-160.85714285714286, -111.78147716229348)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial419 = Line {
+    start: (-160.85714285714286, -111.78147716229348)
+    end: (-151.42857142857144, -110.32555879494655)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial420 = Line {
+    start: (-151.42857142857144, -110.32555879494655)
+    end: (-142.0, -108.80666666666667)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial421 = Line {
+    start: (-142.0, -108.80666666666667)
+    end: (-132.57142857142858, -107.2216520894072)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial422 = Line {
+    start: (-132.57142857142858, -107.2216520894072)
+    end: (-123.14285714285714, -105.56736637512148)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial423 = Line {
+    start: (-123.14285714285714, -105.56736637512148)
+    end: (-113.71428571428574, -103.84066083576288)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial424 = Line {
+    start: (-113.71428571428574, -103.84066083576288)
+    end: (-104.28571428571429, -102.03838678328475)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial425 = Line {
+    start: (-104.28571428571429, -102.03838678328475)
+    end: (-94.85714285714285, -100.15739552964043)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial426 = Line {
+    start: (-94.85714285714285, -100.15739552964043)
+    end: (-85.4285714285714, -98.19453838678328)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial427 = Line {
+    start: (-85.4285714285714, -98.19453838678328)
+    end: (-76.0, -96.14666666666666)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial428 = Line {
+    start: (-76.0, -96.14666666666666)
+    end: (-66.57142857142857, -94.01063168124392)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial429 = Line {
+    start: (-66.57142857142857, -94.01063168124392)
+    end: (-57.142857142857125, -91.78328474246841)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial430 = Line {
+    start: (-57.142857142857125, -91.78328474246841)
+    end: (-47.71428571428572, -89.46147716229349)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial431 = Line {
+    start: (-47.71428571428572, -89.46147716229349)
+    end: (-38.28571428571428, -87.0420602526725)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial432 = Line {
+    start: (-38.28571428571428, -87.0420602526725)
+    end: (-28.857142857142833, -84.5218853255588)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial433 = Line {
+    start: (-28.857142857142833, -84.5218853255588)
+    end: (-19.428571428571445, -81.89780369290574)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial434 = Line {
+    start: (-19.428571428571445, -81.89780369290574)
+    end: (-10.0, -79.16666666666667)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial435 = Line {
+    start: (-10.0, -79.16666666666667)
+    end: (-0.5714285714285552, -76.32532555879494)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial436 = Line {
+    start: (-0.5714285714285552, -76.32532555879494)
+    end: (8.857142857142833, -73.37063168124394)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial437 = Line {
+    start: (8.857142857142833, -73.37063168124394)
+    end: (18.285714285714278, -70.29943634596697)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial438 = Line {
+    start: (18.285714285714278, -70.29943634596697)
+    end: (27.714285714285722, -67.10859086491739)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial439 = Line {
+    start: (27.714285714285722, -67.10859086491739)
+    end: (37.14285714285711, -63.79494655004861)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial440 = Line {
+    start: (37.14285714285711, -63.79494655004861)
+    end: (46.571428571428555, -60.355354713313886)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial441 = Line {
+    start: (46.571428571428555, -60.355354713313886)
+    end: (56.0, -56.78666666666666)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial442 = Line {
+    start: (56.0, -56.78666666666666)
+    end: (65.42857142857142, -53.08573372206027)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial443 = Line {
+    start: (65.42857142857142, -53.08573372206027)
+    end: (74.85714285714286, -49.249407191448014)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial444 = Line {
+    start: (74.85714285714286, -49.249407191448014)
+    end: (84.2857142857143, -45.27453838678328)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial445 = Line {
+    start: (84.2857142857143, -45.27453838678328)
+    end: (93.71428571428572, -41.15797862001942)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial446 = Line {
+    start: (93.71428571428572, -41.15797862001942)
+    end: (103.14285714285714, -36.89657920310981)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial447 = Line {
+    start: (103.14285714285714, -36.89657920310981)
+    end: (112.57142857142853, -32.48719144800779)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial448 = Line {
+    start: (112.57142857142853, -32.48719144800779)
+    end: (122.00000000000003, -27.926666666666648)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial449 = Line {
+    start: (122.00000000000003, -27.926666666666648)
+    end: (131.42857142857142, -23.211856171039855)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial450 = Line {
+    start: (131.42857142857142, -23.211856171039855)
+    end: (140.85714285714283, -18.339611273080692)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial451 = Line {
+    start: (140.85714285714283, -18.339611273080692)
+    end: (150.28571428571428, -13.306783284742465)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial452 = Line {
+    start: (150.28571428571428, -13.306783284742465)
+    end: (159.71428571428572, -8.110223517978625)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial453 = Line {
+    start: (159.71428571428572, -8.110223517978625)
+    end: (169.14285714285717, -2.7467832847424347)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial454 = Line {
+    start: (169.14285714285717, -2.7467832847424347)
+    end: (178.5714285714286, 2.7866861030126415)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial455 = Line {
+    start: (178.5714285714286, 2.7866861030126415)
+    end: (188.0, 8.493333333333311)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial456 = Line {
+    start: (188.0, 8.493333333333311)
+    end: (197.42857142857144, 14.37630709426631)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial457 = Line {
+    start: (197.42857142857144, 14.37630709426631)
+    end: (206.8571428571429, 20.438756073858116)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial458 = Line {
+    start: (206.8571428571429, 20.438756073858116)
+    end: (216.28571428571428, 26.683828960155466)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial459 = Line {
+    start: (216.28571428571428, 26.683828960155466)
+    end: (225.71428571428578, 33.114674441205096)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial460 = Line {
+    start: (225.71428571428578, 33.114674441205096)
+    end: (235.14285714285717, 39.73444120505346)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial461 = Line {
+    start: (235.14285714285717, 39.73444120505346)
+    end: (244.57142857142856, 46.546277939747284)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial462 = Line {
+    start: (244.57142857142856, 46.546277939747284)
+    end: (254.00000000000006, 53.55333333333334)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial463 = Line {
+    start: (254.00000000000006, 53.55333333333334)
+    end: (263.42857142857144, 60.75875607385811)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial464 = Line {
+    start: (263.42857142857144, 60.75875607385811)
+    end: (272.85714285714283, 68.16569484936832)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial465 = Line {
+    start: (272.85714285714283, 68.16569484936832)
+    end: (282.28571428571433, 75.77729834791063)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial466 = Line {
+    start: (282.28571428571433, 75.77729834791063)
+    end: (291.7142857142857, 83.59671525753157)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial467 = Line {
+    start: (291.7142857142857, 83.59671525753157)
+    end: (301.1428571428571, 91.62709426627794)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial468 = Line {
+    start: (301.1428571428571, 91.62709426627794)
+    end: (310.5714285714286, 99.87158406219635)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial469 = Line {
+    start: (310.5714285714286, 99.87158406219635)
+    end: (320.0, 108.33333333333331)
+    strokeColor: rgba(0.75,0.44,0.14,0.65)
+    strokeWidth: 1.7
+  }
+  shape partial70 = Line {
+    start: (-340.0, -130.27777777777777)
+    end: (-330.57142857142856, -129.63525310021572)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial71 = Line {
+    start: (-330.57142857142856, -129.63525310021572)
+    end: (-321.1428571428571, -128.96408845961952)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial72 = Line {
+    start: (-321.1428571428571, -128.96408845961952)
+    end: (-311.7142857142857, -128.26313289958503)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial73 = Line {
+    start: (-311.7142857142857, -128.26313289958503)
+    end: (-302.2857142857143, -127.53116745480011)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial74 = Line {
+    start: (-302.2857142857143, -127.53116745480011)
+    end: (-292.8571428571429, -126.76690453140509)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial75 = Line {
+    start: (-292.8571428571429, -126.76690453140509)
+    end: (-283.42857142857144, -125.96898703949697)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial76 = Line {
+    start: (-283.42857142857144, -125.96898703949697)
+    end: (-274.0, -125.13598727777777)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial77 = Line {
+    start: (-274.0, -125.13598727777777)
+    end: (-264.57142857142856, -124.2664055703472)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial78 = Line {
+    start: (-264.57142857142856, -124.2664055703472)
+    end: (-255.14285714285714, -123.35866865563904)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial79 = Line {
+    start: (-255.14285714285714, -123.35866865563904)
+    end: (-245.71428571428572, -122.41112782750196)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial710 = Line {
+    start: (-245.71428571428572, -122.41112782750196)
+    end: (-236.28571428571428, -121.42205682842419)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial711 = Line {
+    start: (-236.28571428571428, -121.42205682842419)
+    end: (-226.85714285714286, -120.38964949490244)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial712 = Line {
+    start: (-226.85714285714286, -120.38964949490244)
+    end: (-217.42857142857144, -119.3120171549548)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial713 = Line {
+    start: (-217.42857142857144, -119.3120171549548)
+    end: (-208.0, -118.18718577777778)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial714 = Line {
+    start: (-208.0, -118.18718577777778)
+    end: (-198.57142857142856, -117.01309287554741)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial715 = Line {
+    start: (-198.57142857142856, -117.01309287554741)
+    end: (-189.14285714285714, -115.78758415736452)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial716 = Line {
+    start: (-189.14285714285714, -115.78758415736452)
+    end: (-179.71428571428572, -114.50840993534393)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial717 = Line {
+    start: (-179.71428571428572, -114.50840993534393)
+    end: (-170.28571428571428, -113.17322128284795)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial718 = Line {
+    start: (-170.28571428571428, -113.17322128284795)
+    end: (-160.85714285714286, -111.77956594486378)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial719 = Line {
+    start: (-160.85714285714286, -111.77956594486378)
+    end: (-151.42857142857144, -110.3248840005251)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial720 = Line {
+    start: (-151.42857142857144, -110.3248840005251)
+    end: (-142.0, -108.80650327777778)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial721 = Line {
+    start: (-142.0, -108.80650327777778)
+    end: (-132.57142857142858, -107.22163452018953)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial722 = Line {
+    start: (-132.57142857142858, -107.22163452018953)
+    end: (-123.14285714285714, -105.56736630590382)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial723 = Line {
+    start: (-123.14285714285714, -105.56736630590382)
+    end: (-113.71428571428574, -103.84065971873775)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial724 = Line {
+    start: (-113.71428571428574, -103.84065971873775)
+    end: (-104.28571428571429, -102.03834277142414)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial725 = Line {
+    start: (-104.28571428571429, -102.03834277142414)
+    end: (-94.85714285714285, -100.15710458099753)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial726 = Line {
+    start: (-94.85714285714285, -100.15710458099753)
+    end: (-85.4285714285714, -98.19348929632446)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial727 = Line {
+    start: (-85.4285714285714, -98.19348929632446)
+    end: (-76.0, -96.14388977777779)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial728 = Line {
+    start: (-76.0, -96.14388977777779)
+    end: (-66.57142857142857, -94.00454102905488)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial729 = Line {
+    start: (-66.57142857142857, -94.00454102905488)
+    end: (-57.142857142857125, -91.77151338114032)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial730 = Line {
+    start: (-57.142857142857125, -91.77151338114032)
+    end: (-47.71428571428572, -89.4407054284123)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial731 = Line {
+    start: (-47.71428571428572, -89.4407054284123)
+    end: (-38.28571428571428, -87.00783671689328)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial732 = Line {
+    start: (-38.28571428571428, -87.00783671689328)
+    end: (-28.857142857142833, -84.4684401846448)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial733 = Line {
+    start: (-28.857142857142833, -84.4684401846448)
+    end: (-19.428571428571445, -81.81785435430626)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial734 = Line {
+    start: (-19.428571428571445, -81.81785435430626)
+    end: (-10.0, -79.05121527777779)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial735 = Line {
+    start: (-10.0, -79.05121527777779)
+    end: (-0.5714285714285552, -76.16344823304726)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial736 = Line {
+    start: (-0.5714285714285552, -76.16344823304726)
+    end: (8.857142857142833, -73.14925917316151)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial737 = Line {
+    start: (8.857142857142833, -73.14925917316151)
+    end: (18.285714285714278, -70.00312592734132)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial738 = Line {
+    start: (18.285714285714278, -70.00312592734132)
+    end: (27.714285714285722, -66.71928915424081)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial739 = Line {
+    start: (27.714285714285722, -66.71928915424081)
+    end: (37.14285714285711, -63.291743047350835)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial740 = Line {
+    start: (37.14285714285711, -63.291743047350835)
+    end: (46.571428571428555, -59.71422579254629)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial741 = Line {
+    start: (46.571428571428555, -59.71422579254629)
+    end: (56.0, -55.98020977777777)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial742 = Line {
+    start: (56.0, -55.98020977777777)
+    end: (65.42857142857142, -52.08289155490721)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial743 = Line {
+    start: (65.42857142857142, -52.08289155490721)
+    end: (74.85714285714286, -48.01518155368748)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial744 = Line {
+    start: (74.85714285714286, -48.01518155368748)
+    end: (84.2857142857143, -43.769693547886305)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial745 = Line {
+    start: (84.2857142857143, -43.769693547886305)
+    end: (93.71428571428572, -39.33873387355419)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial746 = Line {
+    start: (93.71428571428572, -39.33873387355419)
+    end: (103.14285714285714, -34.71429039943628)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial747 = Line {
+    start: (103.14285714285714, -34.71429039943628)
+    end: (112.57142857142853, -29.88802124952852)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial748 = Line {
+    start: (112.57142857142853, -29.88802124952852)
+    end: (122.00000000000003, -24.85124327777777)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial749 = Line {
+    start: (122.00000000000003, -24.85124327777777)
+    end: (131.42857142857142, -19.59492029492624)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial750 = Line {
+    start: (131.42857142857142, -19.59492029492624)
+    end: (140.85714285714283, -14.109651047499597)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial751 = Line {
+    start: (140.85714285714283, -14.109651047499597)
+    end: (150.28571428571428, -8.385656948939442)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial752 = Line {
+    start: (150.28571428571428, -8.385656948939442)
+    end: (159.71428571428572, -2.4127695628800723)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial753 = Line {
+    start: (159.71428571428572, -2.4127695628800723)
+    end: (169.14285714285717, 3.819582161431242)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial754 = Line {
+    start: (169.14285714285717, 3.819582161431242)
+    end: (178.5714285714286, 10.32238490156928)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial755 = Line {
+    start: (178.5714285714286, 10.32238490156928)
+    end: (188.0, 17.10705422222219)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial756 = Line {
+    start: (188.0, 17.10705422222219)
+    end: (197.42857142857144, 24.185448083338798)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial757 = Line {
+    start: (197.42857142857144, 24.185448083338798)
+    end: (206.8571428571429, 31.569880596131043)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial758 = Line {
+    start: (206.8571428571429, 31.569880596131043)
+    end: (216.28571428571428, 39.273136026933685)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial759 = Line {
+    start: (216.28571428571428, 39.273136026933685)
+    end: (225.71428571428578, 47.30848304891862)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial760 = Line {
+    start: (225.71428571428578, 47.30848304891862)
+    end: (235.14285714285717, 55.68968924166566)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial761 = Line {
+    start: (235.14285714285717, 55.68968924166566)
+    end: (244.57142857142856, 64.43103583858954)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial762 = Line {
+    start: (244.57142857142856, 64.43103583858954)
+    end: (254.00000000000006, 73.54733272222228)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial763 = Line {
+    start: (254.00000000000006, 73.54733272222228)
+    end: (263.42857142857144, 83.05393366735137)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial764 = Line {
+    start: (263.42857142857144, 83.05393366735137)
+    end: (272.85714285714283, 92.9667518320149)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial765 = Line {
+    start: (272.85714285714283, 92.9667518320149)
+    end: (282.28571428571433, 103.30227549635126)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial766 = Line {
+    start: (282.28571428571433, 103.30227549635126)
+    end: (291.7142857142857, 114.0775840493053)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial767 = Line {
+    start: (291.7142857142857, 114.0775840493053)
+    end: (301.1428571428571, 125.31036422319119)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial768 = Line {
+    start: (301.1428571428571, 125.31036422319119)
+    end: (310.5714285714286, 137.01892657610972)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape partial769 = Line {
+    start: (310.5714285714286, 137.01892657610972)
+    end: (320.0, 149.22222222222223)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape exp0 = Line {
+    start: (-340.0, -130.28482235314232)
+    end: (-330.57142857142856, -129.64046280132385)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp1 = Line {
+    start: (-330.57142857142856, -129.64046280132385)
+    end: (-321.1428571428571, -128.96788753631563)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp2 = Line {
+    start: (-321.1428571428571, -128.96788753631563)
+    end: (-311.7142857142857, -128.2658610266996)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp3 = Line {
+    start: (-311.7142857142857, -128.2658610266996)
+    end: (-302.2857142857143, -127.53309363865478)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp4 = Line {
+    start: (-302.2857142857143, -127.53309363865478)
+    end: (-292.8571428571429, -126.7682392668793)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp5 = Line {
+    start: (-292.8571428571429, -126.7682392668793)
+    end: (-283.42857142857144, -125.96989286177397)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp6 = Line {
+    start: (-283.42857142857144, -125.96989286177397)
+    end: (-274.0, -125.13658784834362)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp7 = Line {
+    start: (-274.0, -125.13658784834362)
+    end: (-264.57142857142856, -124.26679343207573)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp8 = Line {
+    start: (-264.57142857142856, -124.26679343207573)
+    end: (-255.14285714285714, -123.35891178684665)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp9 = Line {
+    start: (-255.14285714285714, -123.35891178684665)
+    end: (-245.71428571428572, -122.41127511968963)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp10 = Line {
+    start: (-245.71428571428572, -122.41127511968963)
+    end: (-236.28571428571428, -121.42214260703284)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp11 = Line {
+    start: (-236.28571428571428, -121.42214260703284)
+    end: (-226.85714285714286, -120.38969719677871)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp12 = Line {
+    start: (-226.85714285714286, -120.38969719677871)
+    end: (-217.42857142857144, -119.31204227035063)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp13 = Line {
+    start: (-217.42857142857144, -119.31204227035063)
+    end: (-208.0, -118.18719815857443)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp14 = Line {
+    start: (-208.0, -118.18719815857443)
+    end: (-198.57142857142856, -117.01309850499479)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp15 = Line {
+    start: (-198.57142857142856, -117.01309850499479)
+    end: (-189.14285714285714, -115.78758646994571)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp16 = Line {
+    start: (-189.14285714285714, -115.78758646994571)
+    end: (-179.71428571428572, -114.50841076840186)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp17 = Line {
+    start: (-179.71428571428572, -114.50841076840186)
+    end: (-170.28571428571428, -113.17322153433228)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp18 = Line {
+    start: (-170.28571428571428, -113.17322153433228)
+    end: (-160.85714285714286, -111.77956600395935)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp19 = Line {
+    start: (-160.85714285714286, -111.77956600395935)
+    end: (-151.42857142857144, -110.32488400999273)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp20 = Line {
+    start: (-151.42857142857144, -110.32488400999273)
+    end: (-142.0, -108.80650327856162)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp21 = Line {
+    start: (-142.0, -108.80650327856162)
+    end: (-132.57142857142858, -107.22163452020521)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp22 = Line {
+    start: (-132.57142857142858, -107.22163452020521)
+    end: (-123.14285714285714, -105.56736630590382)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp23 = Line {
+    start: (-123.14285714285714, -105.56736630590382)
+    end: (-113.71428571428574, -103.84065971873764)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp24 = Line {
+    start: (-113.71428571428574, -103.84065971873764)
+    end: (-104.28571428571429, -102.03834277134817)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp25 = Line {
+    start: (-104.28571428571429, -102.03834277134817)
+    end: (-94.85714285714285, -100.15710457894725)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp26 = Line {
+    start: (-94.85714285714285, -100.15710457894725)
+    end: (-85.4285714285714, -98.19348927716919)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp27 = Line {
+    start: (-85.4285714285714, -98.19348927716919)
+    end: (-76.0, -96.14388967359321)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp28 = Line {
+    start: (-76.0, -96.14388967359321)
+    end: (-66.57142857142857, -94.00454062127376)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp29 = Line {
+    start: (-66.57142857142857, -94.00454062127376)
+    end: (-57.142857142857125, -91.77151210210599)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp30 = Line {
+    start: (-57.142857142857125, -91.77151210210599)
+    end: (-47.71428571428572, -89.44070200732023)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp31 = Line {
+    start: (-47.71428571428572, -89.44070200732023)
+    end: (-38.28571428571428, -87.00782860184306)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp32 = Line {
+    start: (-38.28571428571428, -87.00782860184306)
+    end: (-28.857142857142833, -84.46842265868233)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp33 = Line {
+    start: (-28.857142857142833, -84.46842265868233)
+    end: (-19.428571428571445, -81.81781924888621)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp34 = Line {
+    start: (-19.428571428571445, -81.81781924888621)
+    end: (-10.0, -79.05114917199487)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp35 = Line {
+    start: (-10.0, -79.05114917199487)
+    end: (-0.5714285714285552, -76.1633300112421)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp36 = Line {
+    start: (-0.5714285714285552, -76.1633300112421)
+    end: (8.857142857142833, -73.1490567970751)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp37 = Line {
+    start: (8.857142857142833, -73.1490567970751)
+    end: (18.285714285714278, -70.00279226184145)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp38 = Line {
+    start: (18.285714285714278, -70.00279226184145)
+    end: (27.714285714285722, -66.71875666774068)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp39 = Line {
+    start: (27.714285714285722, -66.71875666774068)
+    end: (37.14285714285711, -63.29091718935432)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp40 = Line {
+    start: (37.14285714285711, -63.29091718935432)
+    end: (46.571428571428555, -59.71297683125003)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp41 = Line {
+    start: (46.571428571428555, -59.71297683125003)
+    end: (56.0, -55.97836286030129)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp42 = Line {
+    start: (56.0, -55.97836286030129)
+    end: (65.42857142857142, -52.080214731472424)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp43 = Line {
+    start: (65.42857142857142, -52.080214731472424)
+    end: (74.85714285714286, -48.011371484888656)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp44 = Line {
+    start: (74.85714285714286, -48.011371484888656)
+    end: (84.2857142857143, -43.76435859103951)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp45 = Line {
+    start: (84.2857142857143, -43.76435859103951)
+    end: (93.71428571428572, -39.33137421994948)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp46 = Line {
+    start: (93.71428571428572, -39.33137421994948)
+    end: (103.14285714285714, -34.70427490909293)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp47 = Line {
+    start: (103.14285714285714, -34.70427490909293)
+    end: (112.57142857142853, -29.874560603724248)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp48 = Line {
+    start: (112.57142857142853, -29.874560603724248)
+    end: (122.00000000000003, -24.83335904214266)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp49 = Line {
+    start: (122.00000000000003, -24.83335904214266)
+    end: (131.42857142857142, -19.571409457207096)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp50 = Line {
+    start: (131.42857142857142, -19.571409457207096)
+    end: (140.85714285714283, -14.079045564159912)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp51 = Line {
+    start: (140.85714285714283, -14.079045564159912)
+    end: (150.28571428571428, -8.346177803508738)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp52 = Line {
+    start: (150.28571428571428, -8.346177803508738)
+    end: (159.71428571428572, -2.362274806346136)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp53 = Line {
+    start: (159.71428571428572, -2.362274806346136)
+    end: (169.14285714285717, 3.883655951942501)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp54 = Line {
+    start: (169.14285714285717, 3.883655951942501)
+    end: (178.5714285714286, 10.403088345120239)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp55 = Line {
+    start: (178.5714285714286, 10.403088345120239)
+    end: (188.0, 17.20799867378699)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp56 = Line {
+    start: (188.0, 17.20799867378699)
+    end: (197.42857142857144, 24.31088766603321)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp57 = Line {
+    start: (197.42857142857144, 24.31088766603321)
+    end: (206.8571428571429, 31.724803441475416)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp58 = Line {
+    start: (206.8571428571429, 31.724803441475416)
+    end: (216.28571428571428, 39.46336548085881)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp59 = Line {
+    start: (216.28571428571428, 39.46336548085881)
+    end: (225.71428571428578, 47.54078964525928)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp60 = Line {
+    start: (225.71428571428578, 47.54078964525928)
+    end: (235.14285714285717, 55.97191429084495)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp61 = Line {
+    start: (235.14285714285717, 55.97191429084495)
+    end: (244.57142857142856, 64.77222752717222)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp62 = Line {
+    start: (244.57142857142856, 64.77222752717222)
+    end: (254.00000000000006, 73.95789566908803)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp63 = Line {
+    start: (254.00000000000006, 73.95789566908803)
+    end: (263.42857142857144, 83.54579293450615)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp64 = Line {
+    start: (263.42857142857144, 83.54579293450615)
+    end: (272.85714285714283, 93.55353244261346)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp65 = Line {
+    start: (272.85714285714283, 93.55353244261346)
+    end: (282.28571428571433, 103.99949856944858)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp66 = Line {
+    start: (282.28571428571433, 103.99949856944858)
+    end: (291.7142857142857, 114.9028807202917)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp67 = Line {
+    start: (291.7142857142857, 114.9028807202917)
+    end: (301.1428571428571, 126.28370858090665)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp68 = Line {
+    start: (301.1428571428571, 126.28370858090665)
+    end: (310.5714285714286, 138.16288891239077)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  shape exp69 = Line {
+    start: (310.5714285714286, 138.16288891239077)
+    end: (320.0, 150.56224395722603)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.8
+  }
+  layer axisX below axisY
+  layer axisY below partial10
+  layer partial10 below partial11
+  layer partial11 below partial12
+  layer partial12 below partial13
+  layer partial13 below partial14
+  layer partial14 below partial15
+  layer partial15 below partial16
+  layer partial16 below partial17
+  layer partial17 below partial18
+  layer partial18 below partial19
+  layer partial19 below partial110
+  layer partial110 below partial111
+  layer partial111 below partial112
+  layer partial112 below partial113
+  layer partial113 below partial114
+  layer partial114 below partial115
+  layer partial115 below partial116
+  layer partial116 below partial117
+  layer partial117 below partial118
+  layer partial118 below partial119
+  layer partial119 below partial120
+  layer partial120 below partial121
+  layer partial121 below partial122
+  layer partial122 below partial123
+  layer partial123 below partial124
+  layer partial124 below partial125
+  layer partial125 below partial126
+  layer partial126 below partial127
+  layer partial127 below partial128
+  layer partial128 below partial129
+  layer partial129 below partial130
+  layer partial130 below partial131
+  layer partial131 below partial132
+  layer partial132 below partial133
+  layer partial133 below partial134
+  layer partial134 below partial135
+  layer partial135 below partial136
+  layer partial136 below partial137
+  layer partial137 below partial138
+  layer partial138 below partial139
+  layer partial139 below partial140
+  layer partial140 below partial141
+  layer partial141 below partial142
+  layer partial142 below partial143
+  layer partial143 below partial144
+  layer partial144 below partial145
+  layer partial145 below partial146
+  layer partial146 below partial147
+  layer partial147 below partial148
+  layer partial148 below partial149
+  layer partial149 below partial150
+  layer partial150 below partial151
+  layer partial151 below partial152
+  layer partial152 below partial153
+  layer partial153 below partial154
+  layer partial154 below partial155
+  layer partial155 below partial156
+  layer partial156 below partial157
+  layer partial157 below partial158
+  layer partial158 below partial159
+  layer partial159 below partial160
+  layer partial160 below partial161
+  layer partial161 below partial162
+  layer partial162 below partial163
+  layer partial163 below partial164
+  layer partial164 below partial165
+  layer partial165 below partial166
+  layer partial166 below partial167
+  layer partial167 below partial168
+  layer partial168 below partial169
+  layer partial169 below partial20
+  layer partial20 below partial21
+  layer partial21 below partial22
+  layer partial22 below partial23
+  layer partial23 below partial24
+  layer partial24 below partial25
+  layer partial25 below partial26
+  layer partial26 below partial27
+  layer partial27 below partial28
+  layer partial28 below partial29
+  layer partial29 below partial210
+  layer partial210 below partial211
+  layer partial211 below partial212
+  layer partial212 below partial213
+  layer partial213 below partial214
+  layer partial214 below partial215
+  layer partial215 below partial216
+  layer partial216 below partial217
+  layer partial217 below partial218
+  layer partial218 below partial219
+  layer partial219 below partial220
+  layer partial220 below partial221
+  layer partial221 below partial222
+  layer partial222 below partial223
+  layer partial223 below partial224
+  layer partial224 below partial225
+  layer partial225 below partial226
+  layer partial226 below partial227
+  layer partial227 below partial228
+  layer partial228 below partial229
+  layer partial229 below partial230
+  layer partial230 below partial231
+  layer partial231 below partial232
+  layer partial232 below partial233
+  layer partial233 below partial234
+  layer partial234 below partial235
+  layer partial235 below partial236
+  layer partial236 below partial237
+  layer partial237 below partial238
+  layer partial238 below partial239
+  layer partial239 below partial240
+  layer partial240 below partial241
+  layer partial241 below partial242
+  layer partial242 below partial243
+  layer partial243 below partial244
+  layer partial244 below partial245
+  layer partial245 below partial246
+  layer partial246 below partial247
+  layer partial247 below partial248
+  layer partial248 below partial249
+  layer partial249 below partial250
+  layer partial250 below partial251
+  layer partial251 below partial252
+  layer partial252 below partial253
+  layer partial253 below partial254
+  layer partial254 below partial255
+  layer partial255 below partial256
+  layer partial256 below partial257
+  layer partial257 below partial258
+  layer partial258 below partial259
+  layer partial259 below partial260
+  layer partial260 below partial261
+  layer partial261 below partial262
+  layer partial262 below partial263
+  layer partial263 below partial264
+  layer partial264 below partial265
+  layer partial265 below partial266
+  layer partial266 below partial267
+  layer partial267 below partial268
+  layer partial268 below partial269
+  layer partial269 below partial40
+  layer partial40 below partial41
+  layer partial41 below partial42
+  layer partial42 below partial43
+  layer partial43 below partial44
+  layer partial44 below partial45
+  layer partial45 below partial46
+  layer partial46 below partial47
+  layer partial47 below partial48
+  layer partial48 below partial49
+  layer partial49 below partial410
+  layer partial410 below partial411
+  layer partial411 below partial412
+  layer partial412 below partial413
+  layer partial413 below partial414
+  layer partial414 below partial415
+  layer partial415 below partial416
+  layer partial416 below partial417
+  layer partial417 below partial418
+  layer partial418 below partial419
+  layer partial419 below partial420
+  layer partial420 below partial421
+  layer partial421 below partial422
+  layer partial422 below partial423
+  layer partial423 below partial424
+  layer partial424 below partial425
+  layer partial425 below partial426
+  layer partial426 below partial427
+  layer partial427 below partial428
+  layer partial428 below partial429
+  layer partial429 below partial430
+  layer partial430 below partial431
+  layer partial431 below partial432
+  layer partial432 below partial433
+  layer partial433 below partial434
+  layer partial434 below partial435
+  layer partial435 below partial436
+  layer partial436 below partial437
+  layer partial437 below partial438
+  layer partial438 below partial439
+  layer partial439 below partial440
+  layer partial440 below partial441
+  layer partial441 below partial442
+  layer partial442 below partial443
+  layer partial443 below partial444
+  layer partial444 below partial445
+  layer partial445 below partial446
+  layer partial446 below partial447
+  layer partial447 below partial448
+  layer partial448 below partial449
+  layer partial449 below partial450
+  layer partial450 below partial451
+  layer partial451 below partial452
+  layer partial452 below partial453
+  layer partial453 below partial454
+  layer partial454 below partial455
+  layer partial455 below partial456
+  layer partial456 below partial457
+  layer partial457 below partial458
+  layer partial458 below partial459
+  layer partial459 below partial460
+  layer partial460 below partial461
+  layer partial461 below partial462
+  layer partial462 below partial463
+  layer partial463 below partial464
+  layer partial464 below partial465
+  layer partial465 below partial466
+  layer partial466 below partial467
+  layer partial467 below partial468
+  layer partial468 below partial469
+  layer partial469 below partial70
+  layer partial70 below partial71
+  layer partial71 below partial72
+  layer partial72 below partial73
+  layer partial73 below partial74
+  layer partial74 below partial75
+  layer partial75 below partial76
+  layer partial76 below partial77
+  layer partial77 below partial78
+  layer partial78 below partial79
+  layer partial79 below partial710
+  layer partial710 below partial711
+  layer partial711 below partial712
+  layer partial712 below partial713
+  layer partial713 below partial714
+  layer partial714 below partial715
+  layer partial715 below partial716
+  layer partial716 below partial717
+  layer partial717 below partial718
+  layer partial718 below partial719
+  layer partial719 below partial720
+  layer partial720 below partial721
+  layer partial721 below partial722
+  layer partial722 below partial723
+  layer partial723 below partial724
+  layer partial724 below partial725
+  layer partial725 below partial726
+  layer partial726 below partial727
+  layer partial727 below partial728
+  layer partial728 below partial729
+  layer partial729 below partial730
+  layer partial730 below partial731
+  layer partial731 below partial732
+  layer partial732 below partial733
+  layer partial733 below partial734
+  layer partial734 below partial735
+  layer partial735 below partial736
+  layer partial736 below partial737
+  layer partial737 below partial738
+  layer partial738 below partial739
+  layer partial739 below partial740
+  layer partial740 below partial741
+  layer partial741 below partial742
+  layer partial742 below partial743
+  layer partial743 below partial744
+  layer partial744 below partial745
+  layer partial745 below partial746
+  layer partial746 below partial747
+  layer partial747 below partial748
+  layer partial748 below partial749
+  layer partial749 below partial750
+  layer partial750 below partial751
+  layer partial751 below partial752
+  layer partial752 below partial753
+  layer partial753 below partial754
+  layer partial754 below partial755
+  layer partial755 below partial756
+  layer partial756 below partial757
+  layer partial757 below partial758
+  layer partial758 below partial759
+  layer partial759 below partial760
+  layer partial760 below partial761
+  layer partial761 below partial762
+  layer partial762 below partial763
+  layer partial763 below partial764
+  layer partial764 below partial765
+  layer partial765 below partial766
+  layer partial766 below partial767
+  layer partial767 below partial768
+  layer partial768 below partial769
+  layer partial769 below exp0
+  layer exp0 below exp1
+  layer exp1 below exp2
+  layer exp2 below exp3
+  layer exp3 below exp4
+  layer exp4 below exp5
+  layer exp5 below exp6
+  layer exp6 below exp7
+  layer exp7 below exp8
+  layer exp8 below exp9
+  layer exp9 below exp10
+  layer exp10 below exp11
+  layer exp11 below exp12
+  layer exp12 below exp13
+  layer exp13 below exp14
+  layer exp14 below exp15
+  layer exp15 below exp16
+  layer exp16 below exp17
+  layer exp17 below exp18
+  layer exp18 below exp19
+  layer exp19 below exp20
+  layer exp20 below exp21
+  layer exp21 below exp22
+  layer exp22 below exp23
+  layer exp23 below exp24
+  layer exp24 below exp25
+  layer exp25 below exp26
+  layer exp26 below exp27
+  layer exp27 below exp28
+  layer exp28 below exp29
+  layer exp29 below exp30
+  layer exp30 below exp31
+  layer exp31 below exp32
+  layer exp32 below exp33
+  layer exp33 below exp34
+  layer exp34 below exp35
+  layer exp35 below exp36
+  layer exp36 below exp37
+  layer exp37 below exp38
+  layer exp38 below exp39
+  layer exp39 below exp40
+  layer exp40 below exp41
+  layer exp41 below exp42
+  layer exp42 below exp43
+  layer exp43 below exp44
+  layer exp44 below exp45
+  layer exp45 below exp46
+  layer exp46 below exp47
+  layer exp47 below exp48
+  layer exp48 below exp49
+  layer exp49 below exp50
+  layer exp50 below exp51
+  layer exp51 below exp52
+  layer exp52 below exp53
+  layer exp53 below exp54
+  layer exp54 below exp55
+  layer exp55 below exp56
+  layer exp56 below exp57
+  layer exp57 below exp58
+  layer exp58 below exp59
+  layer exp59 below exp60
+  layer exp60 below exp61
+  layer exp61 below exp62
+  layer exp62 below exp63
+  layer exp63 below exp64
+  layer exp64 below exp65
+  layer exp65 below exp66
+  layer exp66 below exp67
+  layer exp67 below exp68
+  layer exp68 below exp69
+}

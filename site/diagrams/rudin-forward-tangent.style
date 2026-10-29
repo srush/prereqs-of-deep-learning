@@ -1,0 +1,87 @@
+-- Text-free illustration; fixed geometry for reproducibility.
+forall Diagram `illustration` {
+  shape path0 = Line {
+    start: (-324.528735891835, 11.628185788510086)
+    end: (-145.47126410816495, 93.37181421148992)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape path1 = Line {
+    start: (-324.528735891835, -11.628185788510086)
+    end: (-145.47126410816495, -93.37181421148992)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape path2 = Line {
+    start: (-94.34759462273871, 93.77707264744818)
+    end: (94.34759462273871, 11.222927352551817)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape path3 = Line {
+    start: (-94.34759462273871, -93.77707264744818)
+    end: (94.34759462273871, -11.222927352551817)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape path4 = Line {
+    start: (148.0, 0.0)
+    end: (322.0, 0.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape node0 = Circle {
+    center: (-350, 0)
+    r: 26
+    fillColor: rgba(0.98,0.92,0.79,0.75)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.6
+  }
+  shape node1 = Circle {
+    center: (-120, 105)
+    r: 26
+    fillColor: rgba(0.98,0.92,0.79,0.75)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.6
+  }
+  shape node2 = Circle {
+    center: (-120, -105)
+    r: 26
+    fillColor: rgba(0.98,0.92,0.79,0.75)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.6
+  }
+  shape node3 = Circle {
+    center: (120, 0)
+    r: 26
+    fillColor: rgba(0.98,0.92,0.79,0.75)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.6
+  }
+  shape node4 = Circle {
+    center: (350, 0)
+    r: 26
+    fillColor: rgba(0.98,0.92,0.79,0.75)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.6
+  }
+  layer path0 below path1
+  layer path1 below path2
+  layer path2 below path3
+  layer path3 below path4
+  layer path4 below node0
+  layer node0 below node1
+  layer node1 below node2
+  layer node2 below node3
+  layer node3 below node4
+}

@@ -1,0 +1,85 @@
+-- Text-free illustration; fixed geometry for reproducibility.
+forall Diagram `illustration` {
+  shape disk0 = Circle {
+    center: (-100, 0)
+    r: 155
+    fillColor: rgba(1,1,1,0)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.6
+  }
+  shape diameter0 = Line {
+    start: (160, -130)
+    end: (346.0, -130)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 3
+  }
+  shape disk1 = Circle {
+    center: (-100, 0)
+    r: 105
+    fillColor: rgba(1,1,1,0)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.6
+  }
+  shape diameter1 = Line {
+    start: (160, -65)
+    end: (286.0, -65)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 3
+  }
+  shape disk2 = Circle {
+    center: (-100, 0)
+    r: 65
+    fillColor: rgba(1,1,1,0)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.6
+  }
+  shape diameter2 = Line {
+    start: (160, 0)
+    end: (238.0, 0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 3
+  }
+  shape disk3 = Circle {
+    center: (-100, 0)
+    r: 35
+    fillColor: rgba(1,1,1,0)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.6
+  }
+  shape diameter3 = Line {
+    start: (160, 65)
+    end: (202.0, 65)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 3
+  }
+  shape disk4 = Circle {
+    center: (-100, 0)
+    r: 15
+    fillColor: rgba(1,1,1,0)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.6
+  }
+  shape diameter4 = Line {
+    start: (160, 130)
+    end: (178.0, 130)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 3
+  }
+  shape point = Circle {
+    center: (-100, 0)
+    r: 4
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.6
+  }
+  layer disk0 below diameter0
+  layer diameter0 below disk1
+  layer disk1 below diameter1
+  layer diameter1 below disk2
+  layer disk2 below diameter2
+  layer diameter2 below disk3
+  layer disk3 below diameter3
+  layer diameter3 below disk4
+  layer disk4 below diameter4
+  layer diameter4 below point
+}

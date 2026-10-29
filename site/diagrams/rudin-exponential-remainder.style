@@ -1,0 +1,2006 @@
+-- Text-free illustration; fixed geometry for reproducibility.
+forall Diagram `illustration` {
+  shape leftX = Line {
+    start: (-400, -95)
+    end: (-100, -95)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.1
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape leftY = Line {
+    start: (-400, -95)
+    end: (-400, 195)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.1
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape exponential0 = Line {
+    start: (-380.0, -56.372658676998554)
+    end: (-376.2857142857143, -55.2531028581529)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential1 = Line {
+    start: (-376.2857142857143, -55.2531028581529)
+    end: (-372.57142857142856, -54.10109838535951)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential2 = Line {
+    start: (-372.57142857142856, -54.10109838535951)
+    end: (-368.85714285714283, -52.91570478282853)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential3 = Line {
+    start: (-368.85714285714283, -52.91570478282853)
+    end: (-365.1428571428571, -51.69595431648342)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential4 = Line {
+    start: (-365.1428571428571, -51.69595431648342)
+    end: (-361.42857142857144, -50.44085120392025)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential5 = Line {
+    start: (-361.42857142857144, -50.44085120392025)
+    end: (-357.7142857142857, -49.14937080146878)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential6 = Line {
+    start: (-357.7142857142857, -49.14937080146878)
+    end: (-354.0, -47.82045876769173)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential7 = Line {
+    start: (-354.0, -47.82045876769173)
+    end: (-350.2857142857143, -46.45303020263939)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential8 = Line {
+    start: (-350.2857142857143, -46.45303020263939)
+    end: (-346.57142857142856, -45.04596876215668)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential9 = Line {
+    start: (-346.57142857142856, -45.04596876215668)
+    end: (-342.8571428571429, -43.598125746519926)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential10 = Line {
+    start: (-342.8571428571429, -43.598125746519926)
+    end: (-339.1428571428571, -42.10831916265886)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential11 = Line {
+    start: (-339.1428571428571, -42.10831916265886)
+    end: (-335.42857142857144, -40.575332759198794)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential12 = Line {
+    start: (-335.42857142857144, -40.575332759198794)
+    end: (-331.7142857142857, -38.997915033534746)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential13 = Line {
+    start: (-331.7142857142857, -38.997915033534746)
+    end: (-328.0, -37.37477821012723)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential14 = Line {
+    start: (-328.0, -37.37477821012723)
+    end: (-324.2857142857143, -35.70459718918528)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential15 = Line {
+    start: (-324.2857142857143, -35.70459718918528)
+    end: (-320.57142857142856, -33.98600846487889)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential16 = Line {
+    start: (-320.57142857142856, -33.98600846487889)
+    end: (-316.85714285714283, -32.217609012197215)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential17 = Line {
+    start: (-316.85714285714283, -32.217609012197215)
+    end: (-313.14285714285717, -30.397955141544116)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential18 = Line {
+    start: (-313.14285714285717, -30.397955141544116)
+    end: (-309.42857142857144, -28.525561320135964)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential19 = Line {
+    start: (-309.42857142857144, -28.525561320135964)
+    end: (-305.7142857142857, -26.598898959239165)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential20 = Line {
+    start: (-305.7142857142857, -26.598898959239165)
+    end: (-302.0, -24.616395166257874)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential21 = Line {
+    start: (-302.0, -24.616395166257874)
+    end: (-298.2857142857143, -22.576431460652614)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential22 = Line {
+    start: (-298.2857142857143, -22.576431460652614)
+    end: (-294.57142857142856, -20.47734245264182)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential23 = Line {
+    start: (-294.57142857142856, -20.47734245264182)
+    end: (-290.85714285714283, -18.317414483607493)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential24 = Line {
+    start: (-290.85714285714283, -18.317414483607493)
+    end: (-287.1428571428571, -16.094884227094965)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential25 = Line {
+    start: (-287.1428571428571, -16.094884227094965)
+    end: (-283.42857142857144, -13.807937249264981)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential26 = Line {
+    start: (-283.42857142857144, -13.807937249264981)
+    end: (-279.7142857142857, -11.45470652762225)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential27 = Line {
+    start: (-279.7142857142857, -11.45470652762225)
+    end: (-276.0, -9.033270926811895)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential28 = Line {
+    start: (-276.0, -9.033270926811895)
+    end: (-272.2857142857143, -6.541653630238997)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential29 = Line {
+    start: (-272.2857142857143, -6.541653630238997)
+    end: (-268.57142857142856, -3.9778205262309285)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential30 = Line {
+    start: (-268.57142857142856, -3.9778205262309285)
+    end: (-264.8571428571429, -1.3396785474250947)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential31 = Line {
+    start: (-264.8571428571429, -1.3396785474250947)
+    end: (-261.14285714285717, 1.3749260379737223)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential32 = Line {
+    start: (-261.14285714285717, 1.3749260379737223)
+    end: (-257.42857142857144, 4.168209384461335)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential33 = Line {
+    start: (-257.42857142857144, 4.168209384461335)
+    end: (-253.71428571428572, 7.042451878463012)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential34 = Line {
+    start: (-253.71428571428572, 7.042451878463012)
+    end: (-250.0, 10.0)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential35 = Line {
+    start: (-250.0, 10.0)
+    end: (-246.2857142857143, 13.043268238313715)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential36 = Line {
+    start: (-246.2857142857143, 13.043268238313715)
+    end: (-242.57142857142856, 16.174741063011552)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential37 = Line {
+    start: (-242.57142857142856, 16.174741063011552)
+    end: (-238.85714285714286, 19.396974952343115)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential38 = Line {
+    start: (-238.85714285714286, 19.396974952343115)
+    end: (-235.14285714285714, 22.71260048026346)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential39 = Line {
+    start: (-235.14285714285714, 22.71260048026346)
+    end: (-231.42857142857144, 26.124324463986298)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential40 = Line {
+    start: (-231.42857142857144, 26.124324463986298)
+    end: (-227.71428571428572, 29.634932173781138)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential41 = Line {
+    start: (-227.71428571428572, 29.634932173781138)
+    end: (-224.0, 33.247289606817844)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential42 = Line {
+    start: (-224.0, 33.247289606817844)
+    end: (-220.28571428571428, 36.96434582691546)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential43 = Line {
+    start: (-220.28571428571428, 36.96434582691546)
+    end: (-216.57142857142858, 40.789135372104965)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential44 = Line {
+    start: (-216.57142857142858, 40.789135372104965)
+    end: (-212.85714285714283, 44.72478073197178)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential45 = Line {
+    start: (-212.85714285714283, 44.72478073197178)
+    end: (-209.14285714285714, 48.77449489679992)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential46 = Line {
+    start: (-209.14285714285714, 48.77449489679992)
+    end: (-205.42857142857144, 52.9415839806002)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential47 = Line {
+    start: (-205.42857142857144, 52.9415839806002)
+    end: (-201.71428571428572, 57.229449920161954)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential48 = Line {
+    start: (-201.71428571428572, 57.229449920161954)
+    end: (-198.0, 61.641593252333365)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential49 = Line {
+    start: (-198.0, 61.641593252333365)
+    end: (-194.28571428571428, 66.18161597179704)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential50 = Line {
+    start: (-194.28571428571428, 66.18161597179704)
+    end: (-190.57142857142858, 70.85322447167371)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential51 = Line {
+    start: (-190.57142857142858, 70.85322447167371)
+    end: (-186.85714285714283, 75.66023256935526)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential52 = Line {
+    start: (-186.85714285714283, 75.66023256935526)
+    end: (-183.14285714285717, 80.60656462003669)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential53 = Line {
+    start: (-183.14285714285717, 80.60656462003669)
+    end: (-179.42857142857142, 85.69625872048951)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential54 = Line {
+    start: (-179.42857142857142, 85.69625872048951)
+    end: (-175.71428571428572, 90.93347000569128)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential55 = Line {
+    start: (-175.71428571428572, 90.93347000569128)
+    end: (-172.0, 96.32247404100346)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential56 = Line {
+    start: (-172.0, 96.32247404100346)
+    end: (-168.28571428571428, 101.86767031266618)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential57 = Line {
+    start: (-168.28571428571428, 101.86767031266618)
+    end: (-164.57142857142856, 107.57358581946005)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential58 = Line {
+    start: (-164.57142857142856, 107.57358581946005)
+    end: (-160.85714285714286, 113.44487876846657)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential59 = Line {
+    start: (-160.85714285714286, 113.44487876846657)
+    end: (-157.14285714285717, 119.48634237794491)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential60 = Line {
+    start: (-157.14285714285717, 119.48634237794491)
+    end: (-153.42857142857144, 125.70290879042955)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential61 = Line {
+    start: (-153.42857142857144, 125.70290879042955)
+    end: (-149.71428571428572, 132.09965309924252)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential62 = Line {
+    start: (-149.71428571428572, 132.09965309924252)
+    end: (-146.0, 138.68179749170912)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential63 = Line {
+    start: (-146.0, 138.68179749170912)
+    end: (-142.28571428571428, 145.45471551245745)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential64 = Line {
+    start: (-142.28571428571428, 145.45471551245745)
+    end: (-138.57142857142856, 152.4239364502844)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential65 = Line {
+    start: (-138.57142857142856, 152.4239364502844)
+    end: (-134.85714285714286, 159.59514985216725)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential66 = Line {
+    start: (-134.85714285714286, 159.59514985216725)
+    end: (-131.14285714285714, 166.97421016810847)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential67 = Line {
+    start: (-131.14285714285714, 166.97421016810847)
+    end: (-127.42857142857143, 174.567141530603)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential68 = Line {
+    start: (-127.42857142857143, 174.567141530603)
+    end: (-123.7142857142857, 182.38014267263264)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape exponential69 = Line {
+    start: (-123.7142857142857, 182.38014267263264)
+    end: (-120.0, 190.41959198819973)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape tangent0 = Line {
+    start: (-380.0, -95.0)
+    end: (-376.2857142857143, -92.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent1 = Line {
+    start: (-376.2857142857143, -92.0)
+    end: (-372.57142857142856, -89.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent2 = Line {
+    start: (-372.57142857142856, -89.0)
+    end: (-368.85714285714283, -86.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent3 = Line {
+    start: (-368.85714285714283, -86.0)
+    end: (-365.1428571428571, -83.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent4 = Line {
+    start: (-365.1428571428571, -83.0)
+    end: (-361.42857142857144, -80.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent5 = Line {
+    start: (-361.42857142857144, -80.0)
+    end: (-357.7142857142857, -77.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent6 = Line {
+    start: (-357.7142857142857, -77.0)
+    end: (-354.0, -74.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent7 = Line {
+    start: (-354.0, -74.0)
+    end: (-350.2857142857143, -71.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent8 = Line {
+    start: (-350.2857142857143, -71.0)
+    end: (-346.57142857142856, -68.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent9 = Line {
+    start: (-346.57142857142856, -68.0)
+    end: (-342.8571428571429, -65.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent10 = Line {
+    start: (-342.8571428571429, -65.0)
+    end: (-339.1428571428571, -62.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent11 = Line {
+    start: (-339.1428571428571, -62.0)
+    end: (-335.42857142857144, -59.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent12 = Line {
+    start: (-335.42857142857144, -59.0)
+    end: (-331.7142857142857, -56.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent13 = Line {
+    start: (-331.7142857142857, -56.0)
+    end: (-328.0, -53.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent14 = Line {
+    start: (-328.0, -53.0)
+    end: (-324.2857142857143, -50.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent15 = Line {
+    start: (-324.2857142857143, -50.0)
+    end: (-320.57142857142856, -47.00000000000001)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent16 = Line {
+    start: (-320.57142857142856, -47.00000000000001)
+    end: (-316.85714285714283, -43.99999999999999)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent17 = Line {
+    start: (-316.85714285714283, -43.99999999999999)
+    end: (-313.14285714285717, -41.00000000000001)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent18 = Line {
+    start: (-313.14285714285717, -41.00000000000001)
+    end: (-309.42857142857144, -38.00000000000001)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent19 = Line {
+    start: (-309.42857142857144, -38.00000000000001)
+    end: (-305.7142857142857, -35.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent20 = Line {
+    start: (-305.7142857142857, -35.0)
+    end: (-302.0, -32.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent21 = Line {
+    start: (-302.0, -32.0)
+    end: (-298.2857142857143, -29.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent22 = Line {
+    start: (-298.2857142857143, -29.0)
+    end: (-294.57142857142856, -26.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent23 = Line {
+    start: (-294.57142857142856, -26.0)
+    end: (-290.85714285714283, -23.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent24 = Line {
+    start: (-290.85714285714283, -23.0)
+    end: (-287.1428571428571, -20.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent25 = Line {
+    start: (-287.1428571428571, -20.0)
+    end: (-283.42857142857144, -17.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent26 = Line {
+    start: (-283.42857142857144, -17.0)
+    end: (-279.7142857142857, -14.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent27 = Line {
+    start: (-279.7142857142857, -14.0)
+    end: (-276.0, -11.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent28 = Line {
+    start: (-276.0, -11.0)
+    end: (-272.2857142857143, -8.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent29 = Line {
+    start: (-272.2857142857143, -8.0)
+    end: (-268.57142857142856, -5.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent30 = Line {
+    start: (-268.57142857142856, -5.0)
+    end: (-264.8571428571429, -2.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent31 = Line {
+    start: (-264.8571428571429, -2.0)
+    end: (-261.14285714285717, 1.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent32 = Line {
+    start: (-261.14285714285717, 1.0)
+    end: (-257.42857142857144, 4.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent33 = Line {
+    start: (-257.42857142857144, 4.0)
+    end: (-253.71428571428572, 7.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent34 = Line {
+    start: (-253.71428571428572, 7.0)
+    end: (-250.0, 10.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent35 = Line {
+    start: (-250.0, 10.0)
+    end: (-246.2857142857143, 12.999999999999986)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent36 = Line {
+    start: (-246.2857142857143, 12.999999999999986)
+    end: (-242.57142857142856, 16.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent37 = Line {
+    start: (-242.57142857142856, 16.0)
+    end: (-238.85714285714286, 18.999999999999986)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent38 = Line {
+    start: (-238.85714285714286, 18.999999999999986)
+    end: (-235.14285714285714, 22.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent39 = Line {
+    start: (-235.14285714285714, 22.0)
+    end: (-231.42857142857144, 25.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent40 = Line {
+    start: (-231.42857142857144, 25.0)
+    end: (-227.71428571428572, 28.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent41 = Line {
+    start: (-227.71428571428572, 28.0)
+    end: (-224.0, 31.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent42 = Line {
+    start: (-224.0, 31.0)
+    end: (-220.28571428571428, 34.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent43 = Line {
+    start: (-220.28571428571428, 34.0)
+    end: (-216.57142857142858, 37.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent44 = Line {
+    start: (-216.57142857142858, 37.0)
+    end: (-212.85714285714283, 40.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent45 = Line {
+    start: (-212.85714285714283, 40.0)
+    end: (-209.14285714285714, 43.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent46 = Line {
+    start: (-209.14285714285714, 43.0)
+    end: (-205.42857142857144, 46.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent47 = Line {
+    start: (-205.42857142857144, 46.0)
+    end: (-201.71428571428572, 49.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent48 = Line {
+    start: (-201.71428571428572, 49.0)
+    end: (-198.0, 52.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent49 = Line {
+    start: (-198.0, 52.0)
+    end: (-194.28571428571428, 55.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent50 = Line {
+    start: (-194.28571428571428, 55.0)
+    end: (-190.57142857142858, 58.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent51 = Line {
+    start: (-190.57142857142858, 58.0)
+    end: (-186.85714285714283, 61.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent52 = Line {
+    start: (-186.85714285714283, 61.0)
+    end: (-183.14285714285717, 64.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent53 = Line {
+    start: (-183.14285714285717, 64.0)
+    end: (-179.42857142857142, 67.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent54 = Line {
+    start: (-179.42857142857142, 67.0)
+    end: (-175.71428571428572, 70.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent55 = Line {
+    start: (-175.71428571428572, 70.0)
+    end: (-172.0, 73.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent56 = Line {
+    start: (-172.0, 73.0)
+    end: (-168.28571428571428, 76.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent57 = Line {
+    start: (-168.28571428571428, 76.0)
+    end: (-164.57142857142856, 79.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent58 = Line {
+    start: (-164.57142857142856, 79.0)
+    end: (-160.85714285714286, 82.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent59 = Line {
+    start: (-160.85714285714286, 82.0)
+    end: (-157.14285714285717, 85.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent60 = Line {
+    start: (-157.14285714285717, 85.0)
+    end: (-153.42857142857144, 88.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent61 = Line {
+    start: (-153.42857142857144, 88.0)
+    end: (-149.71428571428572, 91.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent62 = Line {
+    start: (-149.71428571428572, 91.0)
+    end: (-146.0, 94.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent63 = Line {
+    start: (-146.0, 94.0)
+    end: (-142.28571428571428, 97.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent64 = Line {
+    start: (-142.28571428571428, 97.0)
+    end: (-138.57142857142856, 100.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent65 = Line {
+    start: (-138.57142857142856, 100.0)
+    end: (-134.85714285714286, 103.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent66 = Line {
+    start: (-134.85714285714286, 103.0)
+    end: (-131.14285714285714, 106.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent67 = Line {
+    start: (-131.14285714285714, 106.0)
+    end: (-127.42857142857143, 109.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent68 = Line {
+    start: (-127.42857142857143, 109.0)
+    end: (-123.7142857142857, 112.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape tangent69 = Line {
+    start: (-123.7142857142857, 112.0)
+    end: (-120.0, 115.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  shape contact = Circle {
+    center: (-250, 10)
+    r: 4
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.6
+  }
+  shape rightX = Line {
+    start: (55, -95)
+    end: (410, -95)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.1
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape rightY = Line {
+    start: (55, -95)
+    end: (55, 195)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.1
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape bound0 = Line {
+    start: (94.0, 111.07999999999998)
+    end: (97.8857142857143, 99.47222857142856)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound1 = Line {
+    start: (97.8857142857143, 99.47222857142856)
+    end: (101.77142857142857, 88.2009142857143)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound2 = Line {
+    start: (101.77142857142857, 88.2009142857143)
+    end: (105.65714285714286, 77.26605714285714)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound3 = Line {
+    start: (105.65714285714286, 77.26605714285714)
+    end: (109.54285714285713, 66.66765714285714)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound4 = Line {
+    start: (109.54285714285713, 66.66765714285714)
+    end: (113.42857142857143, 56.40571428571428)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound5 = Line {
+    start: (113.42857142857143, 56.40571428571428)
+    end: (117.3142857142857, 46.4802285714286)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound6 = Line {
+    start: (117.3142857142857, 46.4802285714286)
+    end: (121.2, 36.8912)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound7 = Line {
+    start: (121.2, 36.8912)
+    end: (125.08571428571427, 27.638628571428598)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound8 = Line {
+    start: (125.08571428571427, 27.638628571428598)
+    end: (128.97142857142856, 18.722514285714283)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound9 = Line {
+    start: (128.97142857142856, 18.722514285714283)
+    end: (132.85714285714283, 10.142857142857167)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound10 = Line {
+    start: (132.85714285714283, 10.142857142857167)
+    end: (136.74285714285713, 1.8996571428571372)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound11 = Line {
+    start: (136.74285714285713, 1.8996571428571372)
+    end: (140.62857142857143, -6.0070857142856795)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound12 = Line {
+    start: (140.62857142857143, -6.0070857142856795)
+    end: (144.5142857142857, -13.577371428571425)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound13 = Line {
+    start: (144.5142857142857, -13.577371428571425)
+    end: (148.39999999999998, -20.811199999999985)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound14 = Line {
+    start: (148.39999999999998, -20.811199999999985)
+    end: (152.28571428571428, -27.708571428571418)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound15 = Line {
+    start: (152.28571428571428, -27.708571428571418)
+    end: (156.17142857142858, -34.26948571428571)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound16 = Line {
+    start: (156.17142857142858, -34.26948571428571)
+    end: (160.05714285714288, -40.49394285714286)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound17 = Line {
+    start: (160.05714285714288, -40.49394285714286)
+    end: (163.94285714285712, -46.381942857142846)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound18 = Line {
+    start: (163.94285714285712, -46.381942857142846)
+    end: (167.82857142857142, -51.933485714285716)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound19 = Line {
+    start: (167.82857142857142, -51.933485714285716)
+    end: (171.7142857142857, -57.148571428571415)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound20 = Line {
+    start: (171.7142857142857, -57.148571428571415)
+    end: (175.6, -62.0272)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound21 = Line {
+    start: (175.6, -62.0272)
+    end: (179.48571428571427, -66.56937142857143)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound22 = Line {
+    start: (179.48571428571427, -66.56937142857143)
+    end: (183.37142857142857, -70.77508571428572)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound23 = Line {
+    start: (183.37142857142857, -70.77508571428572)
+    end: (187.25714285714287, -74.64434285714286)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound24 = Line {
+    start: (187.25714285714287, -74.64434285714286)
+    end: (191.14285714285714, -78.17714285714285)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound25 = Line {
+    start: (191.14285714285714, -78.17714285714285)
+    end: (195.0285714285714, -81.3734857142857)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound26 = Line {
+    start: (195.0285714285714, -81.3734857142857)
+    end: (198.9142857142857, -84.23337142857143)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound27 = Line {
+    start: (198.9142857142857, -84.23337142857143)
+    end: (202.79999999999998, -86.7568)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound28 = Line {
+    start: (202.79999999999998, -86.7568)
+    end: (206.68571428571428, -88.94377142857144)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound29 = Line {
+    start: (206.68571428571428, -88.94377142857144)
+    end: (210.57142857142856, -90.7942857142857)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound30 = Line {
+    start: (210.57142857142856, -90.7942857142857)
+    end: (214.45714285714286, -92.30834285714286)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound31 = Line {
+    start: (214.45714285714286, -92.30834285714286)
+    end: (218.34285714285713, -93.48594285714286)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound32 = Line {
+    start: (218.34285714285713, -93.48594285714286)
+    end: (222.22857142857143, -94.32708571428572)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound33 = Line {
+    start: (222.22857142857143, -94.32708571428572)
+    end: (226.11428571428573, -94.83177142857143)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound34 = Line {
+    start: (226.11428571428573, -94.83177142857143)
+    end: (230.0, -95.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound35 = Line {
+    start: (230.0, -95.0)
+    end: (233.88571428571427, -94.83177142857143)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound36 = Line {
+    start: (233.88571428571427, -94.83177142857143)
+    end: (237.77142857142857, -94.32708571428572)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound37 = Line {
+    start: (237.77142857142857, -94.32708571428572)
+    end: (241.65714285714287, -93.48594285714286)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound38 = Line {
+    start: (241.65714285714287, -93.48594285714286)
+    end: (245.54285714285714, -92.30834285714286)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound39 = Line {
+    start: (245.54285714285714, -92.30834285714286)
+    end: (249.42857142857142, -90.79428571428572)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound40 = Line {
+    start: (249.42857142857142, -90.79428571428572)
+    end: (253.31428571428575, -88.94377142857142)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound41 = Line {
+    start: (253.31428571428575, -88.94377142857142)
+    end: (257.2, -86.7568)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound42 = Line {
+    start: (257.2, -86.7568)
+    end: (261.0857142857143, -84.23337142857144)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound43 = Line {
+    start: (261.0857142857143, -84.23337142857144)
+    end: (264.9714285714286, -81.3734857142857)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound44 = Line {
+    start: (264.9714285714286, -81.3734857142857)
+    end: (268.85714285714283, -78.17714285714288)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound45 = Line {
+    start: (268.85714285714283, -78.17714285714288)
+    end: (272.74285714285713, -74.64434285714285)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound46 = Line {
+    start: (272.74285714285713, -74.64434285714285)
+    end: (276.62857142857143, -70.77508571428572)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound47 = Line {
+    start: (276.62857142857143, -70.77508571428572)
+    end: (280.51428571428573, -66.56937142857143)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound48 = Line {
+    start: (280.51428571428573, -66.56937142857143)
+    end: (284.40000000000003, -62.02719999999999)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound49 = Line {
+    start: (284.40000000000003, -62.02719999999999)
+    end: (288.2857142857143, -57.14857142857146)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound50 = Line {
+    start: (288.2857142857143, -57.14857142857146)
+    end: (292.1714285714286, -51.93348571428567)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound51 = Line {
+    start: (292.1714285714286, -51.93348571428567)
+    end: (296.0571428571428, -46.38194285714286)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound52 = Line {
+    start: (296.0571428571428, -46.38194285714286)
+    end: (299.9428571428572, -40.49394285714285)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound53 = Line {
+    start: (299.9428571428572, -40.49394285714285)
+    end: (303.8285714285714, -34.26948571428569)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound54 = Line {
+    start: (303.8285714285714, -34.26948571428569)
+    end: (307.7142857142857, -27.708571428571446)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound55 = Line {
+    start: (307.7142857142857, -27.708571428571446)
+    end: (311.6, -20.811200000000014)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound56 = Line {
+    start: (311.6, -20.811200000000014)
+    end: (315.48571428571427, -13.577371428571425)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound57 = Line {
+    start: (315.48571428571427, -13.577371428571425)
+    end: (319.37142857142857, -6.0070857142856795)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound58 = Line {
+    start: (319.37142857142857, -6.0070857142856795)
+    end: (323.25714285714287, 1.8996571428571798)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound59 = Line {
+    start: (323.25714285714287, 1.8996571428571798)
+    end: (327.1428571428571, 10.142857142857125)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound60 = Line {
+    start: (327.1428571428571, 10.142857142857125)
+    end: (331.02857142857147, 18.722514285714283)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound61 = Line {
+    start: (331.02857142857147, 18.722514285714283)
+    end: (334.9142857142857, 27.638628571428598)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound62 = Line {
+    start: (334.9142857142857, 27.638628571428598)
+    end: (338.8, 36.891200000000026)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound63 = Line {
+    start: (338.8, 36.891200000000026)
+    end: (342.6857142857143, 46.48022857142854)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound64 = Line {
+    start: (342.6857142857143, 46.48022857142854)
+    end: (346.57142857142856, 56.40571428571428)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound65 = Line {
+    start: (346.57142857142856, 56.40571428571428)
+    end: (350.45714285714286, 66.66765714285714)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound66 = Line {
+    start: (350.45714285714286, 66.66765714285714)
+    end: (354.34285714285716, 77.26605714285708)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound67 = Line {
+    start: (354.34285714285716, 77.26605714285708)
+    end: (358.22857142857146, 88.20091428571433)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound68 = Line {
+    start: (358.22857142857146, 88.20091428571433)
+    end: (362.1142857142857, 99.47222857142856)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape bound69 = Line {
+    start: (362.1142857142857, 99.47222857142856)
+    end: (366.0, 111.07999999999998)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.8
+  }
+  shape remainder0 = Line {
+    start: (94.0, -37.65433825303903)
+    end: (97.8857142857143, -40.522091270462866)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder1 = Line {
+    start: (97.8857142857143, -40.522091270462866)
+    end: (101.77142857142857, -43.334600712978535)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder2 = Line {
+    start: (101.77142857142857, -43.334600712978535)
+    end: (105.65714285714286, -46.090589328746276)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder3 = Line {
+    start: (105.65714285714286, -46.090589328746276)
+    end: (109.54285714285713, -48.78875033539248)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder4 = Line {
+    start: (109.54285714285713, -48.78875033539248)
+    end: (113.42857142857143, -51.42774673725273)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder5 = Line {
+    start: (113.42857142857143, -51.42774673725273)
+    end: (117.3142857142857, -54.00621062682942)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder6 = Line {
+    start: (117.3142857142857, -54.00621062682942)
+    end: (121.2, -56.522742470098834)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder7 = Line {
+    start: (121.2, -56.522742470098834)
+    end: (125.08571428571427, -58.97591037529403)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder8 = Line {
+    start: (125.08571428571427, -58.97591037529403)
+    end: (128.97142857142856, -61.36424934478204)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder9 = Line {
+    start: (128.97142857142856, -61.36424934478204)
+    end: (132.85714285714283, -63.686260509643944)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder10 = Line {
+    start: (132.85714285714283, -63.686260509643944)
+    end: (136.74285714285713, -65.94041034655824)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder11 = Line {
+    start: (136.74285714285713, -65.94041034655824)
+    end: (140.62857142857143, -68.12512987657828)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder12 = Line {
+    start: (140.62857142857143, -68.12512987657828)
+    end: (144.5142857142857, -70.23881384538514)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder13 = Line {
+    start: (144.5142857142857, -70.23881384538514)
+    end: (148.39999999999998, -72.2798198845876)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder14 = Line {
+    start: (148.39999999999998, -72.2798198845876)
+    end: (152.28571428571428, -74.24646765363114)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder15 = Line {
+    start: (152.28571428571428, -74.24646765363114)
+    end: (156.17142857142858, -76.13703796186749)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder16 = Line {
+    start: (156.17142857142858, -76.13703796186749)
+    end: (160.05714285714288, -77.94977187032606)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder17 = Line {
+    start: (160.05714285714288, -77.94977187032606)
+    end: (163.94285714285712, -79.68286977271815)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder18 = Line {
+    start: (163.94285714285712, -79.68286977271815)
+    end: (167.82857142857142, -81.33449045519356)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder19 = Line {
+    start: (167.82857142857142, -81.33449045519356)
+    end: (171.7142857142857, -82.9027501343583)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder20 = Line {
+    start: (171.7142857142857, -82.9027501343583)
+    end: (175.6, -84.38572147305108)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder21 = Line {
+    start: (175.6, -84.38572147305108)
+    end: (179.48571428571427, -85.78143257336426)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder22 = Line {
+    start: (179.48571428571427, -85.78143257336426)
+    end: (183.37142857142857, -87.08786594638269)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder23 = Line {
+    start: (183.37142857142857, -87.08786594638269)
+    end: (187.25714285714287, -88.30295745810305)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder24 = Line {
+    start: (187.25714285714287, -88.30295745810305)
+    end: (191.14285714285714, -89.42459525098207)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder25 = Line {
+    start: (191.14285714285714, -89.42459525098207)
+    end: (195.0285714285714, -90.45061864055063)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder26 = Line {
+    start: (195.0285714285714, -90.45061864055063)
+    end: (198.9142857142857, -91.37881698651735)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder27 = Line {
+    start: (198.9142857142857, -91.37881698651735)
+    end: (202.79999999999998, -92.20692853777139)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder28 = Line {
+    start: (202.79999999999998, -92.20692853777139)
+    end: (206.68571428571428, -92.9326392506816)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder29 = Line {
+    start: (206.68571428571428, -92.9326392506816)
+    end: (210.57142857142856, -93.553581580074)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder30 = Line {
+    start: (210.57142857142856, -93.553581580074)
+    end: (214.45714285714286, -94.0673332422565)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder31 = Line {
+    start: (214.45714285714286, -94.0673332422565)
+    end: (218.34285714285713, -94.47141594944404)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder32 = Line {
+    start: (218.34285714285713, -94.47141594944404)
+    end: (222.22857142857143, -94.7632941149234)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder33 = Line {
+    start: (222.22857142857143, -94.7632941149234)
+    end: (226.11428571428573, -94.94037352828072)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder34 = Line {
+    start: (226.11428571428573, -94.94037352828072)
+    end: (230.0, -95.0)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder35 = Line {
+    start: (230.0, -95.0)
+    end: (233.88571428571427, -94.9394579747241)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder36 = Line {
+    start: (233.88571428571427, -94.9394579747241)
+    end: (237.77142857142857, -94.75596911245388)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder37 = Line {
+    start: (237.77142857142857, -94.75596911245388)
+    end: (241.65714285714287, -94.44669083694389)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder38 = Line {
+    start: (241.65714285714287, -94.44669083694389)
+    end: (245.54285714285714, -94.00871485053705)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder39 = Line {
+    start: (245.54285714285714, -94.00871485053705)
+    end: (249.42857142857142, -93.43906561466096)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder40 = Line {
+    start: (249.42857142857142, -93.43906561466096)
+    end: (253.31428571428575, -92.73469879519341)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder41 = Line {
+    start: (253.31428571428575, -92.73469879519341)
+    end: (257.2, -91.89249967188364)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder42 = Line {
+    start: (257.2, -91.89249967188364)
+    end: (261.0857142857143, -90.90928151099928)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder43 = Line {
+    start: (261.0857142857143, -90.90928151099928)
+    end: (264.9714285714286, -89.78178390034799)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder44 = Line {
+    start: (264.9714285714286, -89.78178390034799)
+    end: (268.85714285714283, -88.50667104580423)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder45 = Line {
+    start: (268.85714285714283, -88.50667104580423)
+    end: (272.74285714285713, -87.08053002845118)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder46 = Line {
+    start: (272.74285714285713, -87.08053002845118)
+    end: (276.62857142857143, -85.49986902142722)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder47 = Line {
+    start: (276.62857142857143, -85.49986902142722)
+    end: (280.51428571428573, -83.76111546554489)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder48 = Line {
+    start: (280.51428571428573, -83.76111546554489)
+    end: (284.40000000000003, -81.86061420272986)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder49 = Line {
+    start: (284.40000000000003, -81.86061420272986)
+    end: (288.2857142857143, -79.79462556630429)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder50 = Line {
+    start: (288.2857142857143, -79.79462556630429)
+    end: (292.1714285714286, -77.55932342711645)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder51 = Line {
+    start: (292.1714285714286, -77.55932342711645)
+    end: (296.0571428571428, -75.15079319449671)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder52 = Line {
+    start: (296.0571428571428, -75.15079319449671)
+    end: (299.9428571428572, -72.56502977099436)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder53 = Line {
+    start: (299.9428571428572, -72.56502977099436)
+    end: (303.8285714285714, -69.79793545982764)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder54 = Line {
+    start: (303.8285714285714, -69.79793545982764)
+    end: (307.7142857142857, -66.84531782395283)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder55 = Line {
+    start: (307.7142857142857, -66.84531782395283)
+    end: (311.6, -63.7028874956345)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder56 = Line {
+    start: (311.6, -63.7028874956345)
+    end: (315.48571428571427, -60.366255935372294)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder57 = Line {
+    start: (315.48571428571427, -60.366255935372294)
+    end: (319.37142857142857, -56.83093313901292)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder58 = Line {
+    start: (319.37142857142857, -56.83093313901292)
+    end: (323.25714285714287, -53.09232529184995)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder59 = Line {
+    start: (323.25714285714287, -53.09232529184995)
+    end: (327.1428571428571, -49.14573236848578)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder60 = Line {
+    start: (327.1428571428571, -49.14573236848578)
+    end: (331.02857142857147, -44.98634567720082)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder61 = Line {
+    start: (331.02857142857147, -44.98634567720082)
+    end: (334.9142857142857, -40.6092453475483)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder62 = Line {
+    start: (334.9142857142857, -40.6092453475483)
+    end: (338.8, -36.009397759861145)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder63 = Line {
+    start: (338.8, -36.009397759861145)
+    end: (342.6857142857143, -31.18165291532791)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder64 = Line {
+    start: (342.6857142857143, -31.18165291532791)
+    end: (346.57142857142856, -26.12074174526373)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder65 = Line {
+    start: (346.57142857142856, -26.12074174526373)
+    end: (350.45714285714286, -20.82127335817158)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder66 = Line {
+    start: (350.45714285714286, -20.82127335817158)
+    end: (354.34285714285716, -15.277732223153109)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder67 = Line {
+    start: (354.34285714285716, -15.277732223153109)
+    end: (358.22857142857146, -9.48447528820023)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder68 = Line {
+    start: (358.22857142857146, -9.48447528820023)
+    end: (362.1142857142857, -3.4357290318600064)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape remainder69 = Line {
+    start: (362.1142857142857, -3.4357290318600064)
+    end: (366.0, 2.874413553267601)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  layer leftX below leftY
+  layer leftY below exponential0
+  layer exponential0 below exponential1
+  layer exponential1 below exponential2
+  layer exponential2 below exponential3
+  layer exponential3 below exponential4
+  layer exponential4 below exponential5
+  layer exponential5 below exponential6
+  layer exponential6 below exponential7
+  layer exponential7 below exponential8
+  layer exponential8 below exponential9
+  layer exponential9 below exponential10
+  layer exponential10 below exponential11
+  layer exponential11 below exponential12
+  layer exponential12 below exponential13
+  layer exponential13 below exponential14
+  layer exponential14 below exponential15
+  layer exponential15 below exponential16
+  layer exponential16 below exponential17
+  layer exponential17 below exponential18
+  layer exponential18 below exponential19
+  layer exponential19 below exponential20
+  layer exponential20 below exponential21
+  layer exponential21 below exponential22
+  layer exponential22 below exponential23
+  layer exponential23 below exponential24
+  layer exponential24 below exponential25
+  layer exponential25 below exponential26
+  layer exponential26 below exponential27
+  layer exponential27 below exponential28
+  layer exponential28 below exponential29
+  layer exponential29 below exponential30
+  layer exponential30 below exponential31
+  layer exponential31 below exponential32
+  layer exponential32 below exponential33
+  layer exponential33 below exponential34
+  layer exponential34 below exponential35
+  layer exponential35 below exponential36
+  layer exponential36 below exponential37
+  layer exponential37 below exponential38
+  layer exponential38 below exponential39
+  layer exponential39 below exponential40
+  layer exponential40 below exponential41
+  layer exponential41 below exponential42
+  layer exponential42 below exponential43
+  layer exponential43 below exponential44
+  layer exponential44 below exponential45
+  layer exponential45 below exponential46
+  layer exponential46 below exponential47
+  layer exponential47 below exponential48
+  layer exponential48 below exponential49
+  layer exponential49 below exponential50
+  layer exponential50 below exponential51
+  layer exponential51 below exponential52
+  layer exponential52 below exponential53
+  layer exponential53 below exponential54
+  layer exponential54 below exponential55
+  layer exponential55 below exponential56
+  layer exponential56 below exponential57
+  layer exponential57 below exponential58
+  layer exponential58 below exponential59
+  layer exponential59 below exponential60
+  layer exponential60 below exponential61
+  layer exponential61 below exponential62
+  layer exponential62 below exponential63
+  layer exponential63 below exponential64
+  layer exponential64 below exponential65
+  layer exponential65 below exponential66
+  layer exponential66 below exponential67
+  layer exponential67 below exponential68
+  layer exponential68 below exponential69
+  layer exponential69 below tangent0
+  layer tangent0 below tangent1
+  layer tangent1 below tangent2
+  layer tangent2 below tangent3
+  layer tangent3 below tangent4
+  layer tangent4 below tangent5
+  layer tangent5 below tangent6
+  layer tangent6 below tangent7
+  layer tangent7 below tangent8
+  layer tangent8 below tangent9
+  layer tangent9 below tangent10
+  layer tangent10 below tangent11
+  layer tangent11 below tangent12
+  layer tangent12 below tangent13
+  layer tangent13 below tangent14
+  layer tangent14 below tangent15
+  layer tangent15 below tangent16
+  layer tangent16 below tangent17
+  layer tangent17 below tangent18
+  layer tangent18 below tangent19
+  layer tangent19 below tangent20
+  layer tangent20 below tangent21
+  layer tangent21 below tangent22
+  layer tangent22 below tangent23
+  layer tangent23 below tangent24
+  layer tangent24 below tangent25
+  layer tangent25 below tangent26
+  layer tangent26 below tangent27
+  layer tangent27 below tangent28
+  layer tangent28 below tangent29
+  layer tangent29 below tangent30
+  layer tangent30 below tangent31
+  layer tangent31 below tangent32
+  layer tangent32 below tangent33
+  layer tangent33 below tangent34
+  layer tangent34 below tangent35
+  layer tangent35 below tangent36
+  layer tangent36 below tangent37
+  layer tangent37 below tangent38
+  layer tangent38 below tangent39
+  layer tangent39 below tangent40
+  layer tangent40 below tangent41
+  layer tangent41 below tangent42
+  layer tangent42 below tangent43
+  layer tangent43 below tangent44
+  layer tangent44 below tangent45
+  layer tangent45 below tangent46
+  layer tangent46 below tangent47
+  layer tangent47 below tangent48
+  layer tangent48 below tangent49
+  layer tangent49 below tangent50
+  layer tangent50 below tangent51
+  layer tangent51 below tangent52
+  layer tangent52 below tangent53
+  layer tangent53 below tangent54
+  layer tangent54 below tangent55
+  layer tangent55 below tangent56
+  layer tangent56 below tangent57
+  layer tangent57 below tangent58
+  layer tangent58 below tangent59
+  layer tangent59 below tangent60
+  layer tangent60 below tangent61
+  layer tangent61 below tangent62
+  layer tangent62 below tangent63
+  layer tangent63 below tangent64
+  layer tangent64 below tangent65
+  layer tangent65 below tangent66
+  layer tangent66 below tangent67
+  layer tangent67 below tangent68
+  layer tangent68 below tangent69
+  layer tangent69 below contact
+  layer contact below rightX
+  layer rightX below rightY
+  layer rightY below bound0
+  layer bound0 below bound1
+  layer bound1 below bound2
+  layer bound2 below bound3
+  layer bound3 below bound4
+  layer bound4 below bound5
+  layer bound5 below bound6
+  layer bound6 below bound7
+  layer bound7 below bound8
+  layer bound8 below bound9
+  layer bound9 below bound10
+  layer bound10 below bound11
+  layer bound11 below bound12
+  layer bound12 below bound13
+  layer bound13 below bound14
+  layer bound14 below bound15
+  layer bound15 below bound16
+  layer bound16 below bound17
+  layer bound17 below bound18
+  layer bound18 below bound19
+  layer bound19 below bound20
+  layer bound20 below bound21
+  layer bound21 below bound22
+  layer bound22 below bound23
+  layer bound23 below bound24
+  layer bound24 below bound25
+  layer bound25 below bound26
+  layer bound26 below bound27
+  layer bound27 below bound28
+  layer bound28 below bound29
+  layer bound29 below bound30
+  layer bound30 below bound31
+  layer bound31 below bound32
+  layer bound32 below bound33
+  layer bound33 below bound34
+  layer bound34 below bound35
+  layer bound35 below bound36
+  layer bound36 below bound37
+  layer bound37 below bound38
+  layer bound38 below bound39
+  layer bound39 below bound40
+  layer bound40 below bound41
+  layer bound41 below bound42
+  layer bound42 below bound43
+  layer bound43 below bound44
+  layer bound44 below bound45
+  layer bound45 below bound46
+  layer bound46 below bound47
+  layer bound47 below bound48
+  layer bound48 below bound49
+  layer bound49 below bound50
+  layer bound50 below bound51
+  layer bound51 below bound52
+  layer bound52 below bound53
+  layer bound53 below bound54
+  layer bound54 below bound55
+  layer bound55 below bound56
+  layer bound56 below bound57
+  layer bound57 below bound58
+  layer bound58 below bound59
+  layer bound59 below bound60
+  layer bound60 below bound61
+  layer bound61 below bound62
+  layer bound62 below bound63
+  layer bound63 below bound64
+  layer bound64 below bound65
+  layer bound65 below bound66
+  layer bound66 below bound67
+  layer bound67 below bound68
+  layer bound68 below bound69
+  layer bound69 below remainder0
+  layer remainder0 below remainder1
+  layer remainder1 below remainder2
+  layer remainder2 below remainder3
+  layer remainder3 below remainder4
+  layer remainder4 below remainder5
+  layer remainder5 below remainder6
+  layer remainder6 below remainder7
+  layer remainder7 below remainder8
+  layer remainder8 below remainder9
+  layer remainder9 below remainder10
+  layer remainder10 below remainder11
+  layer remainder11 below remainder12
+  layer remainder12 below remainder13
+  layer remainder13 below remainder14
+  layer remainder14 below remainder15
+  layer remainder15 below remainder16
+  layer remainder16 below remainder17
+  layer remainder17 below remainder18
+  layer remainder18 below remainder19
+  layer remainder19 below remainder20
+  layer remainder20 below remainder21
+  layer remainder21 below remainder22
+  layer remainder22 below remainder23
+  layer remainder23 below remainder24
+  layer remainder24 below remainder25
+  layer remainder25 below remainder26
+  layer remainder26 below remainder27
+  layer remainder27 below remainder28
+  layer remainder28 below remainder29
+  layer remainder29 below remainder30
+  layer remainder30 below remainder31
+  layer remainder31 below remainder32
+  layer remainder32 below remainder33
+  layer remainder33 below remainder34
+  layer remainder34 below remainder35
+  layer remainder35 below remainder36
+  layer remainder36 below remainder37
+  layer remainder37 below remainder38
+  layer remainder38 below remainder39
+  layer remainder39 below remainder40
+  layer remainder40 below remainder41
+  layer remainder41 below remainder42
+  layer remainder42 below remainder43
+  layer remainder43 below remainder44
+  layer remainder44 below remainder45
+  layer remainder45 below remainder46
+  layer remainder46 below remainder47
+  layer remainder47 below remainder48
+  layer remainder48 below remainder49
+  layer remainder49 below remainder50
+  layer remainder50 below remainder51
+  layer remainder51 below remainder52
+  layer remainder52 below remainder53
+  layer remainder53 below remainder54
+  layer remainder54 below remainder55
+  layer remainder55 below remainder56
+  layer remainder56 below remainder57
+  layer remainder57 below remainder58
+  layer remainder58 below remainder59
+  layer remainder59 below remainder60
+  layer remainder60 below remainder61
+  layer remainder61 below remainder62
+  layer remainder62 below remainder63
+  layer remainder63 below remainder64
+  layer remainder64 below remainder65
+  layer remainder65 below remainder66
+  layer remainder66 below remainder67
+  layer remainder67 below remainder68
+  layer remainder68 below remainder69
+}

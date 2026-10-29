@@ -230,30 +230,6 @@ def IsCompact (M : Metric (R := R) X) (K : PointSet X) : Prop :=
     (∀ x, K x → ∃ i, U i x) →
     ∃ selected : List I, ∀ x, K x → ∃ i, i ∈ selected ∧ U i x
 
--- Rudin, observation after Definition 2.32 that finite sets are
--- compact; singleton case.
-theorem compact_singleton (M : Metric (R := R) X) (a : X) :
-    IsCompact M (fun x => x = a) := by
-  intro I U _ cover
-  obtain ⟨i, hi⟩ := cover a rfl
-  exact ⟨[i], fun x hx => ⟨i, by simp, by simpa [hx] using hi⟩⟩
-
--- Open-cover helper from Rudin Definition 2.32: a union of two compact
--- sets is compact; not a separately numbered theorem here.
-theorem compact_union (M : Metric (R := R) X) (K L : PointSet X)
-    (hK : IsCompact M K) (hL : IsCompact M L) :
-    IsCompact M (fun x => K x ∨ L x) := by
-  intro I U hopen cover
-  obtain ⟨ks, hk⟩ := hK I U hopen (fun x hx => cover x (Or.inl hx))
-  obtain ⟨ls, hl⟩ := hL I U hopen (fun x hx => cover x (Or.inr hx))
-  refine ⟨ks ++ ls, ?_⟩
-  intro x hx
-  rcases hx with hx | hx
-  · obtain ⟨i, hi, hu⟩ := hk x hx
-    exact ⟨i, List.mem_append_left _ hi, hu⟩
-  · obtain ⟨i, hi, hu⟩ := hl x hx
-    exact ⟨i, List.mem_append_right _ hi, hu⟩
-
 -- Helper for Rudin Theorem 2.34: choose a common positive radius for
 -- finitely many neighborhoods.
 theorem finite_positive_radius (rs : I → R) (selected : List I)
@@ -751,15 +727,12 @@ def IsCauchy (M : Metric (R := R) X) (s : Nat → X) : Prop :=
   ∀ ε : R, 0 < ε → ∃ N : Nat,
     ∀ m n, N ≤ m → N ≤ n → M.dist (s m) (s n) < ε
 
--- Immediate example of Rudin Definition 3.8; no separate numbered
--- theorem.
-theorem constant_cauchy (M : Metric (R := R) X) (x : X) :
-    IsCauchy M (fun _ => x) := by
-  intro ε hε
-  exact ⟨0, fun _ _ _ _ => by simpa [(M.zero_iff x x).mpr rfl] using hε⟩
-
 /-!
 ### Diameter
+
+![Nested disks and successively shorter diameter segments.](site/diagrams/rudin-shrinking-diameter.svg)
+
+*Nested closed disks shrink to one point; their diameters tend to zero.*
 -/
 
 -- The least upper bound of all distances between points of E.
@@ -1022,14 +995,6 @@ def partialSum (a : Nat → R) : Nat → R
 
 -- Finite-sum identity underlying Rudin Theorem 3.47; this is not yet
 -- the infinite-series limit statement.
-theorem partialSum_add (a b : Nat → R) (n : Nat) :
-    partialSum (fun k => a k + b k) n = partialSum a n + partialSum b n := by
-  induction n with
-  | zero => simp only [partialSum]; grind [smaller]
-  | succ n ih => simp only [partialSum, ih]; grind [smaller]
-
--- Finite-sum identity underlying Rudin Theorem 3.47; this is not yet
--- the infinite-series limit statement.
 theorem partialSum_scale (c : R) (a : Nat → R) (n : Nat) :
     partialSum (fun k => c * a k) n = c * partialSum a n := by
   induction n with
@@ -1048,14 +1013,6 @@ theorem series_cauchy_iff_converges (a : Nat → R) :
   · exact real_complete (partialSum a)
   · rintro ⟨l,hl⟩
     exact convergent_cauchy _ _ _ hl
-
--- Finite-sum helper for Rudin Theorem 3.24: nonnegative terms give
--- nonnegative partial sums.
-theorem partialSum_nonneg (a : Nat → R) (ha : ∀ n, 0≤a n) (n : Nat) :
-    0≤partialSum a n := by
-  induction n with
-  | zero => simp only [partialSum]; grind
-  | succ n ih => have := ha n; simp only [partialSum]; grind
 
 -- Proof step for Rudin Theorem 3.24: partial sums of nonnegative terms
 -- are increasing.
@@ -1218,6 +1175,10 @@ theorem reciprocalFactorial_step (n : Nat) :
 
 /-!
 ## The Ratio Test
+
+![A row of disks whose radii shrink by a fixed factor.](site/diagrams/rudin-ratio-test.svg)
+
+*A fixed ratio below one gives a geometric bound on the tail.*
 -/
 
 -- Geometric-tail estimate in the proof of Rudin Theorem 3.34(a).
@@ -1285,28 +1246,21 @@ theorem series_bounded_of_half (a : Nat → R) (ha : ∀ n, 0≤a n)
 
 /-!
 ## Power Series
+
+![Exponential partial sums approaching the exponential curve.](site/diagrams/rudin-power-series.svg)
+
+*Adding more terms brings the amber partial sums toward the blue exponential curve.*
 -/
 
 def expPartial (x : R) (n : Nat) : R :=
   partialSum (fun k => x ^ k * reciprocalFactorial k) n
 
-abbrev FormalSeries := Nat → R
-
-def formalDerivative (a : FormalSeries (R:=R)) : FormalSeries (R:=R) :=
-  fun n => (n + 1 : Nat) * a (n + 1)
-
--- Coefficient identity for the series in Rudin Chapter 8, (25), and the
--- derivative coefficients in Theorem 8.1, (5). This is formal algebra,
--- not yet analytic differentiation.
-theorem exp_coefficients_differentiate_to_self :
-    formalDerivative (reciprocalFactorial (R:=R)) = reciprocalFactorial := by
-  funext n
-  have h := reciprocalFactorial_step (R:=R) n
-  dsimp [formalDerivative]
-  grind [smaller]
-
 /-!
 ## Absolute Convergence
+
+![Alternating signed terms above, and their absolute values below.](site/diagrams/rudin-absolute-series.svg)
+
+*Taking absolute values removes cancellation. If the lower series converges, so does the upper one.*
 -/
 
 -- Rudin Theorem 3.45, real case: absolute convergence implies
@@ -1580,19 +1534,6 @@ theorem hasLimit_sub (M : Metric (R:=R) X) (E : PointSet X) (f g : X → R) (p :
   have heq : ∀ u v : R, u+ -1*v=u-v := by intro u v; grind
   simpa only [heq] using h
 
--- Locality helper from Rudin Definition 4.1: agreement near the limit
--- point preserves the limit; no separate theorem.
-theorem hasLimit_local_congr (M : Metric (R:=R) X) (N : Metric (R:=R) Y)
-    (E : PointSet X) (f g : X → Y) (p : X) (q : Y) (ρ : R) (hρ : 0<ρ)
-    (same : ∀ x, E x → 0<M.dist x p → M.dist x p<ρ → f x=g x)
-    (hg : HasLimit M N E g p q) : HasLimit M N E f p q := by
-  intro ε hε
-  obtain ⟨δ,hδ,hgδ⟩ := hg ε hε
-  refine ⟨smaller δ ρ,by grind [smaller],?_⟩
-  intro x hx hp hd
-  rw [same x hx hp (by grind [smaller])]
-  exact hgδ x hx hp (by grind [smaller])
-
 /-!
 ## Continuous Functions
 
@@ -1699,33 +1640,12 @@ theorem continuous_div (M : Metric (R:=R) X) (E : PointSet X) (f g : X → R) (p
   continuous_of_limit M realMetric E _ p (hasLimit_div M E f g p (f p) (g p)
     (continuous_to_limit M realMetric E f p hf) (continuous_to_limit M realMetric E g p hg) hgp)
 
--- Constant-function observation in Rudin Examples 4.11, stated for
--- arbitrary metric targets.
-theorem continuous_const (M : Metric (R:=R) X) (N : Metric (R:=R) Y)
-    (E : PointSet X) (c : Y) (p : X) : ContinuousAt M N E (fun _ => c) p := by
-  intro ε hε
-  exact ⟨1,by grind,fun _ _ _ => by simpa [(N.zero_iff c c).mpr rfl] using hε⟩
-
--- Identity/coordinate-function observation in Rudin Examples 4.11,
--- stated for any metric space.
-theorem continuous_id (M : Metric (R:=R) X) (E : PointSet X) (p : X) :
-    ContinuousAt M M E (fun x => x) p := by
-  intro ε hε
-  exact ⟨ε,hε,fun _ _ h => h⟩
-
--- Monomial construction in Rudin Examples 4.11 via repeated use of
--- Theorem 4.9; here applied to any continuous real function.
-theorem continuous_pow (M : Metric (R:=R) X) (E : PointSet X) (f : X → R) (p : X)
-    (hf : ContinuousAt M realMetric E f p) (n : Nat) :
-    ContinuousAt M realMetric E (fun x => (f x)^n) p := by
-  induction n with
-  | zero =>
-    simpa only [Lean.Grind.Semiring.pow_zero] using continuous_const M realMetric E (1:R) p
-  | succ n ih =>
-    simpa only [Lean.Grind.Semiring.pow_succ] using continuous_mul M E (fun x => (f x)^n) f p ih hf
-
 /-!
 ## Continuity and Compactness
+
+![A closed disk maps continuously to a closed oval.](site/diagrams/rudin-compact-image.svg)
+
+*A continuous map carries a compact set to a compact image.*
 -/
 
 -- Rudin Theorem 4.14: the continuous image of a compact space is
@@ -1822,14 +1742,6 @@ theorem limit_sub (f g : R → R) (a b : R)
   obtain ⟨hg,hg0⟩ := (limitAtZero_iff g b).mp hg
   exact (limitAtZero_iff _ _).mpr
     ⟨hasLimit_sub realMetric (fun _ => True) f g 0 a b hf hg,by rw [hf0,hg0]⟩
-
--- Rudin Theorem 4.9, quotient clause with numerator 1, expressed using
--- LimitAtZero.
-theorem limit_inv (f : R → R) (a : R) (ha : a≠0)
-    (hf : LimitAtZero f a) : LimitAtZero (fun h => 1/f h) (1/a) := by
-  obtain ⟨hf,hf0⟩ := (limitAtZero_iff f a).mp hf
-  exact (limitAtZero_iff _ _).mpr
-    ⟨hasLimit_inv realMetric (fun _ => True) f 0 a hf ha,by rw [hf0]⟩
 
 -- Rudin Theorem 4.9, quotient clause, expressed using LimitAtZero.
 theorem limit_div (f g : R → R) (a b : R) (hb : b≠0)
@@ -2013,6 +1925,10 @@ theorem continuous_increment_limit (f : R → R) (x : R)
 
 /-!
 ## The Arithmetic of Derivatives
+
+![A rectangle grows by two thin strips and a small corner.](site/diagrams/rudin-product-rule.svg)
+
+*The product changes by two thin strips; the corner is second-order.*
 -/
 
 -- Rudin Theorem 5.3(a): derivative of a sum, for functions on the real
@@ -2084,6 +2000,10 @@ theorem derivative_div (f g : R → R) (x a b : R)
 
 /-!
 ## Elementary Examples
+
+![A line, parabola, and reciprocal curve with tangent segments.](site/diagrams/rudin-elementary-derivatives.svg)
+
+*A line keeps the same slope; the parabola and reciprocal curve have changing slopes.*
 -/
 
 -- Helper from Rudin Definition 5.1 for the constant and linear cases in
@@ -2172,6 +2092,10 @@ theorem derivative_comp (f g : R → R) (x a b : R)
 # Some Special Functions
 
 ## Differentiation of the Exponential Series
+
+![An exponential curve and tangent, beside the remainder and a quadratic upper bound.](site/diagrams/rudin-exponential-remainder.svg)
+
+*The curve meets its tangent on the left. On the right, the blue error stays below an amber quadratic bound.*
 -/
 
 -- Rudin, real absolute-value formula after Definition 1.32, nonnegative
@@ -2533,6 +2457,10 @@ theorem derivative_exp (x : R) : HasDerivative exp x (exp x) := by
 
 /-!
 ## Sigmoid and Two-Class Softmax
+
+![A sigmoid curve with its bell-shaped derivative.](site/diagrams/rudin-sigmoid-slope.svg)
+
+*The blue sigmoid flattens at both ends; its amber derivative peaks in the middle.*
 -/
 
 -- Application of Rudin Theorems 5.3 and 5.5 to the exponential
@@ -2605,6 +2533,10 @@ def Regular (exponential : R → R) (θ : Nat → R) : Expr R → Prop
 
 /-!
 ## Forward Differentiation
+
+![An input perturbation travels forward through a branching computation.](site/diagrams/rudin-forward-tangent.svg)
+
+*An input perturbation travels forward. Each operation combines the changes arriving from its inputs.*
 -/
 
 def tangent (exponential : R → R) (θ seed : Nat → R) : Expr R → R
@@ -2664,16 +2596,15 @@ def sum : List (Expr R) → Expr R
 
 /-!
 ## Softmax
+
+![Three scores become positive exponential weights and then normalized shares.](site/diagrams/rudin-softmax-normalization.svg)
+
+*Scores become positive weights, then shares that sum to one.*
 -/
 
 def softmax (first : Expr R) (rest : List (Expr R)) : Expr R :=
   let weight := Expr.exp first
   .mul weight (.inv (.add weight (sum (rest.map Expr.exp))))
-
--- Algebra for the softmax application of Rudin Theorem 5.3(c); this
--- identity itself is not a Rudin theorem.
-theorem softmax_scalar_rule (w dz Z T : R) (hZ : Z ≠ 0) :
-    (w * dz * Z - w * T) / (Z * Z) = (w / Z) * (dz - T / Z) := by grind [smaller]
 
 /-!
 ## A Multilayer Perceptron
@@ -2713,15 +2644,6 @@ def squaredLoss (prediction : Expr R) (target : R) : Expr R :=
 
 def trainingLoss (x y : R) : Expr R :=
   squaredLoss (mlp parameterLeaves (.const x)) y
-
--- Additional MLP instance of the backpropagation identity; no
--- corresponding Rudin theorem.
-theorem mlp_backward_eq_tangent (exponential : R → R) (θ : Nat → R)
-    (x y : R) (i : Nat) :
-    backward exponential θ (trainingLoss x y) 1 i =
-      tangent exponential θ (fun j => if i = j then 1 else 0) (trainingLoss x y) := by
-  have h := backward_eq_tangent exponential θ (trainingLoss x y) 1 i
-  grind [smaller]
 
 /-!
 ## Backpropagation Gives the Derivative

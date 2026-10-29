@@ -1,0 +1,108 @@
+-- Text-free illustration; fixed geometry for reproducibility.
+forall Diagram `illustration` {
+  shape source = Circle {
+    center: (-245, 0)
+    r: 125
+    fillColor: rgba(0.88,0.94,0.97,0.65)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.6
+  }
+  shape image = Ellipse {
+    center: (245, 0)
+    rx: 155
+    ry: 90
+    fillColor: rgba(0.98,0.92,0.79,0.75)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.6
+  }
+  shape map = Line {
+    start: (-75, 0)
+    end: (55, 0)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.8
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape p0 = Circle {
+    center: (-320.0, -37.5)
+    r: 4
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.6
+  }
+  shape q0 = Circle {
+    center: (152.0, -27.0)
+    r: 4
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.6
+  }
+  shape p1 = Circle {
+    center: (-288.75, 62.5)
+    r: 4
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.6
+  }
+  shape q1 = Circle {
+    center: (190.75, 45.0)
+    r: 4
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.6
+  }
+  shape p2 = Circle {
+    center: (-226.25, -68.75)
+    r: 4
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.6
+  }
+  shape q2 = Circle {
+    center: (268.25, -49.50000000000001)
+    r: 4
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.6
+  }
+  shape p3 = Circle {
+    center: (-182.5, 37.5)
+    r: 4
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.6
+  }
+  shape q3 = Circle {
+    center: (322.5, 27.0)
+    r: 4
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.6
+  }
+  shape p4 = Circle {
+    center: (-245, 0)
+    r: 4
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.6
+  }
+  shape q4 = Circle {
+    center: (245, 0)
+    r: 4
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.6
+  }
+  layer source below image
+  layer image below map
+  layer map below p0
+  layer p0 below q0
+  layer q0 below p1
+  layer p1 below q1
+  layer q1 below p2
+  layer p2 below q2
+  layer q2 below p3
+  layer p3 below q3
+  layer q3 below p4
+  layer p4 below q4
+}

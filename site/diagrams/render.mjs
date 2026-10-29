@@ -5,6 +5,18 @@ import { chromium } from "playwright";
 
 const root = new URL("./", import.meta.url);
 const descriptions = {
+  "rudin-shrinking-diameter": "Nested disks and successively shorter diameter segments.",
+  "rudin-ratio-test": "A row of disks whose radii shrink by a fixed factor.",
+  "rudin-power-series": "Exponential partial sums approaching the exponential curve.",
+  "rudin-absolute-series": "Alternating signed terms above, and their absolute values below.",
+  "rudin-compact-image": "A closed disk maps continuously to a closed oval.",
+  "rudin-product-rule": "A rectangle grows by two thin strips and a small corner.",
+  "rudin-elementary-derivatives": "A line, parabola, and reciprocal curve with tangent segments.",
+  "rudin-exponential-remainder": "An exponential curve and tangent, beside the remainder and a quadratic upper bound.",
+  "rudin-sigmoid-slope": "A sigmoid curve with its bell-shaped derivative.",
+  "rudin-forward-tangent": "An input perturbation travels forward through a branching computation.",
+  "rudin-softmax-normalization": "Three scores become positive exponential weights and then normalized shares.",
+
   "rudin-backprop-derivative": "Blue arrows carry values forward; amber arrows carry sensitivities backward through branching paths.",
   "rudin-mlp-gradient": "A small neural network with one amber weight, beside a loss curve and its amber tangent.",
 

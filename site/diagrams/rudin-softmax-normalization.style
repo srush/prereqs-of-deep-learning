@@ -1,0 +1,122 @@
+-- Text-free illustration; fixed geometry for reproducibility.
+forall Diagram `illustration` {
+  shape baseline0 = Line {
+    start: (-400, -90)
+    end: (-200, -90)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1
+  }
+  shape bar0n0 = Rectangle {
+    center: (-365, -120.0)
+    width: 38
+    height: 60.0
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.3
+  }
+  shape bar0n1 = Rectangle {
+    center: (-300, -70.0)
+    width: 38
+    height: 40.0
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.3
+  }
+  shape bar0n2 = Rectangle {
+    center: (-235, -30.0)
+    width: 38
+    height: 120.0
+    fillColor: rgba(0.33,0.48,0.36,1)
+    strokeColor: rgba(0.33,0.48,0.36,1)
+    strokeWidth: 1.3
+  }
+  shape baseline1 = Line {
+    start: (-100, -90)
+    end: (100, -90)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1
+  }
+  shape bar1n0 = Rectangle {
+    center: (-65, -72.16362182694414)
+    width: 38
+    height: 35.67275634611172
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.3
+  }
+  shape bar1n1 = Rectangle {
+    center: (0, -41.51569732665871)
+    width: 38
+    height: 96.96860534668258
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.3
+  }
+  shape bar1n2 = Rectangle {
+    center: (65, 17.90379998893779)
+    width: 38
+    height: 215.80759997787558
+    fillColor: rgba(0.33,0.48,0.36,1)
+    strokeColor: rgba(0.33,0.48,0.36,1)
+    strokeWidth: 1.3
+  }
+  shape baseline2 = Line {
+    start: (200, -90)
+    end: (400, -90)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1
+  }
+  shape bar2n0 = Rectangle {
+    center: (235, -77.20301957025661)
+    width: 38
+    height: 25.593960859486767
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.3
+  }
+  shape bar2n1 = Rectangle {
+    center: (300, -55.214200638682534)
+    width: 38
+    height: 69.57159872263493
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.3
+  }
+  shape bar2n2 = Rectangle {
+    center: (365, -12.582779791060844)
+    width: 38
+    height: 154.8344404178783
+    fillColor: rgba(0.33,0.48,0.36,1)
+    strokeColor: rgba(0.33,0.48,0.36,1)
+    strokeWidth: 1.3
+  }
+  shape map0 = Line {
+    start: (-160, 160)
+    end: (-125, 160)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.6
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape map1 = Line {
+    start: (140, 160)
+    end: (175, 160)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.6
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  layer baseline0 below bar0n0
+  layer bar0n0 below bar0n1
+  layer bar0n1 below bar0n2
+  layer bar0n2 below baseline1
+  layer baseline1 below bar1n0
+  layer bar1n0 below bar1n1
+  layer bar1n1 below bar1n2
+  layer bar1n2 below baseline2
+  layer baseline2 below bar2n0
+  layer bar2n0 below bar2n1
+  layer bar2n1 below bar2n2
+  layer bar2n2 below map0
+  layer map0 below map1
+}

@@ -14,9 +14,7 @@ variable {R : Type} [RealNumbers R]
 
 ## Tech Tree
 
-![A dependency tree from reals through topology, limits, series, derivatives, e, and exp to backpropagation and verified neural-network gradients.](site/diagrams/rudin-tech-tree.svg)
-
-*Arrows show the main prerequisites in this note. Series build e and exp(x); derivative rules and the exponential derivative lead to verified MLP gradients.*
+![Metric spaces, limits, series, and derivatives lead to exp and neural networks.](site/diagrams/rudin-tech-tree.svg)
 -/
 
 /-!
@@ -1181,7 +1179,7 @@ theorem geometric_partial_bound (q : R) (hq : 0≤q) (hqlt : q<1) (n : Nat) :
   grind
 
 /-!
-## The Number e
+## Factorial Coefficients
 -/
 
 def factorial : Nat → Nat
@@ -1191,12 +1189,6 @@ def factorial : Nat → Nat
 def reciprocalFactorial : Nat → R
   | 0 => 1
   | n + 1 => reciprocalFactorial n / (n + 1 : Nat)
-
--- Arithmetic helper for Rudin Definition 3.30: factorials are positive.
-theorem factorial_pos (n : Nat) : 0<factorial n := by
-  induction n with
-  | zero => decide
-  | succ n ih => exact Nat.mul_pos (by omega) ih
 
 -- Representation helper for Rudin Definition 3.30: the recursively
 -- defined coefficient equals 1/n!.
@@ -1223,69 +1215,6 @@ theorem reciprocalFactorial_step (n : Nat) :
     reciprocalFactorial (n + 1) * (n + 1 : Nat) = (reciprocalFactorial n : R) := by
   simp only [reciprocalFactorial]
   exact Scalar.div_mul_cancel (by have := Scalar.natCast_pos (R:=R) (a:=n+1) |>.mpr (Nat.zero_lt_succ n); grind)
-
--- Geometric comparison step in the convergence argument following Rudin
--- Definition 3.30.
-theorem reciprocalFactorial_half (n : Nat) (hn : 1 ≤ n) :
-    2 * reciprocalFactorial (n + 1) ≤ (reciprocalFactorial n : R) := by
-  have hc : (2 : R) ≤ (n + 1 : Nat) := by
-    have ht := Scalar.natCast_le_natCast (R:=R) |>.mpr (show 2 ≤ n+1 from by omega)
-    have heq : ((2:Nat):R)=2 := by grind
-    simpa only [heq] using ht
-  have hm := Scalar.mul_le_mul_of_nonneg_left hc
-    (Scalar.le_of_lt (reciprocalFactorial_pos (R:=R) (n + 1)))
-  have hs := reciprocalFactorial_step (R:=R) n
-  grind [smaller]
-
--- Bound on 1/n! underlying the geometric comparison following Rudin
--- Definition 3.30.
-theorem reciprocalFactorial_geometric (n : Nat) :
-    (reciprocalFactorial (n+1) : R)≤(1/2)^n := by
-  induction n with
-  | zero => simp only [reciprocalFactorial,Lean.Grind.Semiring.pow_zero]; grind
-  | succ n ih =>
-    have := reciprocalFactorial_half (R:=R) (n+1) (by omega)
-    rw [Lean.Grind.Semiring.pow_succ]
-    grind
-
--- Finite-sum comparison following Rudin Definition 3.30.
-theorem e_partial_comparison (n : Nat) :
-    partialSum reciprocalFactorial (n+1)≤1+partialSum (fun k => (1/2:R)^k) n := by
-  induction n with
-  | zero => simp only [partialSum,reciprocalFactorial]; grind
-  | succ n ih =>
-    have := reciprocalFactorial_geometric (R:=R) n
-    simp only [partialSum] at *
-    grind
-
--- Bound by 3 following Rudin Definition 3.30; the Lean bound is
--- non-strict.
-theorem e_partial_bound (n : Nat) :
-    partialSum reciprocalFactorial n≤(3:R) := by
-  cases n with
-  | zero => simp only [partialSum]; grind
-  | succ n =>
-    have := e_partial_comparison (R:=R) n
-    have := geometric_partial_bound (1/2:R) (by grind) (by grind) n
-    grind
-
--- Convergence argument following Rudin Definition 3.30, using Theorem
--- 3.24; 3.30 is a definition, not a theorem.
-theorem e_exists : ∃ l : R, ConvergesTo realMetric (partialSum reciprocalFactorial) l :=
-  nonnegative_series_converges _ (fun n => Scalar.le_of_lt (reciprocalFactorial_pos n))
-    ⟨3,e_partial_bound⟩
-
-noncomputable def e : R := Classical.choose (e_exists (R:=R))
-
--- Rudin Definition 3.30, together with its convergence argument: e is
--- the sum of 1/n!.
-theorem e_is_limit : ConvergesTo realMetric (partialSum reciprocalFactorial) (e : R) :=
-  Classical.choose_spec (e_exists (R:=R))
-
--- Consequence of Rudin Definition 3.30 and Theorem 3.22; not a separate
--- theorem about e.
-theorem e_series_cauchy : CauchySeries (reciprocalFactorial (R:=R)) :=
-  convergent_cauchy _ _ _ e_is_limit
 
 /-!
 ## The Ratio Test
@@ -2491,24 +2420,6 @@ theorem expSeries_zero : expSeries (0 : R)=1 := by
   rw [heq] at hlim
   exact limit_unique _ _ _ _ hlim (seq_const 1)
 
--- Rudin Chapter 8, observation before (30), p. 179: E(1) = e, with e
--- from Definition 3.30.
-theorem expSeries_one : expSeries (1 : R)=e := by
-  have hp : ∀ n : Nat, (1:R)^n=1 := by
-    intro n
-    induction n with
-    | zero => rw [Lean.Grind.Semiring.pow_zero]
-    | succ n ih => rw [Lean.Grind.Semiring.pow_succ,ih]; grind
-  have heq : expPartial (1:R)=partialSum reciprocalFactorial := by
-    funext n
-    unfold expPartial
-    have he : (fun k => (1:R)^k*reciprocalFactorial k)=reciprocalFactorial := by
-      funext k; rw [hp k]; grind
-    rw [he]
-  have hl := expSeries_limit (1:R)
-  rw [heq] at hl
-  exact limit_unique _ _ _ _ hl e_is_limit
-
 /-!
 ## A Positive Exponential
 -/
@@ -2536,11 +2447,6 @@ theorem exp_pos (x : R) : 0<exp x := by
 -- piecewise exp definition.
 theorem exp_zero : exp (0:R)=1 := by
   rw [exp,if_pos (by grind),expSeries_zero]
-
--- Rudin Chapter 8, E(1) = e before (30); here specialized to the
--- article's piecewise exp definition.
-theorem exp_one : exp (1:R)=e := by
-  rw [exp,if_pos (by grind),expSeries_one]
 
 -- Locality helper from Rudin Definition 5.1: locally equal functions
 -- have the same derivative; no separate theorem.

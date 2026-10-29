@@ -9,5 +9,5 @@ then run `pnpm render rudin-tech-tree` (or another diagram name).
 Set `CHROME_PATH` to a Chrome executable if it is not installed at the default macOS path.
 
 The tech tree shows the main conceptual prerequisites in the note, not the full
-Lean declaration dependency graph. The number e is a side result of series;
-the exp(x) branch continues to its derivative and verified MLP gradients.
+Lean declaration dependency graph. The exp(x) branch continues to its derivative and verified MLP gradients.
+The compact tree uses labels only in a 920-by-590 viewport.

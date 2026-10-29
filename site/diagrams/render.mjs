@@ -7,7 +7,8 @@ const root = new URL("./", import.meta.url);
 const descriptions = {
   "rudin-backprop-derivative": "Blue arrows carry values forward; amber arrows carry sensitivities backward through branching paths.",
   "rudin-mlp-gradient": "A small neural network with one amber weight, beside a loss curve and its amber tangent.",
-  "rudin-tech-tree": "A dependency tree from reals through topology, limits, series, derivatives, e, and exp to backpropagation and verified neural-network gradients.",
+
+  "rudin-tech-tree": "Metric spaces, limits, series, and derivatives lead to exp and neural networks.",
   "rudin-series": "Shrinking terms add to partial sums that approach a finite limit.",
   "rudin-nonnegative-series": "Increasing partial sums stay below a fixed upper bound.",
   "rudin-derivative": "Secant lines through nearby curve points approach a tangent.",
@@ -48,7 +49,7 @@ try {
       await readFile(new URL(`${name}.style`, root), "utf8"),
     variation: `${name}-v1`
   };
-  const svg = await page.evaluate(async ({trio, description, textFree}) => {
+  const svg = await page.evaluate(async ({trio, description, textFree, techTree}) => {
     const penrose = await import("/penrose.js");
     await penrose.__tla;
     const { compile, optimize, toSVG, showError } = penrose;
@@ -64,11 +65,11 @@ try {
     const bounds = svg.getBBox();
     const width = bounds.width + 40;
     const height = bounds.height + 40;
-    svg.setAttribute("viewBox", textFree ? "0 30 920 440" : `${bounds.x - 20} ${bounds.y - 20} ${width} ${height}`);
+    svg.setAttribute("viewBox", techTree ? "0 0 920 590" : textFree ? "0 30 920 440" : `${bounds.x - 20} ${bounds.y - 20} ${width} ${height}`);
     svg.setAttribute("width", "920");
-    svg.setAttribute("height", String(textFree ? 440 : 920 * height / width));
+    svg.setAttribute("height", String(techTree ? 590 : textFree ? 440 : 920 * height / width));
     return svg.outerHTML;
-  }, {trio, description: descriptions[name], textFree: name.startsWith("rudin-") && name !== "rudin-tech-tree"});
+  }, {trio, description: descriptions[name], techTree: name === "rudin-tech-tree", textFree: name.startsWith("rudin-") && name !== "rudin-tech-tree"});
   await writeFile(new URL(`${name}.svg`, root), svg + "\n");
   await page.locator('svg').first().screenshot({ path: fileURLToPath(new URL(`${name}.png`, root)) });
   await page.close();

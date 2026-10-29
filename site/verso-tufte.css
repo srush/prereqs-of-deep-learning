@@ -141,7 +141,10 @@ body { height: auto; overflow: auto; }
   font-size: 1rem;
   line-height: 1.45;
   color: #5b6164;
-  max-width: 76ch;
+  width: 100%;
+  max-width: none;
+  box-sizing: border-box;
+  padding-inline: 1.2rem;
   margin: .5rem 0 1.25rem;
 }
 .rudin-note .code-content > .verso-text.mod-doc p > :is(em, strong):only-child {

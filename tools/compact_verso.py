@@ -102,6 +102,15 @@ def main():
         print(f'{module}: {len(source.encode()) / 1e6:.1f} MB → '
               f'{len(result.encode()) / 1e6:.1f} MB; {count} proof states loaded on demand.')
 
+    # Give each stylesheet revision a fresh URL so Pages/browser caches cannot
+    # keep showing an older layout after a successful deployment.
+    stylesheet = root / 'verso-tufte.css'
+    version = hashlib.sha256(stylesheet.read_bytes()).hexdigest()[:16]
+    for page in root.rglob('index.html'):
+        source = page.read_text()
+        page.write_text(source.replace('href="verso-tufte.css"',
+                                       f'href="verso-tufte.css?v={version}"'))
+
 
 
 if __name__ == '__main__':

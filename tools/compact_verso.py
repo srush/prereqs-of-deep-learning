@@ -117,10 +117,10 @@ def main():
     legacy.mkdir(exist_ok=True)
     (legacy / 'index.html').write_text('''<!doctype html>
 <meta charset="utf-8">
-<title>Deep Learning Speedrun</title>
+<title>The Prerequisites of Deep Learning</title>
 <meta http-equiv="refresh" content="0; url=../Speedrun/">
 <script>location.replace('../Speedrun/' + location.search + location.hash);</script>
-<a href="../Speedrun/">Deep Learning Speedrun</a>
+<a href="../Speedrun/">The Prerequisites of Deep Learning</a>
 ''')
 
 

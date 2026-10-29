@@ -1,6 +1,6 @@
 # The Prerequisites of Deep Learning
 
-[Read the blog](https://srush.github.io/deep-learning-speedrun/).
+[Read the blog](https://srush.github.io/prequisites-of-deep-learning/).
 
 A Lean-checked path from real numbers, topology, and limits to series,
 scalar derivatives, the exponential, backpropagation, and MLP gradients.

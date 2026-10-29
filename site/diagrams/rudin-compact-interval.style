@@ -1,0 +1,64 @@
+-- Text-free geometric illustration; fixed layout for reproducibility.
+forall Diagram `illustration` {
+  shape neighborhood = Circle {
+    center: (50, 25)
+    r: 60
+    fillColor: rgba(0.98,0.92,0.79,0.42)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+    strokeDasharray: "6 5"
+  }
+  shape cell0 = Rectangle {
+    center: (0, 0)
+    width: 300
+    height: 300
+    fillColor: rgba(1,1,1,0)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2
+  }
+  shape cell1 = Rectangle {
+    center: (75, 75)
+    width: 150
+    height: 150
+    fillColor: rgba(1,1,1,0)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2
+  }
+  shape cell2 = Rectangle {
+    center: (37.5, 37.5)
+    width: 75
+    height: 75
+    fillColor: rgba(1,1,1,0)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2
+  }
+  shape cell3 = Rectangle {
+    center: (56.25, 18.75)
+    width: 37.5
+    height: 37.5
+    fillColor: rgba(1,1,1,0)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.5
+  }
+  shape cell4 = Rectangle {
+    center: (46.875, 28.125)
+    width: 18.75
+    height: 18.75
+    fillColor: rgba(1,1,1,0)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.5
+  }
+  shape commonPoint = Circle {
+    center: (50, 25)
+    r: 4
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  layer neighborhood below cell0
+  layer cell0 below cell1
+  layer cell1 below cell2
+  layer cell2 below cell3
+  layer cell3 below cell4
+  layer cell4 below commonPoint
+}

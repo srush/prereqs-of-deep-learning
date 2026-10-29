@@ -1,0 +1,235 @@
+-- Text-free geometric illustration; fixed layout for reproducibility.
+forall Diagram `illustration` {
+  shape leftKFill = Circle {
+    center: (-225, 0)
+    r: 105
+    fillColor: rgba(0.92,0.94,0.95,0.7)
+    strokeColor: rgba(1,1,1,0)
+    strokeWidth: 0
+  }
+  shape leftextra0 = Circle {
+    center: (-325, 10)
+    r: 48
+    fillColor: rgba(1,1,1,0)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+    strokeDasharray: "4 5"
+  }
+  shape leftextra1 = Circle {
+    center: (-165, 90)
+    r: 58
+    fillColor: rgba(1,1,1,0)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+    strokeDasharray: "4 5"
+  }
+  shape leftextra2 = Circle {
+    center: (-285, -85)
+    r: 53
+    fillColor: rgba(1,1,1,0)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+    strokeDasharray: "4 5"
+  }
+  shape leftextra3 = Circle {
+    center: (-210, 45)
+    r: 50
+    fillColor: rgba(1,1,1,0)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+    strokeDasharray: "4 5"
+  }
+  shape leftextra4 = Circle {
+    center: (-135, -60)
+    r: 48
+    fillColor: rgba(1,1,1,0)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+    strokeDasharray: "4 5"
+  }
+  shape leftextra5 = Circle {
+    center: (-270, 75)
+    r: 62
+    fillColor: rgba(1,1,1,0)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+    strokeDasharray: "4 5"
+  }
+  shape leftcover0 = Circle {
+    center: (-155.0, 0.0)
+    r: 66
+    fillColor: rgba(0.65,0.80,0.90,0.075)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.5
+    strokeDasharray: "5 5"
+  }
+  shape leftcover1 = Circle {
+    center: (-190.0, 60.6217782649107)
+    r: 66
+    fillColor: rgba(0.65,0.80,0.90,0.075)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.5
+    strokeDasharray: "5 5"
+  }
+  shape leftcover2 = Circle {
+    center: (-260.0, 60.62177826491071)
+    r: 66
+    fillColor: rgba(0.65,0.80,0.90,0.075)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.5
+    strokeDasharray: "5 5"
+  }
+  shape leftcover3 = Circle {
+    center: (-295.0, 8.572527594031473e-15)
+    r: 66
+    fillColor: rgba(0.65,0.80,0.90,0.075)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.5
+    strokeDasharray: "5 5"
+  }
+  shape leftcover4 = Circle {
+    center: (-260.0, -60.62177826491069)
+    r: 66
+    fillColor: rgba(0.65,0.80,0.90,0.075)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.5
+    strokeDasharray: "5 5"
+  }
+  shape leftcover5 = Circle {
+    center: (-190.0, -60.6217782649107)
+    r: 66
+    fillColor: rgba(0.65,0.80,0.90,0.075)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.5
+    strokeDasharray: "5 5"
+  }
+  shape leftcenterCover = Circle {
+    center: (-225, 0)
+    r: 66
+    fillColor: rgba(0.98,0.92,0.79,0.12)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.5
+    strokeDasharray: "5 5"
+  }
+  shape leftKBoundary = Circle {
+    center: (-225, 0)
+    r: 105
+    fillColor: rgba(1,1,1,0)
+    strokeColor: rgba(0.22,0.25,0.27,1)
+    strokeWidth: 2.4
+  }
+  shape rightKFill = Circle {
+    center: (225, 0)
+    r: 105
+    fillColor: rgba(0.92,0.94,0.95,0.7)
+    strokeColor: rgba(1,1,1,0)
+    strokeWidth: 0
+  }
+  shape rightcover0 = Circle {
+    center: (295.0, 0.0)
+    r: 66
+    fillColor: rgba(0.65,0.80,0.90,0.075)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.5
+    strokeDasharray: "5 5"
+  }
+  shape rightcover1 = Circle {
+    center: (260.0, 60.6217782649107)
+    r: 66
+    fillColor: rgba(0.65,0.80,0.90,0.075)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.5
+    strokeDasharray: "5 5"
+  }
+  shape rightcover2 = Circle {
+    center: (190.0, 60.62177826491071)
+    r: 66
+    fillColor: rgba(0.65,0.80,0.90,0.075)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.5
+    strokeDasharray: "5 5"
+  }
+  shape rightcover3 = Circle {
+    center: (155.0, 8.572527594031473e-15)
+    r: 66
+    fillColor: rgba(0.65,0.80,0.90,0.075)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.5
+    strokeDasharray: "5 5"
+  }
+  shape rightcover4 = Circle {
+    center: (189.99999999999997, -60.62177826491069)
+    r: 66
+    fillColor: rgba(0.65,0.80,0.90,0.075)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.5
+    strokeDasharray: "5 5"
+  }
+  shape rightcover5 = Circle {
+    center: (260.0, -60.6217782649107)
+    r: 66
+    fillColor: rgba(0.65,0.80,0.90,0.075)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.5
+    strokeDasharray: "5 5"
+  }
+  shape rightcenterCover = Circle {
+    center: (225, 0)
+    r: 66
+    fillColor: rgba(0.98,0.92,0.79,0.12)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.5
+    strokeDasharray: "5 5"
+  }
+  shape rightKBoundary = Circle {
+    center: (225, 0)
+    r: 105
+    fillColor: rgba(1,1,1,0)
+    strokeColor: rgba(0.22,0.25,0.27,1)
+    strokeWidth: 2.4
+  }
+  shape arrow = Line {
+    start: (-28, 0)
+    end: (28, 0)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 2
+  }
+  shape arrowUpper = Line {
+    start: (28, 0)
+    end: (18, 8)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 2
+  }
+  shape arrowLower = Line {
+    start: (28, 0)
+    end: (18, -8)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 2
+  }
+  layer leftKFill below leftextra0
+  layer leftextra0 below leftextra1
+  layer leftextra1 below leftextra2
+  layer leftextra2 below leftextra3
+  layer leftextra3 below leftextra4
+  layer leftextra4 below leftextra5
+  layer leftextra5 below leftcover0
+  layer leftcover0 below leftcover1
+  layer leftcover1 below leftcover2
+  layer leftcover2 below leftcover3
+  layer leftcover3 below leftcover4
+  layer leftcover4 below leftcover5
+  layer leftcover5 below leftcenterCover
+  layer leftcenterCover below leftKBoundary
+  layer leftKBoundary below rightKFill
+  layer rightKFill below rightcover0
+  layer rightcover0 below rightcover1
+  layer rightcover1 below rightcover2
+  layer rightcover2 below rightcover3
+  layer rightcover3 below rightcover4
+  layer rightcover4 below rightcover5
+  layer rightcover5 below rightcenterCover
+  layer rightcenterCover below rightKBoundary
+  layer rightKBoundary below arrow
+  layer arrow below arrowUpper
+  layer arrowUpper below arrowLower
+}

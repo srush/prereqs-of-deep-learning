@@ -1,0 +1,15 @@
+landing_page = "PeanoToLeCun"
+extra_css = ["site/tufte.css", "site/verso-tufte.css"]
+extra_js = ["site/contents.js", "site/proofs.js"]
+hide_commands = ["import", "set_option", "namespace", "end"]
+show_imports = false
+
+[metadata]
+title = "Deep Learning Speed Run"
+description = "From real numbers and limits to derivatives, exponentials, and verified neural-network gradients in Lean."
+
+[[targets]]
+module = "PeanoToLeCun"
+
+[modules.PeanoToLeCun]
+title = "Deep Learning Speed Run"

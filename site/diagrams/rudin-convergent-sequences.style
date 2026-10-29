@@ -1,0 +1,171 @@
+-- Text-free geometric illustration; fixed layout for reproducibility.
+forall Diagram `illustration` {
+  shape outerBall = Circle {
+    center: (160, 0)
+    r: 110
+    fillColor: rgba(0.87,0.93,0.97,0.25)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.8
+    strokeDasharray: "6 5"
+  }
+  shape innerBall = Circle {
+    center: (160, 0)
+    r: 45
+    fillColor: rgba(0.98,0.92,0.79,0.3)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+    strokeDasharray: "5 5"
+  }
+  shape step0 = Line {
+    start: (-300, 100)
+    end: (-200, -110)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+  }
+  shape step1 = Line {
+    start: (-200, -110)
+    end: (-80, 85)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+  }
+  shape step2 = Line {
+    start: (-80, 85)
+    end: (10, -65)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+  }
+  shape step3 = Line {
+    start: (10, -65)
+    end: (60, 42)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+  }
+  shape step4 = Line {
+    start: (60, 42)
+    end: (95, -28)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+  }
+  shape step5 = Line {
+    start: (95, -28)
+    end: (120, 18)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+  }
+  shape step6 = Line {
+    start: (120, 18)
+    end: (135, -12)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+  }
+  shape step7 = Line {
+    start: (135, -12)
+    end: (145, 7)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+  }
+  shape step8 = Line {
+    start: (145, 7)
+    end: (152, -4)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+  }
+  shape term0 = Circle {
+    center: (-300, 100)
+    r: 4
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape term1 = Circle {
+    center: (-200, -110)
+    r: 4
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape term2 = Circle {
+    center: (-80, 85)
+    r: 4
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape term3 = Circle {
+    center: (10, -65)
+    r: 4
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape term4 = Circle {
+    center: (60, 42)
+    r: 4
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape term5 = Circle {
+    center: (95, -28)
+    r: 4
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape term6 = Circle {
+    center: (120, 18)
+    r: 4
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape term7 = Circle {
+    center: (135, -12)
+    r: 3
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape term8 = Circle {
+    center: (145, 7)
+    r: 3
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape term9 = Circle {
+    center: (152, -4)
+    r: 3
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape limit = Circle {
+    center: (160, 0)
+    r: 4
+    fillColor: rgba(0.22,0.25,0.27,1)
+    strokeColor: rgba(0.22,0.25,0.27,1)
+    strokeWidth: 1.7
+  }
+  layer outerBall below innerBall
+  layer innerBall below step0
+  layer step0 below step1
+  layer step1 below step2
+  layer step2 below step3
+  layer step3 below step4
+  layer step4 below step5
+  layer step5 below step6
+  layer step6 below step7
+  layer step7 below step8
+  layer step8 below term0
+  layer term0 below term1
+  layer term1 below term2
+  layer term2 below term3
+  layer term3 below term4
+  layer term4 below term5
+  layer term5 below term6
+  layer term6 below term7
+  layer term7 below term8
+  layer term8 below term9
+  layer term9 below limit
+}

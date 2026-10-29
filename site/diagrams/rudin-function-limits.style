@@ -1,0 +1,147 @@
+-- Text-free geometric illustration; fixed layout for reproducibility.
+forall Diagram `illustration` {
+  shape inputBall = Circle {
+    center: (-230, 0)
+    r: 95
+    fillColor: rgba(0.87,0.93,0.97,0.25)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.8
+    strokeDasharray: "6 5"
+  }
+  shape outputBall = Circle {
+    center: (230, 0)
+    r: 135
+    fillColor: rgba(0.87,0.93,0.97,0.25)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.8
+    strokeDasharray: "6 5"
+  }
+  shape imageRegion = Ellipse {
+    center: (230, 0)
+    rx: 80
+    ry: 48
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.6
+    strokeDasharray: "5 5"
+    fillColor: rgba(0.98,0.92,0.79,0.35)
+  }
+  shape input0 = Circle {
+    center: (-282, 30)
+    r: 4
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape output0 = Circle {
+    center: (192.56, 15.0)
+    r: 4
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape input1 = Circle {
+    center: (-195, 48)
+    r: 4
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape output1 = Circle {
+    center: (255.2, 24.0)
+    r: 4
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape input2 = Circle {
+    center: (-200, -55)
+    r: 4
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape output2 = Circle {
+    center: (251.6, -27.5)
+    r: 4
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape input3 = Circle {
+    center: (-270, -30)
+    r: 4
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape output3 = Circle {
+    center: (201.2, -15.0)
+    r: 4
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape input4 = Circle {
+    center: (-213, 15)
+    r: 4
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape output4 = Circle {
+    center: (242.24, 7.5)
+    r: 4
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape puncture = Circle {
+    center: (-230, 0)
+    r: 5
+    fillColor: rgba(1,1,1,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape limit = Circle {
+    center: (230, 0)
+    r: 4
+    fillColor: rgba(0.22,0.25,0.27,1)
+    strokeColor: rgba(0.22,0.25,0.27,1)
+    strokeWidth: 1.7
+  }
+  shape arrow = Line {
+    start: (-28, 0)
+    end: (28, 0)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 2
+  }
+  shape arrowUpper = Line {
+    start: (28, 0)
+    end: (18, 8)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 2
+  }
+  shape arrowLower = Line {
+    start: (28, 0)
+    end: (18, -8)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 2
+  }
+  layer inputBall below outputBall
+  layer outputBall below imageRegion
+  layer imageRegion below input0
+  layer input0 below output0
+  layer output0 below input1
+  layer input1 below output1
+  layer output1 below input2
+  layer input2 below output2
+  layer output2 below input3
+  layer input3 below output3
+  layer output3 below input4
+  layer input4 below output4
+  layer output4 below puncture
+  layer puncture below limit
+  layer limit below arrow
+  layer arrow below arrowUpper
+  layer arrowUpper below arrowLower
+}

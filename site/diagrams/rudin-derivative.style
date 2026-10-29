@@ -1,0 +1,426 @@
+-- Text-free geometric illustration; fixed layout for reproducibility.
+forall Diagram `illustration` {
+  shape horizontal = Line {
+    start: (-330, -190)
+    end: (330, -190)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+  }
+  shape vertical = Line {
+    start: (-320, -200)
+    end: (-320, 195)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+  }
+  shape secant0 = Line {
+    start: (-160, -135.60000000000002)
+    end: (200, 69.60000000000002)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.6
+  }
+  shape secant1 = Line {
+    start: (-160, -148.4)
+    end: (200, 114.4)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.6
+  }
+  shape secant2 = Line {
+    start: (-160, -167.6)
+    end: (200, 181.59999999999997)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.6
+  }
+  shape tangent = Line {
+    start: (-250, -166.5)
+    end: (260, 63.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.7
+  }
+  shape curve0 = Line {
+    start: (-300, -92.2)
+    end: (-290, -96.3)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve1 = Line {
+    start: (-290, -96.3)
+    end: (-280, -100.0)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve2 = Line {
+    start: (-280, -100.0)
+    end: (-270, -103.3)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve3 = Line {
+    start: (-270, -103.3)
+    end: (-260, -106.2)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve4 = Line {
+    start: (-260, -106.2)
+    end: (-250, -108.69999999999999)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve5 = Line {
+    start: (-250, -108.69999999999999)
+    end: (-240, -110.8)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve6 = Line {
+    start: (-240, -110.8)
+    end: (-230, -112.5)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve7 = Line {
+    start: (-230, -112.5)
+    end: (-220, -113.8)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve8 = Line {
+    start: (-220, -113.8)
+    end: (-210, -114.7)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve9 = Line {
+    start: (-210, -114.7)
+    end: (-200, -115.2)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve10 = Line {
+    start: (-200, -115.2)
+    end: (-190, -115.3)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve11 = Line {
+    start: (-190, -115.3)
+    end: (-180, -115.0)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve12 = Line {
+    start: (-180, -115.0)
+    end: (-170, -114.3)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve13 = Line {
+    start: (-170, -114.3)
+    end: (-160, -113.2)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve14 = Line {
+    start: (-160, -113.2)
+    end: (-150, -111.7)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve15 = Line {
+    start: (-150, -111.7)
+    end: (-140, -109.8)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve16 = Line {
+    start: (-140, -109.8)
+    end: (-130, -107.5)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve17 = Line {
+    start: (-130, -107.5)
+    end: (-120, -104.8)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve18 = Line {
+    start: (-120, -104.8)
+    end: (-110, -101.7)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve19 = Line {
+    start: (-110, -101.7)
+    end: (-100, -98.2)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve20 = Line {
+    start: (-100, -98.2)
+    end: (-90, -94.3)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve21 = Line {
+    start: (-90, -94.3)
+    end: (-80, -90.0)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve22 = Line {
+    start: (-80, -90.0)
+    end: (-70, -85.3)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve23 = Line {
+    start: (-70, -85.3)
+    end: (-60, -80.2)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve24 = Line {
+    start: (-60, -80.2)
+    end: (-50, -74.7)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve25 = Line {
+    start: (-50, -74.7)
+    end: (-40, -68.8)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve26 = Line {
+    start: (-40, -68.8)
+    end: (-30, -62.5)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve27 = Line {
+    start: (-30, -62.5)
+    end: (-20, -55.8)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve28 = Line {
+    start: (-20, -55.8)
+    end: (-10, -48.7)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve29 = Line {
+    start: (-10, -48.7)
+    end: (0, -41.2)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve30 = Line {
+    start: (0, -41.2)
+    end: (10, -33.3)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve31 = Line {
+    start: (10, -33.3)
+    end: (20, -25.0)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve32 = Line {
+    start: (20, -25.0)
+    end: (30, -16.299999999999997)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve33 = Line {
+    start: (30, -16.299999999999997)
+    end: (40, -7.200000000000003)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve34 = Line {
+    start: (40, -7.200000000000003)
+    end: (50, 2.299999999999997)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve35 = Line {
+    start: (50, 2.299999999999997)
+    end: (60, 12.200000000000003)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve36 = Line {
+    start: (60, 12.200000000000003)
+    end: (70, 22.5)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve37 = Line {
+    start: (70, 22.5)
+    end: (80, 33.2)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve38 = Line {
+    start: (80, 33.2)
+    end: (90, 44.30000000000001)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve39 = Line {
+    start: (90, 44.30000000000001)
+    end: (100, 55.80000000000001)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve40 = Line {
+    start: (100, 55.80000000000001)
+    end: (110, 67.69999999999999)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve41 = Line {
+    start: (110, 67.69999999999999)
+    end: (120, 80.0)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve42 = Line {
+    start: (120, 80.0)
+    end: (130, 92.69999999999999)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve43 = Line {
+    start: (130, 92.69999999999999)
+    end: (140, 105.80000000000001)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve44 = Line {
+    start: (140, 105.80000000000001)
+    end: (150, 119.30000000000001)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve45 = Line {
+    start: (150, 119.30000000000001)
+    end: (160, 133.2)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve46 = Line {
+    start: (160, 133.2)
+    end: (170, 147.5)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve47 = Line {
+    start: (170, 147.5)
+    end: (180, 162.2)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve48 = Line {
+    start: (180, 162.2)
+    end: (190, 177.3)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve49 = Line {
+    start: (190, 177.3)
+    end: (200, 192.8)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape nearby0 = Circle {
+    center: (-20, -55.8)
+    r: 4
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape nearby1 = Circle {
+    center: (60, 12.200000000000003)
+    r: 4
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape nearby2 = Circle {
+    center: (180, 162.2)
+    r: 4
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape base = Circle {
+    center: (-80, -90.0)
+    r: 5
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  layer horizontal below vertical
+  layer vertical below secant0
+  layer secant0 below secant1
+  layer secant1 below secant2
+  layer secant2 below tangent
+  layer tangent below curve0
+  layer curve0 below curve1
+  layer curve1 below curve2
+  layer curve2 below curve3
+  layer curve3 below curve4
+  layer curve4 below curve5
+  layer curve5 below curve6
+  layer curve6 below curve7
+  layer curve7 below curve8
+  layer curve8 below curve9
+  layer curve9 below curve10
+  layer curve10 below curve11
+  layer curve11 below curve12
+  layer curve12 below curve13
+  layer curve13 below curve14
+  layer curve14 below curve15
+  layer curve15 below curve16
+  layer curve16 below curve17
+  layer curve17 below curve18
+  layer curve18 below curve19
+  layer curve19 below curve20
+  layer curve20 below curve21
+  layer curve21 below curve22
+  layer curve22 below curve23
+  layer curve23 below curve24
+  layer curve24 below curve25
+  layer curve25 below curve26
+  layer curve26 below curve27
+  layer curve27 below curve28
+  layer curve28 below curve29
+  layer curve29 below curve30
+  layer curve30 below curve31
+  layer curve31 below curve32
+  layer curve32 below curve33
+  layer curve33 below curve34
+  layer curve34 below curve35
+  layer curve35 below curve36
+  layer curve36 below curve37
+  layer curve37 below curve38
+  layer curve38 below curve39
+  layer curve39 below curve40
+  layer curve40 below curve41
+  layer curve41 below curve42
+  layer curve42 below curve43
+  layer curve43 below curve44
+  layer curve44 below curve45
+  layer curve45 below curve46
+  layer curve46 below curve47
+  layer curve47 below curve48
+  layer curve48 below curve49
+  layer curve49 below nearby0
+  layer nearby0 below nearby1
+  layer nearby1 below nearby2
+  layer nearby2 below base
+}

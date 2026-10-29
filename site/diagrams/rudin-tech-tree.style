@@ -1,0 +1,577 @@
+canvas {
+  width = 920
+  height = 1400
+}
+
+-- Conceptual dependencies for the current note; not a full Lean dependency graph.
+forall Diagram `illustration` {
+  shape realsTometric0 = Line {
+    start: (0, 579)
+    end: (0, 521)
+    strokeColor: rgba(0.35,0.43,0.48,0.8)
+    strokeWidth: 1.8
+    endArrowhead: "straight"
+    arrowheadSize: 0.75
+  }
+  shape metricToopen0 = Line {
+    start: (0, 439)
+    end: (-230, 381)
+    strokeColor: rgba(0.35,0.43,0.48,0.8)
+    strokeWidth: 1.8
+    endArrowhead: "straight"
+    arrowheadSize: 0.75
+  }
+  shape metricTolimits0 = Line {
+    start: (0, 439)
+    end: (230, 381)
+    strokeColor: rgba(0.35,0.43,0.48,0.8)
+    strokeWidth: 1.8
+    endArrowhead: "straight"
+    arrowheadSize: 0.75
+  }
+  shape openTocompact0 = Line {
+    start: (-230, 299)
+    end: (-230, 241)
+    strokeColor: rgba(0.35,0.43,0.48,0.8)
+    strokeWidth: 1.8
+    endArrowhead: "straight"
+    arrowheadSize: 0.75
+  }
+  shape limitsTocontinuity0 = Line {
+    start: (230, 299)
+    end: (230, 241)
+    strokeColor: rgba(0.35,0.43,0.48,0.8)
+    strokeWidth: 1.8
+    endArrowhead: "straight"
+    arrowheadSize: 0.75
+  }
+  shape compactTocauchy0 = Line {
+    start: (-230, 159)
+    end: (-230, 101)
+    strokeColor: rgba(0.35,0.43,0.48,0.8)
+    strokeWidth: 1.8
+    endArrowhead: "straight"
+    arrowheadSize: 0.75
+  }
+  shape continuityToderivatives0 = Line {
+    start: (230, 159)
+    end: (230, 101)
+    strokeColor: rgba(0.35,0.43,0.48,0.8)
+    strokeWidth: 1.8
+    endArrowhead: "straight"
+    arrowheadSize: 0.75
+  }
+  shape cauchyToseries0 = Line {
+    start: (-230, 19)
+    end: (-230, -39)
+    strokeColor: rgba(0.35,0.43,0.48,0.8)
+    strokeWidth: 1.8
+    endArrowhead: "straight"
+    arrowheadSize: 0.75
+  }
+  shape derivativesTorules0 = Line {
+    start: (230, 19)
+    end: (230, -39)
+    strokeColor: rgba(0.35,0.43,0.48,0.8)
+    strokeWidth: 1.8
+    endArrowhead: "straight"
+    arrowheadSize: 0.75
+  }
+  shape seriesToe0 = Line {
+    start: (-230, -121)
+    end: (-355, -179)
+    strokeColor: rgba(0.35,0.43,0.48,0.8)
+    strokeWidth: 1.8
+    endArrowhead: "straight"
+    arrowheadSize: 0.75
+  }
+  shape seriesToexp0 = Line {
+    start: (-230, -121)
+    end: (-105, -179)
+    strokeColor: rgba(0.35,0.43,0.48,0.8)
+    strokeWidth: 1.8
+    endArrowhead: "straight"
+    arrowheadSize: 0.75
+  }
+  shape rulesTobackprop0 = Line {
+    start: (230, -121)
+    end: (230, -179)
+    strokeColor: rgba(0.35,0.43,0.48,0.8)
+    strokeWidth: 1.8
+    endArrowhead: "straight"
+    arrowheadSize: 0.75
+  }
+  shape expToexpDerivative0 = Line {
+    start: (-105, -261)
+    end: (-105, -319)
+    strokeColor: rgba(0.35,0.43,0.48,0.8)
+    strokeWidth: 1.8
+    endArrowhead: "straight"
+    arrowheadSize: 0.75
+  }
+  shape limitsToCauchy0 = Line {
+    start: (105, 340)
+    end: (20, 340)
+    strokeColor: rgba(0.35,0.43,0.48,0.8)
+    strokeWidth: 1.8
+  }
+  shape limitsToCauchy1 = Line {
+    start: (20, 340)
+    end: (20, 60)
+    strokeColor: rgba(0.35,0.43,0.48,0.8)
+    strokeWidth: 1.8
+  }
+  shape limitsToCauchy2 = Line {
+    start: (20, 60)
+    end: (-95, 60)
+    strokeColor: rgba(0.35,0.43,0.48,0.8)
+    strokeWidth: 1.8
+    endArrowhead: "straight"
+    arrowheadSize: 0.75
+  }
+  shape rulesToExpDerivative0 = Line {
+    start: (105, -80)
+    end: (55, -80)
+    strokeColor: rgba(0.35,0.43,0.48,0.8)
+    strokeWidth: 1.8
+  }
+  shape rulesToExpDerivative1 = Line {
+    start: (55, -80)
+    end: (55, -360)
+    strokeColor: rgba(0.35,0.43,0.48,0.8)
+    strokeWidth: 1.8
+  }
+  shape rulesToExpDerivative2 = Line {
+    start: (55, -360)
+    end: (30, -360)
+    strokeColor: rgba(0.35,0.43,0.48,0.8)
+    strokeWidth: 1.8
+    endArrowhead: "straight"
+    arrowheadSize: 0.75
+  }
+  shape backpropToNetwork0 = Line {
+    start: (230, -261)
+    end: (230, -459)
+    strokeColor: rgba(0.35,0.43,0.48,0.8)
+    strokeWidth: 1.8
+    endArrowhead: "straight"
+    arrowheadSize: 0.75
+  }
+  shape expDerivativeToNetwork0 = Line {
+    start: (-105, -401)
+    end: (-105, -430)
+    strokeColor: rgba(0.35,0.43,0.48,0.8)
+    strokeWidth: 1.8
+  }
+  shape expDerivativeToNetwork1 = Line {
+    start: (-105, -430)
+    end: (0, -430)
+    strokeColor: rgba(0.35,0.43,0.48,0.8)
+    strokeWidth: 1.8
+  }
+  shape expDerivativeToNetwork2 = Line {
+    start: (0, -430)
+    end: (0, -459)
+    strokeColor: rgba(0.35,0.43,0.48,0.8)
+    strokeWidth: 1.8
+    endArrowhead: "straight"
+    arrowheadSize: 0.75
+  }
+  shape realsBox = Rectangle {
+    center: (0, 620)
+    width: 290
+    height: 82
+    fillColor: rgba(0.94,0.95,0.95,1)
+    strokeColor: rgba(0.22,0.25,0.27,1)
+    strokeWidth: 1.5
+  }
+  shape realsTitle = Text {
+    center: (0, 633)
+    string: "Reals"
+    fontFamily: "Georgia"
+    fontSize: "23px"
+    fillColor: rgba(0.22,0.25,0.27,1)
+  }
+  shape realsSubtitle = Text {
+    center: (0, 602)
+    string: "arithmetic + completeness"
+    fontFamily: "Georgia"
+    fontSize: "16px"
+    fillColor: rgba(0.38,0.41,0.44,1)
+  }
+  shape metricBox = Rectangle {
+    center: (0, 480)
+    width: 270
+    height: 82
+    fillColor: rgba(0.94,0.95,0.95,1)
+    strokeColor: rgba(0.22,0.25,0.27,1)
+    strokeWidth: 1.5
+  }
+  shape metricTitle = Text {
+    center: (0, 493)
+    string: "Metric spaces"
+    fontFamily: "Georgia"
+    fontSize: "23px"
+    fillColor: rgba(0.22,0.25,0.27,1)
+  }
+  shape metricSubtitle = Text {
+    center: (0, 462)
+    string: "distance + neighborhoods"
+    fontFamily: "Georgia"
+    fontSize: "16px"
+    fillColor: rgba(0.38,0.41,0.44,1)
+  }
+  shape openBox = Rectangle {
+    center: (-230, 340)
+    width: 270
+    height: 82
+    fillColor: rgba(0.88,0.94,0.97,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.5
+  }
+  shape openTitle = Text {
+    center: (-230, 353)
+    string: "Open / closed sets"
+    fontFamily: "Georgia"
+    fontSize: "23px"
+    fillColor: rgba(0.22,0.25,0.27,1)
+  }
+  shape openSubtitle = Text {
+    center: (-230, 322)
+    string: "interior + boundary"
+    fontFamily: "Georgia"
+    fontSize: "16px"
+    fillColor: rgba(0.38,0.41,0.44,1)
+  }
+  shape limitsBox = Rectangle {
+    center: (230, 340)
+    width: 250
+    height: 82
+    fillColor: rgba(0.98,0.94,0.85,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.5
+  }
+  shape limitsTitle = Text {
+    center: (230, 353)
+    string: "Limits"
+    fontFamily: "Georgia"
+    fontSize: "23px"
+    fillColor: rgba(0.22,0.25,0.27,1)
+  }
+  shape limitsSubtitle = Text {
+    center: (230, 322)
+    string: "sequences + functions"
+    fontFamily: "Georgia"
+    fontSize: "16px"
+    fillColor: rgba(0.38,0.41,0.44,1)
+  }
+  shape compactBox = Rectangle {
+    center: (-230, 200)
+    width: 270
+    height: 82
+    fillColor: rgba(0.88,0.94,0.97,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.5
+  }
+  shape compactTitle = Text {
+    center: (-230, 213)
+    string: "Compactness"
+    fontFamily: "Georgia"
+    fontSize: "23px"
+    fillColor: rgba(0.22,0.25,0.27,1)
+  }
+  shape compactSubtitle = Text {
+    center: (-230, 182)
+    string: "finite subcovers"
+    fontFamily: "Georgia"
+    fontSize: "16px"
+    fillColor: rgba(0.38,0.41,0.44,1)
+  }
+  shape continuityBox = Rectangle {
+    center: (230, 200)
+    width: 250
+    height: 82
+    fillColor: rgba(0.98,0.94,0.85,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.5
+  }
+  shape continuityTitle = Text {
+    center: (230, 213)
+    string: "Continuity"
+    fontFamily: "Georgia"
+    fontSize: "23px"
+    fillColor: rgba(0.22,0.25,0.27,1)
+  }
+  shape continuitySubtitle = Text {
+    center: (230, 182)
+    string: "control nearby outputs"
+    fontFamily: "Georgia"
+    fontSize: "16px"
+    fillColor: rgba(0.38,0.41,0.44,1)
+  }
+  shape cauchyBox = Rectangle {
+    center: (-230, 60)
+    width: 270
+    height: 82
+    fillColor: rgba(0.88,0.94,0.97,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.5
+  }
+  shape cauchyTitle = Text {
+    center: (-230, 73)
+    string: "Cauchy convergence"
+    fontFamily: "Georgia"
+    fontSize: "23px"
+    fillColor: rgba(0.22,0.25,0.27,1)
+  }
+  shape cauchySubtitle = Text {
+    center: (-230, 42)
+    string: "tails + completeness"
+    fontFamily: "Georgia"
+    fontSize: "16px"
+    fillColor: rgba(0.38,0.41,0.44,1)
+  }
+  shape derivativesBox = Rectangle {
+    center: (230, 60)
+    width: 250
+    height: 82
+    fillColor: rgba(0.98,0.94,0.85,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.5
+  }
+  shape derivativesTitle = Text {
+    center: (230, 73)
+    string: "Derivatives"
+    fontFamily: "Georgia"
+    fontSize: "23px"
+    fillColor: rgba(0.22,0.25,0.27,1)
+  }
+  shape derivativesSubtitle = Text {
+    center: (230, 42)
+    string: "local linear behavior"
+    fontFamily: "Georgia"
+    fontSize: "16px"
+    fillColor: rgba(0.38,0.41,0.44,1)
+  }
+  shape seriesBox = Rectangle {
+    center: (-230, -80)
+    width: 270
+    height: 82
+    fillColor: rgba(0.88,0.94,0.97,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.5
+  }
+  shape seriesTitle = Text {
+    center: (-230, -67)
+    string: "Series"
+    fontFamily: "Georgia"
+    fontSize: "23px"
+    fillColor: rgba(0.22,0.25,0.27,1)
+  }
+  shape seriesSubtitle = Text {
+    center: (-230, -98)
+    string: "limits of partial sums"
+    fontFamily: "Georgia"
+    fontSize: "16px"
+    fillColor: rgba(0.38,0.41,0.44,1)
+  }
+  shape rulesBox = Rectangle {
+    center: (230, -80)
+    width: 250
+    height: 82
+    fillColor: rgba(0.98,0.94,0.85,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.5
+  }
+  shape rulesTitle = Text {
+    center: (230, -67)
+    string: "Derivative rules"
+    fontFamily: "Georgia"
+    fontSize: "23px"
+    fillColor: rgba(0.22,0.25,0.27,1)
+  }
+  shape rulesSubtitle = Text {
+    center: (230, -98)
+    string: "sum / product / chain"
+    fontFamily: "Georgia"
+    fontSize: "16px"
+    fillColor: rgba(0.38,0.41,0.44,1)
+  }
+  shape eBox = Rectangle {
+    center: (-355, -220)
+    width: 150
+    height: 82
+    fillColor: rgba(0.88,0.94,0.97,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.5
+  }
+  shape eTitle = Text {
+    center: (-355, -207)
+    string: "e"
+    fontFamily: "Georgia"
+    fontSize: "23px"
+    fillColor: rgba(0.22,0.25,0.27,1)
+  }
+  shape eSubtitle = Text {
+    center: (-355, -238)
+    string: "sum of 1/n!"
+    fontFamily: "Georgia"
+    fontSize: "16px"
+    fillColor: rgba(0.38,0.41,0.44,1)
+  }
+  shape expBox = Rectangle {
+    center: (-105, -220)
+    width: 190
+    height: 82
+    fillColor: rgba(0.88,0.94,0.97,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.5
+  }
+  shape expTitle = Text {
+    center: (-105, -207)
+    string: "exp(x)"
+    fontFamily: "Georgia"
+    fontSize: "23px"
+    fillColor: rgba(0.22,0.25,0.27,1)
+  }
+  shape expSubtitle = Text {
+    center: (-105, -238)
+    string: "series + positivity"
+    fontFamily: "Georgia"
+    fontSize: "16px"
+    fillColor: rgba(0.38,0.41,0.44,1)
+  }
+  shape backpropBox = Rectangle {
+    center: (230, -220)
+    width: 250
+    height: 82
+    fillColor: rgba(0.98,0.94,0.85,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.5
+  }
+  shape backpropTitle = Text {
+    center: (230, -207)
+    string: "Backpropagation"
+    fontFamily: "Georgia"
+    fontSize: "23px"
+    fillColor: rgba(0.22,0.25,0.27,1)
+  }
+  shape backpropSubtitle = Text {
+    center: (230, -238)
+    string: "reverse accumulation"
+    fontFamily: "Georgia"
+    fontSize: "16px"
+    fillColor: rgba(0.38,0.41,0.44,1)
+  }
+  shape expDerivativeBox = Rectangle {
+    center: (-105, -360)
+    width: 270
+    height: 82
+    fillColor: rgba(0.88,0.93,0.89,1)
+    strokeColor: rgba(0.24,0.40,0.31,1)
+    strokeWidth: 1.5
+  }
+  shape expDerivativeTitle = Text {
+    center: (-105, -347)
+    string: "Exponential derivative"
+    fontFamily: "Georgia"
+    fontSize: "23px"
+    fillColor: rgba(0.22,0.25,0.27,1)
+  }
+  shape expDerivativeSubtitle = Text {
+    center: (-105, -378)
+    string: "exp′(x) = exp(x)"
+    fontFamily: "Georgia"
+    fontSize: "16px"
+    fillColor: rgba(0.38,0.41,0.44,1)
+  }
+  shape networkBox = Rectangle {
+    center: (75, -500)
+    width: 360
+    height: 82
+    fillColor: rgba(0.88,0.93,0.89,1)
+    strokeColor: rgba(0.24,0.40,0.31,1)
+    strokeWidth: 1.5
+  }
+  shape networkTitle = Text {
+    center: (75, -487)
+    string: "Neural networks"
+    fontFamily: "Georgia"
+    fontSize: "23px"
+    fillColor: rgba(0.22,0.25,0.27,1)
+  }
+  shape networkSubtitle = Text {
+    center: (75, -518)
+    string: "verified MLP gradients"
+    fontFamily: "Georgia"
+    fontSize: "16px"
+    fillColor: rgba(0.38,0.41,0.44,1)
+  }
+  layer realsTometric0 below metricToopen0
+  layer metricToopen0 below metricTolimits0
+  layer metricTolimits0 below openTocompact0
+  layer openTocompact0 below limitsTocontinuity0
+  layer limitsTocontinuity0 below compactTocauchy0
+  layer compactTocauchy0 below continuityToderivatives0
+  layer continuityToderivatives0 below cauchyToseries0
+  layer cauchyToseries0 below derivativesTorules0
+  layer derivativesTorules0 below seriesToe0
+  layer seriesToe0 below seriesToexp0
+  layer seriesToexp0 below rulesTobackprop0
+  layer rulesTobackprop0 below expToexpDerivative0
+  layer expToexpDerivative0 below limitsToCauchy0
+  layer limitsToCauchy0 below limitsToCauchy1
+  layer limitsToCauchy1 below limitsToCauchy2
+  layer limitsToCauchy2 below rulesToExpDerivative0
+  layer rulesToExpDerivative0 below rulesToExpDerivative1
+  layer rulesToExpDerivative1 below rulesToExpDerivative2
+  layer rulesToExpDerivative2 below backpropToNetwork0
+  layer backpropToNetwork0 below expDerivativeToNetwork0
+  layer expDerivativeToNetwork0 below expDerivativeToNetwork1
+  layer expDerivativeToNetwork1 below expDerivativeToNetwork2
+  layer expDerivativeToNetwork2 below realsBox
+  layer realsBox below realsTitle
+  layer realsTitle below realsSubtitle
+  layer realsSubtitle below metricBox
+  layer metricBox below metricTitle
+  layer metricTitle below metricSubtitle
+  layer metricSubtitle below openBox
+  layer openBox below openTitle
+  layer openTitle below openSubtitle
+  layer openSubtitle below limitsBox
+  layer limitsBox below limitsTitle
+  layer limitsTitle below limitsSubtitle
+  layer limitsSubtitle below compactBox
+  layer compactBox below compactTitle
+  layer compactTitle below compactSubtitle
+  layer compactSubtitle below continuityBox
+  layer continuityBox below continuityTitle
+  layer continuityTitle below continuitySubtitle
+  layer continuitySubtitle below cauchyBox
+  layer cauchyBox below cauchyTitle
+  layer cauchyTitle below cauchySubtitle
+  layer cauchySubtitle below derivativesBox
+  layer derivativesBox below derivativesTitle
+  layer derivativesTitle below derivativesSubtitle
+  layer derivativesSubtitle below seriesBox
+  layer seriesBox below seriesTitle
+  layer seriesTitle below seriesSubtitle
+  layer seriesSubtitle below rulesBox
+  layer rulesBox below rulesTitle
+  layer rulesTitle below rulesSubtitle
+  layer rulesSubtitle below eBox
+  layer eBox below eTitle
+  layer eTitle below eSubtitle
+  layer eSubtitle below expBox
+  layer expBox below expTitle
+  layer expTitle below expSubtitle
+  layer expSubtitle below backpropBox
+  layer backpropBox below backpropTitle
+  layer backpropTitle below backpropSubtitle
+  layer backpropSubtitle below expDerivativeBox
+  layer expDerivativeBox below expDerivativeTitle
+  layer expDerivativeTitle below expDerivativeSubtitle
+  layer expDerivativeSubtitle below networkBox
+  layer networkBox below networkTitle
+  layer networkTitle below networkSubtitle
+}

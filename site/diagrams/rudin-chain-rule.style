@@ -1,0 +1,161 @@
+-- Text-free geometric illustration; fixed layout for reproducibility.
+forall Diagram `illustration` {
+  shape axis0 = Line {
+    start: (-410, -40)
+    end: (-190, -40)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+  }
+  shape displacement0 = Line {
+    start: (-370, -40)
+    end: (-325, -40)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 5
+  }
+  shape base0 = Circle {
+    center: (-370, -40)
+    r: 5
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape changed0 = Circle {
+    center: (-325, -40)
+    r: 5
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape neighborhood0 = Circle {
+    center: (-370, -40)
+    r: 55
+    fillColor: rgba(1,1,1,0)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.2
+    strokeDasharray: "4 5"
+  }
+  shape axis1 = Line {
+    start: (-110, -40)
+    end: (110, -40)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+  }
+  shape displacement1 = Line {
+    start: (-70, -40)
+    end: (20, -40)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 5
+  }
+  shape base1 = Circle {
+    center: (-70, -40)
+    r: 5
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape changed1 = Circle {
+    center: (20, -40)
+    r: 5
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape neighborhood1 = Circle {
+    center: (-70, -40)
+    r: 105
+    fillColor: rgba(1,1,1,0)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.2
+    strokeDasharray: "4 5"
+  }
+  shape axis2 = Line {
+    start: (190, -40)
+    end: (410, -40)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+  }
+  shape displacement2 = Line {
+    start: (230, -40)
+    end: (365, -40)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 5
+  }
+  shape base2 = Circle {
+    center: (230, -40)
+    r: 5
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape changed2 = Circle {
+    center: (365, -40)
+    r: 5
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape neighborhood2 = Circle {
+    center: (230, -40)
+    r: 155
+    fillColor: rgba(1,1,1,0)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.2
+    strokeDasharray: "4 5"
+  }
+  shape map0 = Line {
+    start: (-185, 65)
+    end: (-120, 65)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.8
+  }
+  shape upper0 = Line {
+    start: (-120, 65)
+    end: (-129, 72)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.8
+  }
+  shape lower0 = Line {
+    start: (-120, 65)
+    end: (-129, 58)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.8
+  }
+  shape map1 = Line {
+    start: (115, 65)
+    end: (180, 65)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.8
+  }
+  shape upper1 = Line {
+    start: (180, 65)
+    end: (171, 72)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.8
+  }
+  shape lower1 = Line {
+    start: (180, 65)
+    end: (171, 58)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.8
+  }
+  layer axis0 below displacement0
+  layer displacement0 below base0
+  layer base0 below changed0
+  layer changed0 below neighborhood0
+  layer neighborhood0 below axis1
+  layer axis1 below displacement1
+  layer displacement1 below base1
+  layer base1 below changed1
+  layer changed1 below neighborhood1
+  layer neighborhood1 below axis2
+  layer axis2 below displacement2
+  layer displacement2 below base2
+  layer base2 below changed2
+  layer changed2 below neighborhood2
+  layer neighborhood2 below map0
+  layer map0 below upper0
+  layer upper0 below lower0
+  layer lower0 below map1
+  layer map1 below upper1
+  layer upper1 below lower1
+}

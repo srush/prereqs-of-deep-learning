@@ -1,0 +1,120 @@
+-- Text-free geometric illustration; fixed layout for reproducibility.
+forall Diagram `illustration` {
+  shape openDisk = Circle {
+    center: (-215, 0)
+    r: 140
+    fillColor: rgba(0.87,0.93,0.97,0.4)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2
+    strokeDasharray: "7 6"
+  }
+  shape missingCenter = Circle {
+    center: (-215, 0)
+    r: 5
+    fillColor: rgba(1,1,1,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape sequence0 = Circle {
+    center: (-285, 0)
+    r: 2.6
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape sequence1 = Circle {
+    center: (-255, 0)
+    r: 2.6
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape sequence2 = Circle {
+    center: (-238, 0)
+    r: 2.6
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape sequence3 = Circle {
+    center: (-229, 0)
+    r: 2.6
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape arrow = Line {
+    start: (-28, 0)
+    end: (28, 0)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 2
+  }
+  shape arrowUpper = Line {
+    start: (28, 0)
+    end: (18, 8)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 2
+  }
+  shape arrowLower = Line {
+    start: (28, 0)
+    end: (18, -8)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 2
+  }
+  shape closedDisk = Circle {
+    center: (215, 0)
+    r: 140
+    fillColor: rgba(0.87,0.93,0.97,0.4)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 3
+  }
+  shape addedCenter = Circle {
+    center: (215, 0)
+    r: 5
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape sameSequence0 = Circle {
+    center: (145, 0)
+    r: 2.6
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape sameSequence1 = Circle {
+    center: (175, 0)
+    r: 2.6
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape sameSequence2 = Circle {
+    center: (192, 0)
+    r: 2.6
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape sameSequence3 = Circle {
+    center: (201, 0)
+    r: 2.6
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  layer openDisk below missingCenter
+  layer missingCenter below sequence0
+  layer sequence0 below sequence1
+  layer sequence1 below sequence2
+  layer sequence2 below sequence3
+  layer sequence3 below arrow
+  layer arrow below arrowUpper
+  layer arrowUpper below arrowLower
+  layer arrowLower below closedDisk
+  layer closedDisk below addedCenter
+  layer addedCenter below sameSequence0
+  layer sameSequence0 below sameSequence1
+  layer sameSequence1 below sameSequence2
+  layer sameSequence2 below sameSequence3
+}

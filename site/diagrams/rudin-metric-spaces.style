@@ -1,0 +1,74 @@
+-- Text-free geometric illustration; fixed layout for reproducibility.
+forall Diagram `illustration` {
+  shape ambient = Circle {
+    center: (0, 0)
+    r: 180
+    fillColor: rgba(0.87,0.93,0.97,0.32)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.8
+    strokeDasharray: "7 6"
+  }
+  shape nearY = Circle {
+    center: (-35, 90)
+    r: 49
+    fillColor: rgba(0.98,0.92,0.79,0.24)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+    strokeDasharray: "5 5"
+  }
+  shape nearZ = Circle {
+    center: (110, -50)
+    r: 27
+    fillColor: rgba(0.98,0.92,0.79,0.24)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+    strokeDasharray: "5 5"
+  }
+  shape xy = Line {
+    start: (-105, -75)
+    end: (-35, 90)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.8
+  }
+  shape yz = Line {
+    start: (-35, 90)
+    end: (110, -50)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.8
+  }
+  shape xz = Line {
+    start: (-105, -75)
+    end: (110, -50)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 3.5
+  }
+  shape x = Circle {
+    center: (-105, -75)
+    r: 5
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape y = Circle {
+    center: (-35, 90)
+    r: 5
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape z = Circle {
+    center: (110, -50)
+    r: 5
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  layer ambient below nearY
+  layer nearY below nearZ
+  layer nearZ below xy
+  layer xy below yz
+  layer yz below xz
+  layer xz below x
+  layer x below y
+  layer y below z
+}

@@ -1,0 +1,187 @@
+-- Text-free geometric illustration; fixed layout for reproducibility.
+forall Diagram `illustration` {
+  shape ball0 = Circle {
+    center: (-300, 0)
+    r: 85
+    fillColor: rgba(0.87,0.93,0.97,0.25)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.8
+    strokeDasharray: "6 5"
+  }
+  shape center0 = Circle {
+    center: (-300, 0)
+    r: 4
+    fillColor: rgba(0.22,0.25,0.27,1)
+    strokeColor: rgba(0.22,0.25,0.27,1)
+    strokeWidth: 1.7
+  }
+  shape sample0p0 = Circle {
+    center: (-325, 25)
+    r: 3.5
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape sample0p1 = Circle {
+    center: (-270, -15)
+    r: 3.5
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape sample0p2 = Circle {
+    center: (-310, -30)
+    r: 3.5
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape ball1 = Circle {
+    center: (0, 0)
+    r: 95
+    fillColor: rgba(0.87,0.93,0.97,0.25)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.8
+    strokeDasharray: "6 5"
+  }
+  shape image1 = Ellipse {
+    center: (0, 0)
+    rx: 50
+    ry: 65
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.6
+    strokeDasharray: "5 5"
+    fillColor: rgba(0.98,0.92,0.79,0.35)
+  }
+  shape center1 = Circle {
+    center: (0, 0)
+    r: 4
+    fillColor: rgba(0.22,0.25,0.27,1)
+    strokeColor: rgba(0.22,0.25,0.27,1)
+    strokeWidth: 1.7
+  }
+  shape sample1p0 = Circle {
+    center: (-25, 25)
+    r: 3.5
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape sample1p1 = Circle {
+    center: (30, -15)
+    r: 3.5
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape sample1p2 = Circle {
+    center: (-10, -30)
+    r: 3.5
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape ball2 = Circle {
+    center: (300, 0)
+    r: 110
+    fillColor: rgba(0.87,0.93,0.97,0.25)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.8
+    strokeDasharray: "6 5"
+  }
+  shape image2 = Ellipse {
+    center: (300, 0)
+    rx: 65
+    ry: 40
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.6
+    strokeDasharray: "5 5"
+    fillColor: rgba(0.98,0.92,0.79,0.35)
+  }
+  shape center2 = Circle {
+    center: (300, 0)
+    r: 4
+    fillColor: rgba(0.22,0.25,0.27,1)
+    strokeColor: rgba(0.22,0.25,0.27,1)
+    strokeWidth: 1.7
+  }
+  shape sample2p0 = Circle {
+    center: (275, 25)
+    r: 3.5
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape sample2p1 = Circle {
+    center: (330, -15)
+    r: 3.5
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape sample2p2 = Circle {
+    center: (290, -30)
+    r: 3.5
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.7
+  }
+  shape map0 = Line {
+    start: (-190, 0)
+    end: (-120, 0)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 2
+  }
+  shape mapUpper0 = Line {
+    start: (-120, 0)
+    end: (-129, 7)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 2
+  }
+  shape mapLower0 = Line {
+    start: (-120, 0)
+    end: (-129, -7)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 2
+  }
+  shape map1 = Line {
+    start: (120, 0)
+    end: (180, 0)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 2
+  }
+  shape mapUpper1 = Line {
+    start: (180, 0)
+    end: (171, 7)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 2
+  }
+  shape mapLower1 = Line {
+    start: (180, 0)
+    end: (171, -7)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 2
+  }
+  layer ball0 below center0
+  layer center0 below sample0p0
+  layer sample0p0 below sample0p1
+  layer sample0p1 below sample0p2
+  layer sample0p2 below ball1
+  layer ball1 below image1
+  layer image1 below center1
+  layer center1 below sample1p0
+  layer sample1p0 below sample1p1
+  layer sample1p1 below sample1p2
+  layer sample1p2 below ball2
+  layer ball2 below image2
+  layer image2 below center2
+  layer center2 below sample2p0
+  layer sample2p0 below sample2p1
+  layer sample2p1 below sample2p2
+  layer sample2p2 below map0
+  layer map0 below mapUpper0
+  layer mapUpper0 below mapLower0
+  layer mapLower0 below map1
+  layer map1 below mapUpper1
+  layer mapUpper1 below mapLower1
+}

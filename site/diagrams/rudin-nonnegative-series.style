@@ -1,0 +1,197 @@
+-- Text-free geometric illustration; fixed layout for reproducibility.
+forall Diagram `illustration` {
+  shape horizontal = Line {
+    start: (-320, -145)
+    end: (330, -145)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.3
+  }
+  shape vertical = Line {
+    start: (-300, -160)
+    end: (-300, 165)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.3
+  }
+  shape bound = Line {
+    start: (-315, 130)
+    end: (330, 130)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+    strokeDasharray: "6 5"
+  }
+  shape sum0 = Circle {
+    center: (-275, -115.0)
+    r: 4
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape rise1 = Line {
+    start: (-275, -115.0)
+    end: (-224, -48.29999999999998)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+  }
+  shape sum1 = Circle {
+    center: (-224, -48.29999999999998)
+    r: 4
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape rise2 = Line {
+    start: (-224, -48.29999999999998)
+    end: (-173, -0.9429999999999978)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+  }
+  shape sum2 = Circle {
+    center: (-173, -0.9429999999999978)
+    r: 4
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape rise3 = Line {
+    start: (-173, -0.9429999999999978)
+    end: (-122, 32.680470000000014)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+  }
+  shape sum3 = Circle {
+    center: (-122, 32.680470000000014)
+    r: 4
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape rise4 = Line {
+    start: (-122, 32.680470000000014)
+    end: (-71, 56.553133700000004)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+  }
+  shape sum4 = Circle {
+    center: (-71, 56.553133700000004)
+    r: 4
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape rise5 = Line {
+    start: (-71, 56.553133700000004)
+    end: (-20, 73.502724927)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+  }
+  shape sum5 = Circle {
+    center: (-20, 73.502724927)
+    r: 4
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape rise6 = Line {
+    start: (-20, 73.502724927)
+    end: (31, 85.53693469817001)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+  }
+  shape sum6 = Circle {
+    center: (31, 85.53693469817001)
+    r: 4
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape rise7 = Line {
+    start: (31, 85.53693469817001)
+    end: (82, 94.08122363570071)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+  }
+  shape sum7 = Circle {
+    center: (82, 94.08122363570071)
+    r: 4
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape rise8 = Line {
+    start: (82, 94.08122363570071)
+    end: (133, 100.1476687813475)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+  }
+  shape sum8 = Circle {
+    center: (133, 100.1476687813475)
+    r: 4
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape rise9 = Line {
+    start: (133, 100.1476687813475)
+    end: (184, 104.45484483475673)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+  }
+  shape sum9 = Circle {
+    center: (184, 104.45484483475673)
+    r: 4
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape rise10 = Line {
+    start: (184, 104.45484483475673)
+    end: (235, 107.51293983267728)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+  }
+  shape sum10 = Circle {
+    center: (235, 107.51293983267728)
+    r: 4
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  shape rise11 = Line {
+    start: (235, 107.51293983267728)
+    end: (286, 109.68418728120086)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+  }
+  shape sum11 = Circle {
+    center: (286, 109.68418728120086)
+    r: 4
+    fillColor: rgba(0.19,0.37,0.49,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 1.7
+  }
+  layer horizontal below vertical
+  layer vertical below bound
+  layer bound below sum0
+  layer sum0 below rise1
+  layer rise1 below sum1
+  layer sum1 below rise2
+  layer rise2 below sum2
+  layer sum2 below rise3
+  layer rise3 below sum3
+  layer sum3 below rise4
+  layer rise4 below sum4
+  layer sum4 below rise5
+  layer rise5 below sum5
+  layer sum5 below rise6
+  layer rise6 below sum6
+  layer sum6 below rise7
+  layer rise7 below sum7
+  layer sum7 below rise8
+  layer rise8 below sum8
+  layer sum8 below rise9
+  layer rise9 below sum9
+  layer sum9 below rise10
+  layer rise10 below sum10
+  layer sum10 below rise11
+  layer rise11 below sum11
+}

@@ -1,0 +1,7 @@
+.lake/
+node_modules/
+.pnpm-store/
+__pycache__/
+*.py[cod]
+.DS_Store
+site/diagrams/*.png

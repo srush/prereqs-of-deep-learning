@@ -1,0 +1,177 @@
+/* Adapt DiffRast's article layout to Verso's literate HTML.
+   Keep Verso's highlighting, copy buttons, declaration links and proof hovers. */
+:root {
+  color-scheme: light;
+  --verso-text-font-family: et-book, Palatino, "Palatino Linotype", Georgia, serif;
+  --verso-structure-font-family: var(--verso-text-font-family);
+  --verso-text-color: #404444;
+  --verso-structure-color: #404444;
+  --verso-background-color: #fff;
+  --verso-surface-color: #fafafa;
+  --verso-border-color: #ddd;
+  --verso-code-box-background-color: #f8f8f8;
+  --verso-code-box-border-color: #e5e5e5;
+  --verso-link-color: #305c78;
+  --verso-link-visited-color: #305c78;
+  --verso-link-hover-bg: #edf2f5;
+  --verso-inline-code-bg: #f4f4f4;
+  --verso-prose-max-width: none;
+  --verso-muted-color: #666;
+  --verso-breadcrumb-color: #404444;
+  --verso-copy-button-bg: #eee;
+  --verso-copy-button-color: #444;
+  --verso-copy-button-border: #ccc;
+}
+body { height: auto; overflow: auto; }
+.layout, .main-area, .content-wrapper {
+  display: block;
+  height: auto;
+  overflow: visible;
+}
+/* A single-module article needs no library navigation sidebar. */
+.sidebar, .sidebar-toggle, .hamburger, .sidebar-overlay { display: none !important; }
+/* The article's first heading is the title; omit the duplicate title bar. */
+.title-bar { display: none; }
+.breadcrumbs { font-family: var(--verso-text-font-family); font-size: 1rem; }
+.code-content { overflow: visible; padding: 0; }
+.code-content > .verso-text.mod-doc {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin-bottom: 1.8rem;
+}
+.code-content > .verso-text.mod-doc p {
+  width: 100%;
+  line-height: 1.5;
+  margin: 1.4rem 0;
+}
+.code-content .verso-text img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+.code-content .verso-text figure {
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+.code-content > .verso-text.mod-doc h1 {
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 1.15;
+  margin: 3rem 0 1rem;
+  border: 0;
+}
+.code-content > .verso-text.mod-doc:first-child h1 {
+  font-size: 3.2rem;
+  margin-top: 3rem;
+}
+.code-content > .verso-text.mod-doc code {
+  font-size: 0.8em;
+  padding: 0.1em 0.2em;
+}
+/* Verso wraps mathematical notation in code tags; keep it in the prose. */
+.code-content > .verso-text.mod-doc code.math {
+  background: transparent;
+  padding: 0;
+}
+.code-box {
+  border-radius: 0;
+  padding: 1rem 1.2rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.code-box pre, .code-box code {
+  width: auto;
+  max-width: none;
+  font-size: inherit;
+}
+.code-box > code.hl.lean.block {
+  display: block;
+}
+.code-box > code.hl.lean.block + code.hl.lean.block {
+  margin-top: 1.5em;
+}
+/* Override both the default and dark-mode hover fills, keeping token colors. */
+.hl.lean .token.binding-hl,
+.hl.lean .literal:hover,
+.hl.lean .literal.string:hover,
+.hl.lean .token.typed:hover,
+.hl.lean .has-info.information:hover,
+.hl.lean .tactic:has(.tactic-toggle:not(:checked)) > label:hover {
+  background-color: #eaf3fa;
+}
+.hl.lean .token:target {
+  background-color: #eaf3fa;
+}
+.hl.lean a:link, .hl.lean a:visited {
+  background-image: none;
+  text-shadow: none;
+}
+.page-toc {
+  position: static;
+  display: block;
+  width: auto;
+  max-height: none;
+  margin: 2rem 0 3rem;
+  border: 0;
+  padding: 0;
+  font-size: 1.2rem;
+}
+.page-toc-title { font-weight: normal; font-size: 1.4rem; margin-bottom: .6rem; }
+.page-toc li:not(.toc-level-1) { display: none; }
+.page-toc li { margin: .3rem 0; }
+.page-toc ul { width: auto; font-size: inherit; }
+@media (max-width: 768px) {
+  body { width: 100%; max-width: 100%; padding: 0 1.2rem 4rem; }
+  .main-area, .code-content { margin: 0; padding: 0; }
+  .code-content > .verso-text.mod-doc:first-child h1 { font-size: 2.6rem; }
+  .code-box { padding: 0.8rem; }
+}
+@media print {
+  .title-bar, .page-toc, .copy-button { display: none; }
+  body { width: 100%; padding: 0; }
+  .code-box { overflow: visible; }
+}
+
+/* Short reading captions are authored as emphasized paragraphs in the note. */
+.rudin-note .code-content > .verso-text.mod-doc p:has(> :is(em, strong):only-child) {
+  font-size: 1rem;
+  line-height: 1.45;
+  color: #5b6164;
+  max-width: 76ch;
+  margin: .5rem 0 1.25rem;
+}
+.rudin-note .code-content > .verso-text.mod-doc p > :is(em, strong):only-child {
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* Whole-proof disclosures for the Baby Rudin reading view. Definitions stay open. */
+.code-box > details.lean-proof {
+  display: block;
+  margin: .45rem 0 1.5rem;
+  white-space: normal;
+}
+.lean-proof > summary {
+  width: fit-content;
+  cursor: pointer;
+  color: var(--verso-link-color);
+  font-family: var(--verso-text-font-family);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.lean-proof > summary::after { content: 'Proof'; }
+.lean-proof > summary:hover { text-decoration: underline; }
+.lean-proof > summary:focus-visible {
+  outline: 2px solid var(--verso-link-color);
+  outline-offset: 3px;
+}
+.lean-proof > code.hl.lean.block {
+  display: block;
+  white-space: pre-wrap;
+  margin-top: .5rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--verso-border-color);
+}

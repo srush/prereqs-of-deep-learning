@@ -15,7 +15,7 @@ variable {R : Type} [RealNumbers R]
 When [asked](https://www.youtube.com/watch?v=iOzi9_YakyE&t=2s) about the mathematics of LLMs, Terence Tao noted that "any
 undergraduate Math major would have all the prerequisites." It's a funny quote,
 like saying any Biologist has all the prerequisites to be a
-sprinter. That being said, the idea of the prerequisites of Deep Learning is
+sprinter. Still, the idea of the prerequisites of Deep Learning is
 kind of interesting. What if you took seriously the idea that there was a
 minimal formal curriculum between Peano and LeCun that you had to follow
 (I'm picturing this being taught in a French university). For instance,

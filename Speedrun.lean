@@ -18,12 +18,11 @@ like saying any Biologist has all the prerequisites to be a
 sprinter. That being said, the idea of the prerequisites of Deep Learning is
 kind of interesting. What if you took seriously the idea that there was a
 minimal formal curriculum between Peano and LeCun that you had to follow
-(I'm picturing this being taught in a French university). For instance, my
-controversial take is that I see no reason you need anything at all
-from Linear Algebra.
+(I'm picturing this being taught in a French university). For instance,
+I see no reason you need anything at all from Linear Algebra.
 
-So what are the prerequisites for speedrunning Deep Learning? I think the
-answer is 1/2 of one freshman semester -- if you are already really smart.
+So what are the prerequisites for speedrunning Deep Learning? The answer
+is 1/2 of one freshman semester -- if you are already really smart.
 This estimate comes from taking the textbook from a really hard math class,
 Harvard Math 55, and removing all the parts that are not useful (who needs
 integrals). I'm not sure what to make of this. On the one hand, it's pretty

@@ -1,0 +1,140 @@
+-- Text-free illustration; fixed layout for reproducibility.
+forall Diagram `illustration` {
+  shape forward0 = Line {
+    start: (-322.47588378535477, 5.951724674638762)
+    end: (-159.83908224879588, 95.0147350398972)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape backward0 = Line {
+    start: (-167.52411621464523, 109.04827532536123)
+    end: (-330.1609177512041, 19.985264960102793)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape forward1 = Line {
+    start: (-330.1609177512041, -19.985264960102793)
+    end: (-167.52411621464523, -109.04827532536123)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape backward1 = Line {
+    start: (-159.83908224879588, -95.0147350398972)
+    end: (-322.47588378535477, -5.951724674638762)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape forward2 = Line {
+    start: (-119.42817460700194, 95.7698153935018)
+    end: (62.2727570790026, 4.919349550499537)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape backward2 = Line {
+    start: (69.42817460700194, 19.23018460649819)
+    end: (-112.2727570790026, 110.08065044950047)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape forward3 = Line {
+    start: (-112.2727570790026, -110.08065044950047)
+    end: (69.42817460700194, -19.23018460649819)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape backward3 = Line {
+    start: (62.2727570790026, -4.919349550499537)
+    end: (-119.42817460700194, -95.7698153935018)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape forward4 = Line {
+    start: (117.0, -8.0)
+    end: (313.0, -8.0)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape backward4 = Line {
+    start: (313.0, 8.0)
+    end: (117.0, 8.0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape node0 = Circle {
+    center: (-350, 0)
+    r: 28
+    fillColor: rgba(0.98,0.92,0.79,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2
+  }
+  shape node1 = Circle {
+    center: (-140, 115)
+    r: 28
+    fillColor: rgba(0.88,0.94,0.97,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2
+  }
+  shape node2 = Circle {
+    center: (-140, -115)
+    r: 28
+    fillColor: rgba(0.88,0.94,0.97,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2
+  }
+  shape node3 = Circle {
+    center: (90, 0)
+    r: 28
+    fillColor: rgba(0.88,0.94,0.97,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2
+  }
+  shape node4 = Circle {
+    center: (340, 0)
+    r: 28
+    fillColor: rgba(0.88,0.94,0.97,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2
+  }
+  shape selected = Circle {
+    center: (-350, 0)
+    r: 40
+    fillColor: rgba(1,1,1,0)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 1.5
+  }
+  layer forward0 below backward0
+  layer backward0 below forward1
+  layer forward1 below backward1
+  layer backward1 below forward2
+  layer forward2 below backward2
+  layer backward2 below forward3
+  layer forward3 below backward3
+  layer backward3 below forward4
+  layer forward4 below backward4
+  layer backward4 below node0
+  layer node0 below node1
+  layer node1 below node2
+  layer node2 below node3
+  layer node3 below node4
+  layer node4 below selected
+}

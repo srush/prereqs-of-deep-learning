@@ -1,0 +1,748 @@
+-- Text-free illustration; fixed layout for reproducibility.
+forall Diagram `illustration` {
+  shape network0 = Line {
+    start: (-373.7693131709701, 11.68609451690152)
+    end: (-281.2306868290299, 78.31390548309848)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape network1 = Line {
+    start: (-373.7693131709701, -11.68609451690152)
+    end: (-281.2306868290299, -78.31390548309848)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape network2 = Line {
+    start: (-245.0, 90.0)
+    end: (-150.0, 90.0)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape network3 = Line {
+    start: (-253.0, 74.0)
+    end: (-142.0, -74.0)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape network4 = Line {
+    start: (-253.0, -74.0)
+    end: (-142.0, 74.0)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape network5 = Line {
+    start: (-245.0, -90.0)
+    end: (-150.0, -90.0)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape network6 = Line {
+    start: (-113.55615616712443, 78.61580042339384)
+    end: (-16.443843832875572, 11.384199576606164)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape network7 = Line {
+    start: (-113.55615616712443, -78.61580042339384)
+    end: (-16.443843832875572, -11.384199576606164)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape network8 = Line {
+    start: (20.0, 0.0)
+    end: (85.0, 0.0)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape neuron0 = Circle {
+    center: (-390, 0)
+    r: 18
+    fillColor: rgba(0.88,0.94,0.97,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2
+  }
+  shape neuron1 = Circle {
+    center: (-265, 90)
+    r: 18
+    fillColor: rgba(0.98,0.92,0.79,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2
+  }
+  shape neuron2 = Circle {
+    center: (-265, -90)
+    r: 18
+    fillColor: rgba(0.88,0.94,0.97,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2
+  }
+  shape neuron3 = Circle {
+    center: (-130, 90)
+    r: 18
+    fillColor: rgba(0.88,0.94,0.97,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2
+  }
+  shape neuron4 = Circle {
+    center: (-130, -90)
+    r: 18
+    fillColor: rgba(0.88,0.94,0.97,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2
+  }
+  shape neuron5 = Circle {
+    center: (0, 0)
+    r: 18
+    fillColor: rgba(0.88,0.94,0.97,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2
+  }
+  shape neuron6 = Circle {
+    center: (105, 0)
+    r: 18
+    fillColor: rgba(0.88,0.94,0.97,1)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2
+  }
+  shape divider = Line {
+    start: (155, -175)
+    end: (155, 175)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1
+    strokeDasharray: "5 6"
+  }
+  shape horizontal = Line {
+    start: (190, -130)
+    end: (425, -130)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape vertical = Line {
+    start: (190, -130)
+    end: (190, 160)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+    endArrowhead: "straight"
+    arrowheadSize: 0.7
+  }
+  shape curve0 = Line {
+    start: (205.0, 35.0)
+    end: (207.5, 34.763924715436445)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve1 = Line {
+    start: (207.5, 34.763924715436445)
+    end: (210.0, 34.49629085506032)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve2 = Line {
+    start: (210.0, 34.49629085506032)
+    end: (212.5, 34.1928652610292)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve3 = Line {
+    start: (212.5, 34.1928652610292)
+    end: (215.0, 33.84884430552819)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve4 = Line {
+    start: (215.0, 33.84884430552819)
+    end: (217.5, 33.45877690901813)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve5 = Line {
+    start: (217.5, 33.45877690901813)
+    end: (220.0, 33.01647743005583)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve6 = Line {
+    start: (220.0, 33.01647743005583)
+    end: (222.5, 32.51492729728734)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve7 = Line {
+    start: (222.5, 32.51492729728734)
+    end: (225.0, 31.946164247781113)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve8 = Line {
+    start: (225.0, 31.946164247781113)
+    end: (227.5, 31.301158104838862)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve9 = Line {
+    start: (227.5, 31.301158104838862)
+    end: (230.0, 30.569672219190736)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve10 = Line {
+    start: (230.0, 30.569672219190736)
+    end: (232.5, 29.740110078555176)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve11 = Line {
+    start: (232.5, 29.740110078555176)
+    end: (235.0, 28.799347261676274)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve12 = Line {
+    start: (235.0, 28.799347261676274)
+    end: (237.5, 27.732550017425993)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve13 = Line {
+    start: (237.5, 27.732550017425993)
+    end: (240.0, 26.522983490039223)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve14 = Line {
+    start: (240.0, 26.522983490039223)
+    end: (242.5, 25.15181526960609)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve15 = Line {
+    start: (242.5, 25.15181526960609)
+    end: (245.0, 23.597923905179726)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve16 = Line {
+    start: (245.0, 23.597923905179726)
+    end: (247.5, 21.837727781081497)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve17 = Line {
+    start: (247.5, 21.837727781081497)
+    end: (250.0, 19.845057964497755)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve18 = Line {
+    start: (250.0, 19.845057964497755)
+    end: (252.5, 17.59111004494831)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve19 = Line {
+    start: (252.5, 17.59111004494831)
+    end: (255.0, 15.044525417193086)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve20 = Line {
+    start: (255.0, 15.044525417193086)
+    end: (257.5, 12.17167259948232)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve21 = Line {
+    start: (257.5, 12.17167259948232)
+    end: (260.0, 8.93722423318549)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve22 = Line {
+    start: (260.0, 8.93722423318549)
+    end: (262.5, 5.30515442891749)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve23 = Line {
+    start: (262.5, 5.30515442891749)
+    end: (265.0, 1.2403108993464542)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve24 = Line {
+    start: (265.0, 1.2403108993464542)
+    end: (267.5, -3.289260271225743)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve25 = Line {
+    start: (267.5, -3.289260271225743)
+    end: (270.0, -8.309055492161107)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve26 = Line {
+    start: (270.0, -8.309055492161107)
+    end: (272.5, -13.833775407760385)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve27 = Line {
+    start: (272.5, -13.833775407760385)
+    end: (275.0, -19.861870712540338)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve28 = Line {
+    start: (275.0, -19.861870712540338)
+    end: (277.5, -26.36914959890943)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve29 = Line {
+    start: (277.5, -26.36914959890943)
+    end: (280.0, -33.301973817138176)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve30 = Line {
+    start: (280.0, -33.301973817138176)
+    end: (282.5, -40.571051864408865)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve31 = Line {
+    start: (282.5, -40.571051864408865)
+    end: (285.0, -48.047379358791424)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve32 = Line {
+    start: (285.0, -48.047379358791424)
+    end: (287.5, -55.562299291790445)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve33 = Line {
+    start: (287.5, -55.562299291790445)
+    end: (290.0, -62.91366839285961)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve34 = Line {
+    start: (290.0, -62.91366839285961)
+    end: (292.5, -69.87939643959591)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve35 = Line {
+    start: (292.5, -69.87939643959591)
+    end: (295.0, -76.23800549269588)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve36 = Line {
+    start: (295.0, -76.23800549269588)
+    end: (297.5, -81.79357350856618)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve37 = Line {
+    start: (297.5, -81.79357350856618)
+    end: (300.0, -86.4002540848552)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve38 = Line {
+    start: (300.0, -86.4002540848552)
+    end: (302.5, -89.98059409775222)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve39 = Line {
+    start: (302.5, -89.98059409775222)
+    end: (305.0, -92.53291897517245)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve40 = Line {
+    start: (305.0, -92.53291897517245)
+    end: (307.5, -94.12601365740449)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve41 = Line {
+    start: (307.5, -94.12601365740449)
+    end: (310.0, -94.88302552132454)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve42 = Line {
+    start: (310.0, -94.88302552132454)
+    end: (312.5, -94.95933719234273)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve43 = Line {
+    start: (312.5, -94.95933719234273)
+    end: (315.0, -94.52000804297319)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve44 = Line {
+    start: (315.0, -94.52000804297319)
+    end: (317.5, -93.72126485599772)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve45 = Line {
+    start: (317.5, -93.72126485599772)
+    end: (320.0, -92.6983295914902)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve46 = Line {
+    start: (320.0, -92.6983295914902)
+    end: (322.5, -91.55970585999262)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve47 = Line {
+    start: (322.5, -91.55970585999262)
+    end: (325.0, -90.38661838260823)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve48 = Line {
+    start: (325.0, -90.38661838260823)
+    end: (327.5, -89.23576570562645)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve49 = Line {
+    start: (327.5, -89.23576570562645)
+    end: (330.0, -88.14367722448564)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve50 = Line {
+    start: (330.0, -88.14367722448564)
+    end: (332.5, -87.13141937883981)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve51 = Line {
+    start: (332.5, -87.13141937883981)
+    end: (335.0, -86.20889997652422)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve52 = Line {
+    start: (335.0, -86.20889997652422)
+    end: (337.5, -85.37842754127759)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve53 = Line {
+    start: (337.5, -85.37842754127759)
+    end: (340.0, -84.6374520765937)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve54 = Line {
+    start: (340.0, -84.6374520765937)
+    end: (342.5, -83.98056062772363)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve55 = Line {
+    start: (342.5, -83.98056062772363)
+    end: (345.0, -83.40086170645756)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve56 = Line {
+    start: (345.0, -83.40086170645756)
+    end: (347.5, -82.8909021219502)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve57 = Line {
+    start: (347.5, -82.8909021219502)
+    end: (350.0, -82.44324400083914)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve58 = Line {
+    start: (350.0, -82.44324400083914)
+    end: (352.5, -82.05080498148514)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve59 = Line {
+    start: (352.5, -82.05080498148514)
+    end: (355.0, -81.70703941503429)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve60 = Line {
+    start: (355.0, -81.70703941503429)
+    end: (357.5, -81.4060167350034)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve61 = Line {
+    start: (357.5, -81.4060167350034)
+    end: (360.0, -81.14243607276808)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve62 = Line {
+    start: (360.0, -81.14243607276808)
+    end: (362.5, -80.91160347623133)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve63 = Line {
+    start: (362.5, -80.91160347623133)
+    end: (365.0, -80.70938899602493)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve64 = Line {
+    start: (365.0, -80.70938899602493)
+    end: (367.5, -80.53217460446264)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve65 = Line {
+    start: (367.5, -80.53217460446264)
+    end: (370.0, -80.37679966148134)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve66 = Line {
+    start: (370.0, -80.37679966148134)
+    end: (372.5, -80.24050784046878)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve67 = Line {
+    start: (372.5, -80.24050784046878)
+    end: (375.0, -80.12089762434302)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve68 = Line {
+    start: (375.0, -80.12089762434302)
+    end: (377.5, -80.01587735284974)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve69 = Line {
+    start: (377.5, -80.01587735284974)
+    end: (380.0, -79.92362511746921)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve70 = Line {
+    start: (380.0, -79.92362511746921)
+    end: (382.5, -79.84255340415208)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve71 = Line {
+    start: (382.5, -79.84255340415208)
+    end: (385.0, -79.77127817112972)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve72 = Line {
+    start: (385.0, -79.77127817112972)
+    end: (387.5, -79.70859194967586)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve73 = Line {
+    start: (387.5, -79.70859194967586)
+    end: (390.0, -79.65344052459254)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve74 = Line {
+    start: (390.0, -79.65344052459254)
+    end: (392.5, -79.60490275930167)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve75 = Line {
+    start: (392.5, -79.60490275930167)
+    end: (395.0, -79.56217315945848)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve76 = Line {
+    start: (395.0, -79.56217315945848)
+    end: (397.5, -79.52454680772361)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve77 = Line {
+    start: (397.5, -79.52454680772361)
+    end: (400.0, -79.49140634403108)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve78 = Line {
+    start: (400.0, -79.49140634403108)
+    end: (402.5, -79.4622107065551)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape curve79 = Line {
+    start: (402.5, -79.4622107065551)
+    end: (405.0, -79.43648538658975)
+    strokeColor: rgba(0.19,0.37,0.49,1)
+    strokeWidth: 2.5
+  }
+  shape tangent = Line {
+    start: (244.0, 71.97585644953921)
+    end: (334.0, -191.98930523370228)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2.5
+  }
+  shape projection = Line {
+    start: (289.0, -130)
+    end: (289.0, -60.00672439208154)
+    strokeColor: rgba(0.45,0.57,0.64,0.35)
+    strokeWidth: 1.2
+    strokeDasharray: "5 6"
+  }
+  shape touch = Circle {
+    center: (289.0, -60.00672439208154)
+    r: 5
+    fillColor: rgba(0.75,0.44,0.14,1)
+    strokeColor: rgba(0.75,0.44,0.14,1)
+    strokeWidth: 2
+  }
+  layer network0 below network1
+  layer network1 below network2
+  layer network2 below network3
+  layer network3 below network4
+  layer network4 below network5
+  layer network5 below network6
+  layer network6 below network7
+  layer network7 below network8
+  layer network8 below neuron0
+  layer neuron0 below neuron1
+  layer neuron1 below neuron2
+  layer neuron2 below neuron3
+  layer neuron3 below neuron4
+  layer neuron4 below neuron5
+  layer neuron5 below neuron6
+  layer neuron6 below divider
+  layer divider below horizontal
+  layer horizontal below vertical
+  layer vertical below curve0
+  layer curve0 below curve1
+  layer curve1 below curve2
+  layer curve2 below curve3
+  layer curve3 below curve4
+  layer curve4 below curve5
+  layer curve5 below curve6
+  layer curve6 below curve7
+  layer curve7 below curve8
+  layer curve8 below curve9
+  layer curve9 below curve10
+  layer curve10 below curve11
+  layer curve11 below curve12
+  layer curve12 below curve13
+  layer curve13 below curve14
+  layer curve14 below curve15
+  layer curve15 below curve16
+  layer curve16 below curve17
+  layer curve17 below curve18
+  layer curve18 below curve19
+  layer curve19 below curve20
+  layer curve20 below curve21
+  layer curve21 below curve22
+  layer curve22 below curve23
+  layer curve23 below curve24
+  layer curve24 below curve25
+  layer curve25 below curve26
+  layer curve26 below curve27
+  layer curve27 below curve28
+  layer curve28 below curve29
+  layer curve29 below curve30
+  layer curve30 below curve31
+  layer curve31 below curve32
+  layer curve32 below curve33
+  layer curve33 below curve34
+  layer curve34 below curve35
+  layer curve35 below curve36
+  layer curve36 below curve37
+  layer curve37 below curve38
+  layer curve38 below curve39
+  layer curve39 below curve40
+  layer curve40 below curve41
+  layer curve41 below curve42
+  layer curve42 below curve43
+  layer curve43 below curve44
+  layer curve44 below curve45
+  layer curve45 below curve46
+  layer curve46 below curve47
+  layer curve47 below curve48
+  layer curve48 below curve49
+  layer curve49 below curve50
+  layer curve50 below curve51
+  layer curve51 below curve52
+  layer curve52 below curve53
+  layer curve53 below curve54
+  layer curve54 below curve55
+  layer curve55 below curve56
+  layer curve56 below curve57
+  layer curve57 below curve58
+  layer curve58 below curve59
+  layer curve59 below curve60
+  layer curve60 below curve61
+  layer curve61 below curve62
+  layer curve62 below curve63
+  layer curve63 below curve64
+  layer curve64 below curve65
+  layer curve65 below curve66
+  layer curve66 below curve67
+  layer curve67 below curve68
+  layer curve68 below curve69
+  layer curve69 below curve70
+  layer curve70 below curve71
+  layer curve71 below curve72
+  layer curve72 below curve73
+  layer curve73 below curve74
+  layer curve74 below curve75
+  layer curve75 below curve76
+  layer curve76 below curve77
+  layer curve77 below curve78
+  layer curve78 below curve79
+  layer curve79 below tangent
+  layer tangent below projection
+  layer projection below touch
+}

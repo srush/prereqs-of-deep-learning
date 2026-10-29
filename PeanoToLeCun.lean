@@ -2929,6 +2929,12 @@ theorem trainingLoss_regular (θ : Nat → R) (x y : R) :
     subst a
     exact ⟨⟨⟨trivial,h₀⟩,⟨trivial,h₁⟩⟩,trivial⟩
 
+/-!
+![Blue arrows carry values forward; amber arrows carry sensitivities backward through branching paths.](site/diagrams/rudin-backprop-derivative.svg)
+
+*Blue carries values forward; amber carries sensitivities backward. Contributions add where paths meet.*
+-/
+
 -- Additional correctness theorem for backpropagation, built from
 -- Rudin's scalar differentiation rules (5.3 and 5.5).
 theorem backward_is_derivative (θ : Nat → R) (expression : Expr R) (i : Nat)
@@ -2941,6 +2947,12 @@ theorem backward_is_derivative (θ : Nat → R) (expression : Expr R) (i : Nat)
       tangent PeanoToLeCun.exp θ (fun j => if i=j then 1 else 0) expression := by grind
   rw [heq]
   exact eval_derivative θ _ expression hr
+
+/-!
+![A small neural network with one amber weight, beside a loss curve and its amber tangent.](site/diagrams/rudin-mlp-gradient.svg)
+
+*Vary the amber weight while holding the others fixed. Backpropagation gives the slope of the resulting loss curve.*
+-/
 
 -- Additional correctness theorem for the MLP's parameter derivatives;
 -- no corresponding Rudin theorem.

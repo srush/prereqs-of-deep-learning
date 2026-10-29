@@ -5,6 +5,8 @@ import { chromium } from "playwright";
 
 const root = new URL("./", import.meta.url);
 const descriptions = {
+  "rudin-backprop-derivative": "Blue arrows carry values forward; amber arrows carry sensitivities backward through branching paths.",
+  "rudin-mlp-gradient": "A small neural network with one amber weight, beside a loss curve and its amber tangent.",
   "rudin-tech-tree": "A dependency tree from reals through topology, limits, series, derivatives, e, and exp to backpropagation and verified neural-network gradients.",
   "rudin-series": "Shrinking terms add to partial sums that approach a finite limit.",
   "rudin-nonnegative-series": "Increasing partial sums stay below a fixed upper bound.",

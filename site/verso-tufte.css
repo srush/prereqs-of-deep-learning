@@ -151,8 +151,14 @@ body { height: auto; overflow: auto; }
 /* Whole-proof disclosures for the Baby Rudin reading view. Definitions stay open. */
 .code-box > details.lean-proof {
   display: block;
-  margin: .45rem 0 1.5rem;
+  margin: .45rem 0 0;
   white-space: normal;
+}
+.rudin-note .lean-boundary-space { display: none; }
+.rudin-note .code-box > code.hl.lean.block { margin: 0; }
+.rudin-note .code-box > code.hl.lean.block + code.hl.lean.block,
+.rudin-note .code-box > details.lean-proof + code.hl.lean.block {
+  margin-top: 1lh;
 }
 .lean-proof > summary {
   width: fit-content;

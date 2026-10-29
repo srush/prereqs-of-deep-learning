@@ -33,6 +33,36 @@ function foldRudinProofs() {
     code.after(disclosure);
   });
 
+  // Source blank lines otherwise stack with the declaration margins. Hide only
+  // boundary whitespace, keeping it in textContent for Verso's copy button.
+  document.querySelectorAll('.code-box > code.hl.lean.block, .lean-proof > code.hl.lean.block').forEach(code => {
+    const walker = document.createTreeWalker(code, NodeFilter.SHOW_TEXT);
+    const texts = [];
+    while (walker.nextNode()) texts.push(walker.currentNode);
+    function hideBoundary(nodes, leading) {
+      for (const text of nodes) {
+        const match = text.data.match(leading ? /^\s+/ : /\s+$/);
+        if (!match) {
+          if (text.data.length) break;
+          continue;
+        }
+        const whole = match[0].length === text.data.length;
+        let whitespace = text;
+        if (!whole) {
+          if (leading) text.splitText(match[0].length);
+          else whitespace = text.splitText(text.data.length - match[0].length);
+        }
+        const hidden = document.createElement('span');
+        hidden.className = 'lean-boundary-space';
+        whitespace.replaceWith(hidden);
+        hidden.append(whitespace);
+        if (!whole) break;
+      }
+    }
+    hideBoundary(texts, true);
+    hideBoundary(texts.reverse(), false);
+  });
+
   // Declaration links stay on the visible statement. Links into a proof open it.
   function revealLinkedProof() {
     let id;

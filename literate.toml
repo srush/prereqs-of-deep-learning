@@ -5,11 +5,11 @@ hide_commands = ["import", "set_option", "namespace", "end"]
 show_imports = false
 
 [metadata]
-title = "The Prerequisites of Deep Learning"
+title = "Deep Learning Speedrun"
 description = "From real numbers and limits to derivatives, exponentials, and verified neural-network gradients in Lean."
 
 [[targets]]
 module = "Speedrun"
 
 [modules.Speedrun]
-title = "The Prerequisites of Deep Learning"
+title = "Deep Learning Speedrun"

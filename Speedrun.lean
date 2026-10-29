@@ -10,7 +10,7 @@ attribute [local instance] Lean.Grind.Semiring.natCast Lean.Grind.Ring.intCast
 variable {R : Type} [RealNumbers R]
 
 /-!
-# The Prerequisites of Deep Learning
+# Deep Learning Speedrun
 
 When [asked](https://www.youtube.com/watch?v=iOzi9_YakyE&t=2s) about the mathematics of LLMs, Terence Tao noted that "any
 undergraduate Math major would have all the prerequisites." It's a funny quote,

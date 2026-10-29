@@ -1,4 +1,4 @@
-# The Prerequisites of Deep Learning
+# Deep Learning Speedrun
 
 [Read the blog](https://srush.github.io/prequisites-of-deep-learning/).
 

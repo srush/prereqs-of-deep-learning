@@ -12,28 +12,28 @@ variable {R : Type} [RealNumbers R]
 /-!
 # Deep Learning Speedrun
 
-When asked about the mathematics of LLMs, Terence Tao noted that "any
+When [asked](https://www.youtube.com/watch?v=iOzi9_YakyE&t=2s) about the mathematics of LLMs, Terence Tao noted that "any
 undergraduate Math major would have all the prerequisites." It's a funny quote,
-like saying any undergraduate biologist has all the prerequisites to be a
+like saying any Biologist has all the prerequisites to be a
 sprinter. That being said, the idea of the prerequisites of Deep Learning is
 kind of interesting. What if you took seriously the idea that there was a
 minimal formal curriculum between Peano and LeCun that you had to follow
 (I'm picturing this being taught in a French university). For instance, my
-controversial take is that I see no reason you actually need anything at all
+controversial take is that I see no reason you need anything at all
 from Linear Algebra.
 
-So what are the Math prerequisites for speedrunning Deep Learning? I think the
+So what are the prerequisites for speedrunning Deep Learning? I think the
 answer is 1/2 of one freshman semester -- if you are already really smart.
 This estimate comes from taking the textbook from a really hard math class,
 Harvard Math 55, and removing all the parts that are not useful (who needs
 integrals). I'm not sure what to make of this. On the one hand, it's pretty
 nice that you can formally derive MNIST from first principles. On the other
-hand, it is about 2,900 lines of Lean, which seems like a lot of machinery just
+hand, it is about 3,000 lines of Lean, which seems like a lot of machinery just
 to get to "move towards the downwards direction". Would be quite curious if
 someone can do this much faster.
 
 Caveat: This blog is AI slop. The math is aligned to "Baby Rudin" --
-*Principles of Mathematical Analysis* with pointers to the relevant theorems.
+[*Principles of Mathematical Analysis*](https://david92jackson.neocities.org/images/Principles_of_Mathematical_Analysis-Rudin.pdf) with pointers to the relevant theorems.
 Hug your local mathematician, they are having a hard year.
 
 ![Metric spaces, limits, series, and derivatives lead to exp and neural networks.](site/diagrams/rudin-tech-tree.svg)

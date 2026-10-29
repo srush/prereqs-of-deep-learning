@@ -120,6 +120,7 @@ body { height: auto; overflow: auto; }
   font-size: 1.2rem;
 }
 .page-toc-title { font-weight: normal; font-size: 1.4rem; margin-bottom: .6rem; }
+.rudin-note .page-toc-title { display: none; }
 .page-toc li:not(.toc-level-1) { display: none; }
 .page-toc li { margin: .3rem 0; }
 .page-toc ul { width: auto; font-size: inherit; }

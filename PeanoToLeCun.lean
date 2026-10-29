@@ -12,8 +12,6 @@ variable {R : Type} [RealNumbers R]
 /-!
 # Deep Learning Speed Run
 
-## Tech Tree
-
 ![Metric spaces, limits, series, and derivatives lead to exp and neural networks.](site/diagrams/rudin-tech-tree.svg)
 -/
 

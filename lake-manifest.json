@@ -63,7 +63,7 @@
       "configFile": "lakefile.lean"
     }
   ],
-  "name": "DeepLearningSpeedrun",
+  "name": "Speedrun",
   "lakeDir": ".lake",
   "fixedToolchain": false
 }

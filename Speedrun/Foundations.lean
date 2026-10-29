@@ -1,6 +1,6 @@
 import Std
 
-namespace PeanoToLeCun
+namespace Speedrun
 
 -- The starting properties of the real numbers, rather than a construction
 -- of them. All results in the article are universally quantified over a
@@ -112,4 +112,4 @@ theorem natCast_pos {a : Nat} : 0<(a:R) ↔ 0<a := by
 
 theorem lt_iff_sub_pos (a b : R) : a<b ↔ 0<b-a := by grind
 end Scalar
-end PeanoToLeCun
+end Speedrun

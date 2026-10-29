@@ -1,15 +1,15 @@
-landing_page = "PeanoToLeCun"
+landing_page = "Speedrun"
 extra_css = ["site/tufte.css", "site/verso-tufte.css"]
 extra_js = ["site/contents.js", "site/proofs.js"]
 hide_commands = ["import", "set_option", "namespace", "end"]
 show_imports = false
 
 [metadata]
-title = "Deep Learning Speed Run"
+title = "Deep Learning Speedrun"
 description = "From real numbers and limits to derivatives, exponentials, and verified neural-network gradients in Lean."
 
 [[targets]]
-module = "PeanoToLeCun"
+module = "Speedrun"
 
-[modules.PeanoToLeCun]
-title = "Deep Learning Speed Run"
+[modules.Speedrun]
+title = "Deep Learning Speedrun"

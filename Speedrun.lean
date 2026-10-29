@@ -1,8 +1,8 @@
-import PeanoToLeCun.Foundations
+import Speedrun.Foundations
 
 set_option doc.verso true
 
-namespace PeanoToLeCun
+namespace Speedrun
 
 noncomputable section
 
@@ -10,7 +10,31 @@ attribute [local instance] Lean.Grind.Semiring.natCast Lean.Grind.Ring.intCast
 variable {R : Type} [RealNumbers R]
 
 /-!
-# Deep Learning Speed Run
+# Deep Learning Speedrun
+
+When asked about the mathematics of LLMs, Terence Tao noted that "any
+undergraduate Math major would have all the prerequisites." It's a funny quote,
+like saying any undergraduate biologist has all the prerequisites to be a
+sprinter. That being said, the idea of the prerequisites of Deep Learning is
+kind of interesting. What if you took seriously the idea that there was a
+minimal formal curriculum between Peano and LeCun that you had to follow
+(I'm picturing this being taught in a French university). For instance, my
+controversial take is that I see no reason you actually need anything at all
+from Linear Algebra.
+
+So what are the Math prerequisites for speedrunning Deep Learning? I think the
+answer is 1/2 of one freshman semester -- if you are already really smart.
+This estimate comes from taking the textbook from a really hard math class,
+Harvard Math 55, and removing all the parts that are not useful (who needs
+integrals). I'm not sure what to make of this. On the one hand, it's pretty
+nice that you can formally derive MNIST from first principles. On the other
+hand, it is about 2,900 lines of Lean, which seems like a lot of machinery just
+to get to "move towards the downwards direction". Would be quite curious if
+someone can do this much faster.
+
+Caveat: This blog is AI slop. The math is aligned to "Baby Rudin" --
+*Principles of Mathematical Analysis* with pointers to the relevant theorems.
+Hug your local mathematician, they are having a hard year.
 
 ![Metric spaces, limits, series, and derivatives lead to exp and neural networks.](site/diagrams/rudin-tech-tree.svg)
 -/
@@ -2657,9 +2681,9 @@ theorem perturb_zero (θ seed : Nat → R) : perturb θ seed 0=θ := by
 -- Structural application of Rudin Theorems 5.3, 5.5, and 8.6(b) to the
 -- expression language; not a theorem stated by Rudin.
 theorem eval_derivative (θ seed : Nat → R) (expression : Expr R) :
-    Regular PeanoToLeCun.exp θ expression →
-    HasDerivative (fun t => eval PeanoToLeCun.exp (perturb θ seed t) expression) 0
-      (tangent PeanoToLeCun.exp θ seed expression) := by
+    Regular Speedrun.exp θ expression →
+    HasDerivative (fun t => eval Speedrun.exp (perturb θ seed t) expression) 0
+      (tangent Speedrun.exp θ seed expression) := by
   induction expression with
   | const c => intro _; exact derivative_const c 0
   | param i =>
@@ -2679,18 +2703,18 @@ theorem eval_derivative (θ seed : Nat → R) (expression : Expr R) :
     simpa only [perturb_zero,eval,tangent] using h
   | exp a ha =>
     intro hra
-    have h := derivative_comp PeanoToLeCun.exp
-      (fun t => eval PeanoToLeCun.exp (perturb θ seed t) a) 0
-      (PeanoToLeCun.exp (eval PeanoToLeCun.exp θ a))
-      (tangent PeanoToLeCun.exp θ seed a)
-      (by simpa only [perturb_zero] using derivative_exp (eval PeanoToLeCun.exp θ a)) (ha hra)
+    have h := derivative_comp Speedrun.exp
+      (fun t => eval Speedrun.exp (perturb θ seed t) a) 0
+      (Speedrun.exp (eval Speedrun.exp θ a))
+      (tangent Speedrun.exp θ seed a)
+      (by simpa only [perturb_zero] using derivative_exp (eval Speedrun.exp θ a)) (ha hra)
     simpa only [eval,tangent] using h
 
 -- Implementation helper for expression-domain conditions; no
 -- corresponding Rudin theorem.
 theorem regular_sum (θ : Nat → R) (xs : List (Expr R))
-    (hx : ∀ a, a∈xs → Regular PeanoToLeCun.exp θ a) :
-    Regular PeanoToLeCun.exp θ (sum xs) := by
+    (hx : ∀ a, a∈xs → Regular Speedrun.exp θ a) :
+    Regular Speedrun.exp θ (sum xs) := by
   induction xs with
   | nil => trivial
   | cons a xs ih =>
@@ -2699,29 +2723,29 @@ theorem regular_sum (θ : Nat → R) (xs : List (Expr R))
 -- Finite-sum consequence of exponential positivity, Rudin Theorem
 -- 8.6(c); formulated for this article's expression evaluator.
 theorem sum_exp_nonneg (θ : Nat → R) (xs : List (Expr R)) :
-    0≤eval PeanoToLeCun.exp θ (sum (xs.map Expr.exp)) := by
+    0≤eval Speedrun.exp θ (sum (xs.map Expr.exp)) := by
   induction xs with
   | nil => change (0:R)≤0; grind
   | cons a xs ih =>
-    have hp := exp_pos (eval PeanoToLeCun.exp θ a)
-    change 0≤PeanoToLeCun.exp (eval PeanoToLeCun.exp θ a)+
-      eval PeanoToLeCun.exp θ (sum (xs.map Expr.exp))
+    have hp := exp_pos (eval Speedrun.exp θ a)
+    change 0≤Speedrun.exp (eval Speedrun.exp θ a)+
+      eval Speedrun.exp θ (sum (xs.map Expr.exp))
     grind
 
 -- Additional softmax denominator check using the positivity property in
 -- Rudin Theorem 8.6(c); no direct Rudin counterpart.
 theorem regular_softmax (θ : Nat → R) (first : Expr R) (rest : List (Expr R))
-    (hf : Regular PeanoToLeCun.exp θ first)
-    (hr : ∀ a, a∈rest → Regular PeanoToLeCun.exp θ a) :
-    Regular PeanoToLeCun.exp θ (softmax first rest) := by
-  have hsum : Regular PeanoToLeCun.exp θ (sum (rest.map Expr.exp)) := by
+    (hf : Regular Speedrun.exp θ first)
+    (hr : ∀ a, a∈rest → Regular Speedrun.exp θ a) :
+    Regular Speedrun.exp θ (softmax first rest) := by
+  have hsum : Regular Speedrun.exp θ (sum (rest.map Expr.exp)) := by
     apply regular_sum
     intro a ha
     obtain ⟨b,hb,rfl⟩ := List.mem_map.mp ha
     exact hr b hb
-  have hne : PeanoToLeCun.exp (eval PeanoToLeCun.exp θ first)+
-      eval PeanoToLeCun.exp θ (sum (rest.map Expr.exp))≠0 := by
-    have := exp_pos (eval PeanoToLeCun.exp θ first)
+  have hne : Speedrun.exp (eval Speedrun.exp θ first)+
+      eval Speedrun.exp θ (sum (rest.map Expr.exp))≠0 := by
+    have := exp_pos (eval Speedrun.exp θ first)
     have := sum_exp_nonneg θ rest
     grind
   exact ⟨hf,⟨⟨hf,hsum⟩,hne⟩⟩
@@ -2729,25 +2753,25 @@ theorem regular_softmax (θ : Nat → R) (first : Expr R) (rest : List (Expr R))
 -- Additional sigmoid denominator check using exponential positivity; no
 -- direct Rudin counterpart.
 theorem regular_sigmoid (θ : Nat → R) (a : Expr R)
-    (ha : Regular PeanoToLeCun.exp θ a) : Regular PeanoToLeCun.exp θ (sigmoid a) := by
-  have hp := exp_pos (-1*eval PeanoToLeCun.exp θ a)
-  exact ⟨⟨trivial,⟨trivial,ha⟩⟩,by change 1+PeanoToLeCun.exp (-1*eval PeanoToLeCun.exp θ a)≠0; grind⟩
+    (ha : Regular Speedrun.exp θ a) : Regular Speedrun.exp θ (sigmoid a) := by
+  have hp := exp_pos (-1*eval Speedrun.exp θ a)
+  exact ⟨⟨trivial,⟨trivial,ha⟩⟩,by change 1+Speedrun.exp (-1*eval Speedrun.exp θ a)≠0; grind⟩
 
 -- Implementation helper for the squared-loss expression; no
 -- corresponding Rudin theorem.
 theorem regular_squaredLoss (θ : Nat → R) (p : Expr R) (y : R)
-    (hp : Regular PeanoToLeCun.exp θ p) : Regular PeanoToLeCun.exp θ (squaredLoss p y) :=
+    (hp : Regular Speedrun.exp θ p) : Regular Speedrun.exp θ (squaredLoss p y) :=
   ⟨trivial,⟨⟨hp,trivial⟩,⟨hp,trivial⟩⟩⟩
 
 -- Additional domain check for the MLP training loss; no corresponding
 -- Rudin theorem.
 theorem trainingLoss_regular (θ : Nat → R) (x y : R) :
-    Regular PeanoToLeCun.exp θ (trainingLoss x y) := by
+    Regular Speedrun.exp θ (trainingLoss x y) := by
   apply regular_squaredLoss
   have h₀ := regular_sigmoid θ (affine (.param 0) (.const x) (.param 1))
-    (show Regular PeanoToLeCun.exp θ (affine (.param 0) (.const x) (.param 1)) from ⟨⟨trivial,trivial⟩,trivial⟩)
+    (show Regular Speedrun.exp θ (affine (.param 0) (.const x) (.param 1)) from ⟨⟨trivial,trivial⟩,trivial⟩)
   have h₁ := regular_sigmoid θ (affine (.param 2) (.const x) (.param 3))
-    (show Regular PeanoToLeCun.exp θ (affine (.param 2) (.const x) (.param 3)) from ⟨⟨trivial,trivial⟩,trivial⟩)
+    (show Regular Speedrun.exp θ (affine (.param 2) (.const x) (.param 3)) from ⟨⟨trivial,trivial⟩,trivial⟩)
   apply regular_softmax
   · exact ⟨⟨⟨trivial,h₀⟩,⟨trivial,h₁⟩⟩,trivial⟩
   · intro a ha
@@ -2764,13 +2788,13 @@ theorem trainingLoss_regular (θ : Nat → R) (x y : R) :
 -- Additional correctness theorem for backpropagation, built from
 -- Rudin's scalar differentiation rules (5.3 and 5.5).
 theorem backward_is_derivative (θ : Nat → R) (expression : Expr R) (i : Nat)
-    (hr : Regular PeanoToLeCun.exp θ expression) :
+    (hr : Regular Speedrun.exp θ expression) :
     HasDerivative
-      (fun t => eval PeanoToLeCun.exp (perturb θ (fun j => if i=j then 1 else 0) t) expression) 0
-      (backward PeanoToLeCun.exp θ expression 1 i) := by
-  have he := backward_eq_tangent PeanoToLeCun.exp θ expression 1 i
-  have heq : backward PeanoToLeCun.exp θ expression 1 i=
-      tangent PeanoToLeCun.exp θ (fun j => if i=j then 1 else 0) expression := by grind
+      (fun t => eval Speedrun.exp (perturb θ (fun j => if i=j then 1 else 0) t) expression) 0
+      (backward Speedrun.exp θ expression 1 i) := by
+  have he := backward_eq_tangent Speedrun.exp θ expression 1 i
+  have heq : backward Speedrun.exp θ expression 1 i=
+      tangent Speedrun.exp θ (fun j => if i=j then 1 else 0) expression := by grind
   rw [heq]
   exact eval_derivative θ _ expression hr
 
@@ -2784,12 +2808,12 @@ theorem backward_is_derivative (θ : Nat → R) (expression : Expr R) (i : Nat)
 -- no corresponding Rudin theorem.
 theorem mlp_backward_is_derivative (θ : Nat → R) (x y : R) (i : Nat) :
     HasDerivative
-      (fun t => eval PeanoToLeCun.exp (perturb θ (fun j => if i=j then 1 else 0) t) (trainingLoss x y)) 0
-      (backward PeanoToLeCun.exp θ (trainingLoss x y) 1 i) :=
+      (fun t => eval Speedrun.exp (perturb θ (fun j => if i=j then 1 else 0) t) (trainingLoss x y)) 0
+      (backward Speedrun.exp θ (trainingLoss x y) 1 i) :=
   backward_is_derivative θ _ i (trainingLoss_regular θ x y)
 
 end Expr
 
 end
 
-end PeanoToLeCun
+end Speedrun

@@ -1,5 +1,5 @@
-name = "DeepLearningSpeedrun"
-defaultTargets = ["PeanoToLeCun"]
+name = "Speedrun"
+defaultTargets = ["Speedrun"]
 
 [[require]]
 name = "verso"
@@ -7,4 +7,4 @@ git = "https://github.com/leanprover/verso"
 rev = "3bdedf29bada13d8103e6c979001c51dcee210c8"
 
 [[lean_lib]]
-name = "PeanoToLeCun"
+name = "Speedrun"

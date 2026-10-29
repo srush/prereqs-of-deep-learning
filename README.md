@@ -1,4 +1,4 @@
-# Deep Learning Speed Run
+# Deep Learning Speedrun
 
 [Read the blog](https://srush.github.io/deep-learning-speedrun/).
 
@@ -25,8 +25,8 @@ Verso and its dependencies are pinned in `lake-manifest.json`.
 
 ## Files
 
-- `PeanoToLeCun.lean`: the blog and checked proofs.
-- `PeanoToLeCun/Foundations.lean`: the real-number interface and supporting lemmas.
+- `Speedrun.lean`: the blog and checked proofs.
+- `Speedrun/Foundations.lean`: the real-number interface and supporting lemmas.
 - `site/diagrams/`: Penrose sources and rendered SVG illustrations.
 - `tools/compact_verso.py`: loads proof states on demand to keep the page responsive.
 

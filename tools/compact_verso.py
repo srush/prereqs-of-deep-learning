@@ -90,7 +90,7 @@ def main():
     assets = root / '-proof-states'
     assets.mkdir(exist_ok=True)
     runtime = (Path(__file__).resolve().parent.parent / 'site/lazy-lean.js').read_text()
-    for module in ('Home', 'PeanoToLeCun'):
+    for module in ('Home', 'Speedrun'):
         page = root / 'index.html' if module == 'Home' else root / module / 'index.html'
         if not page.exists():
             continue
@@ -102,14 +102,26 @@ def main():
         print(f'{module}: {len(source.encode()) / 1e6:.1f} MB → '
               f'{len(result.encode()) / 1e6:.1f} MB; {count} proof states loaded on demand.')
 
-    # Give each stylesheet revision a fresh URL so Pages/browser caches cannot
-    # keep showing an older layout after a successful deployment.
-    stylesheet = root / 'verso-tufte.css'
-    version = hashlib.sha256(stylesheet.read_bytes()).hexdigest()[:16]
+    # Version reading-view assets so cached styles or scripts cannot leave the
+    # renamed article with an older layout or without expandable proofs.
+    versions = {name: hashlib.sha256((root / name).read_bytes()).hexdigest()[:16]
+                for name in ('verso-tufte.css', 'proofs.js', 'contents.js')}
     for page in root.rglob('index.html'):
         source = page.read_text()
-        page.write_text(source.replace('href="verso-tufte.css"',
-                                       f'href="verso-tufte.css?v={version}"'))
+        for name, version in versions.items():
+            source = source.replace(f'="{name}"', f'="{name}?v={version}"')
+        page.write_text(source)
+
+    # Keep existing article links working after the module rename.
+    legacy = root / 'PeanoToLeCun'
+    legacy.mkdir(exist_ok=True)
+    (legacy / 'index.html').write_text('''<!doctype html>
+<meta charset="utf-8">
+<title>Deep Learning Speedrun</title>
+<meta http-equiv="refresh" content="0; url=../Speedrun/">
+<script>location.replace('../Speedrun/' + location.search + location.hash);</script>
+<a href="../Speedrun/">Deep Learning Speedrun</a>
+''')
 
 
 

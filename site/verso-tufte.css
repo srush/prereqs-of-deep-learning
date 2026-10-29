@@ -35,7 +35,7 @@ body { height: auto; overflow: auto; }
 .breadcrumbs { font-family: var(--verso-text-font-family); font-size: 1rem; }
 .code-content { overflow: visible; padding: 0; }
 /* Keep the opening Lean setup out of the article's reading view. */
-#PeanoToLeCun > .code-box:first-child:has([data-binding^="kw-occ-Lean.Parser.Command.sectionHeader-"]) {
+#Speedrun > .code-box:first-child:has([data-binding^="kw-occ-Lean.Parser.Command.sectionHeader-"]) {
   display: none;
 }
 .code-content > .verso-text.mod-doc {
@@ -140,8 +140,8 @@ body { height: auto; overflow: auto; }
   .code-box { overflow: visible; }
 }
 
-/* Short reading captions are authored as emphasized paragraphs in the note. */
-.rudin-note .code-content > .verso-text.mod-doc p:has(> :is(em, strong):only-child) {
+/* Caption styling applies only to emphasized paragraphs following a figure. */
+.rudin-note .code-content > .verso-text.mod-doc p:has(img) + p:has(> :is(em, strong):only-child) {
   font-size: 1rem;
   line-height: 1.45;
   color: #5b6164;
@@ -151,7 +151,7 @@ body { height: auto; overflow: auto; }
   padding-inline: 1.2rem;
   margin: .5rem 0 1.25rem;
 }
-.rudin-note .code-content > .verso-text.mod-doc p > :is(em, strong):only-child {
+.rudin-note .code-content > .verso-text.mod-doc p:has(img) + p > :is(em, strong):only-child {
   font-style: normal;
   font-weight: normal;
 }
